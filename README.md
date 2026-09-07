@@ -2,6 +2,9 @@
 
 News organized by perspective, proximity, and what readers can actually do about it.
 
+See [the project documentation](./docs/README.md) for the product brief, analysis
+method, architecture, and roadmap.
+
 ## MVP 0.1
 
 This first product slice tests the central interaction:

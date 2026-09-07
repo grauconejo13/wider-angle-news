@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The Wider Angle organizes news by perspective, proximity, and what you can actually do about it."
+    />
+    <title>The Wider Angle — News in context</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#" aria-label="The Wider Angle home">
+        <span class="brand-mark" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </span>
+        <span>THE WIDER ANGLE</span>
+      </a>
+      <div class="header-meta">
+        <span>DEMONSTRATION EDITION</span>
+        <span id="current-date"></span>
+      </div>
+      <button class="quiet-button" id="method-button" type="button">HOW IT READS</button>
+    </header>
+
+    <main>
+      <section class="control-deck" aria-labelledby="field-title">
+        <div class="deck-intro">
+          <p class="kicker">YOUR FIELD OF VIEW</p>
+          <h1 id="field-title">
+            What matters <span id="view-title">within your orbit?</span>
+          </h1>
+          <p id="view-description">
+            News connected to your location, interests, and ability to respond.
+          </p>
+        </div>
+
+        <div class="orbit-control">
+          <div class="view-switch" role="group" aria-label="Choose news perspective">
+            <button class="view-option active" data-view="orbit" type="button">
+              <span class="option-index">01</span>
+              <span>MY ORBIT</span>
+            </button>
+            <button class="view-option" data-view="world" type="button">
+              <span class="option-index">02</span>
+              <span>WIDER WORLD</span>
+            </button>
+            <span class="switch-track" aria-hidden="true">
+              <span class="switch-node"></span>
+            </span>
+          </div>
+          <div class="scope-readout" aria-live="polite">
+            <span>SCOPE</span>
+            <strong id="scope-label">SAN ANTONIO → UNITED STATES</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="filter-bar" aria-label="News filters">
+        <div class="filter-group">
+          <span class="filter-label">LOCATION</span>
+          <div class="chip-row" id="location-filters">
+            <button class="chip active" data-location="all" type="button">All nearby</button>
+            <button class="chip" data-location="san-antonio" type="button">San Antonio</button>
+            <button class="chip" data-location="texas" type="button">Texas</button>
+            <button class="chip" data-location="us" type="button">United States</button>
+          </div>
+        </div>
+        <div class="filter-group">
+          <span class="filter-label">MATTERS TO ME</span>
+          <div class="chip-row" id="topic-filters">
+            <button class="chip active" data-topic="all" type="button">Everything</button>
+            <button class="chip" data-topic="economy" type="button">Economy</button>
+            <button class="chip" data-topic="technology" type="button">Technology</button>
+            <button class="chip" data-topic="environment" type="button">Environment</button>
+            <button class="chip" data-topic="civic" type="button">Civic life</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="signal-section" aria-labelledby="signal-title">
+        <div class="section-heading">
+          <div>
+            <p class="kicker">THE SIGNAL TODAY</p>
+            <h2 id="signal-title">Stories worth placing in context</h2>
+          </div>
+          <div class="result-meta">
+            <span><strong id="story-count">4</strong> STORY CLUSTERS</span>
+            <span class="live-dot">CURATED DEMO DATA</span>
+          </div>
+        </div>
+
+        <div class="story-grid" id="story-grid"></div>
+
+        <div class="empty-state" id="empty-state" hidden>
+          <span>NO SIGNAL IN THIS COMBINATION</span>
+          <p>Try widening your location or choosing another subject.</p>
+        </div>
+      </section>
+
+      <section class="outside-orbit" id="outside-orbit">
+        <div>
+          <p class="kicker">BEYOND YOUR ORBIT</p>
+          <h2>One development outside your filters</h2>
+        </div>
+        <p>
+          Personal relevance should not become another bubble. This space keeps one
+          consequential global story in view.
+        </p>
+        <button class="text-button" data-open-story="global-shipping" type="button">
+          READ THE GLOBAL SIGNAL <span aria-hidden="true">↗</span>
+        </button>
+      </section>
+    </main>
+
+    <footer>
+      <span>THE WIDER ANGLE / MVP 0.1</span>
+      <p>The reporting remains with its publishers. The analysis shows its work.</p>
+      <span>NOT ONE VOICE. A FIELD OF VIEW.</span>
+    </footer>
+
+    <dialog id="story-dialog" aria-labelledby="dialog-title">
+      <button class="dialog-close" type="button" aria-label="Close story analysis">×</button>
+      <div id="dialog-content"></div>
+    </dialog>
+
+    <dialog id="method-dialog" aria-labelledby="method-title">
+      <button class="dialog-close" type="button" aria-label="Close methodology">×</button>
+      <div class="method-content">
+        <p class="kicker">HOW IT READS</p>
+        <h2 id="method-title">One event. Several accountable views.</h2>
+        <p>
+          The Wider Angle separates corroborated information from attributed claims,
+          compares what different reporting emphasizes, and keeps every conclusion
+          connected to its source.
+        </p>
+        <div class="method-list">
+          <div><span>01</span><strong>DOCUMENTED</strong><p>Supported by primary evidence.</p></div>
+          <div><span>02</span><strong>CORROBORATED</strong><p>Independently reported by multiple sources.</p></div>
+          <div><span>03</span><strong>ATTRIBUTED</strong><p>A claim, clearly attached to who made it.</p></div>
+          <div><span>04</span><strong>DEVELOPING</strong><p>Important information is still missing.</p></div>
+        </div>
+        <p class="method-note">
+          This MVP uses prepared demonstration stories. Live ingestion and scheduled
+          analysis arrive in the next build.
+        </p>
+      </div>
+    </dialog>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

@@ -9,10 +9,11 @@
 
 ## 0.2 — Live-source proof
 
-- Add GDELT discovery.
+- Add GDELT discovery. ✓
+- Add scheduled keyless GDELT refreshes. ✓
+- Display real publisher links and timestamps. ✓
 - Add a small set of San Antonio, Texas, national, and international RSS feeds.
 - Normalize URLs and remove exact duplicates.
-- Display real publisher links and timestamps.
 
 ## 0.3 — Structured analysis
 

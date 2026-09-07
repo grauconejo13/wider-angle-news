@@ -5,7 +5,7 @@ News organized by perspective, proximity, and what readers can actually do about
 See [the project documentation](./docs/README.md) for the product brief, analysis
 method, architecture, and roadmap.
 
-## MVP 0.1
+## MVP 0.2
 
 This first product slice tests the central interaction:
 
@@ -14,9 +14,9 @@ This first product slice tests the central interaction:
 - Each story separates common ground, uncertainty, framing, relevance, and source roles.
 - Agency labels distinguish what a reader can act on, influence, prepare for, or understand.
 
-The current edition uses clearly labeled prepared demonstration data. Live ingestion,
-scheduled clustering, source links, and AI-assisted structured summaries are planned
-for the next build.
+The current edition combines prepared demonstration analyses with article signals
+from the free GDELT DOC 2.0 API. GDELT access requires no account or API key.
+AI-assisted structured summaries are planned for the next build.
 
 ## Project structure
 
@@ -28,6 +28,7 @@ for the next build.
 
 ```bash
 npm install
+npm run fetch-news
 npm run dev
 ```
 
@@ -36,3 +37,6 @@ Create a production build with:
 ```bash
 npm run build
 ```
+
+Use `npm run refresh` to fetch a new GDELT index and create a production build.
+The included GitHub Actions workflow can perform the same refresh every six hours.

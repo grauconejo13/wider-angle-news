@@ -1,4 +1,6 @@
-const stories = [
+import liveIndex from "./data/live-news.json";
+
+const demoStories = [
   {
     id: "transit-pilot",
     views: ["orbit"],
@@ -209,6 +211,67 @@ const stories = [
   }
 ];
 
+function formatSeenAt(value) {
+  if (!value) return "Recently indexed";
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "Recently indexed";
+  return new Intl.DateTimeFormat("en-US", {
+    month: "short",
+    day: "numeric",
+    hour: "numeric",
+    minute: "2-digit"
+  }).format(date);
+}
+
+function liveRelevance(scope) {
+  if (scope === "san-antonio") return "This report was indexed for San Antonio and may affect your immediate community.";
+  if (scope === "texas") return "This report was indexed for Texas and may affect statewide policy, services, or costs.";
+  if (scope === "us") return "This national report may shape the broader environment around your work, costs, or civic life.";
+  return "This report sits outside your immediate orbit and is included to widen the geographic frame.";
+}
+
+const liveStories = (Array.isArray(liveIndex.articles) ? liveIndex.articles : [])
+  .slice(0, 48)
+  .map((article) => ({
+    id: `live-${article.id}`,
+    views: article.scope === "world" ? ["world"] : ["orbit"],
+    location: article.scope,
+    locationLabel: article.scopeLabel,
+    topic: article.topic,
+    agency: article.scope === "world" ? "Understand" : "Observe",
+    status: "Live source",
+    title: article.title,
+    summary: `Current reporting indexed by GDELT from ${article.domain}. Open the original publisher for the complete article.`,
+    angles: [
+      article.topic,
+      article.sourceCountry || "Source view",
+      "Unanalyzed"
+    ],
+    sources: 1,
+    established: [
+      `${article.domain} published this report.`,
+      `GDELT indexed it ${formatSeenAt(article.seenAt)}.`
+    ],
+    unclear: "This article signal has not yet been compared with independent reporting or processed by the planned AI analysis layer.",
+    emphasis: "No cross-source framing conclusion has been generated. The headline is shown as published so readers can inspect the original report directly.",
+    relevance: liveRelevance(article.scope),
+    sourceList: [
+      [article.domain, "Original publisher", article.url]
+    ],
+    live: true
+  }));
+
+const stories = [...liveStories, ...demoStories];
+
+function escapeHtml(value) {
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+
 const state = { view: "orbit", topic: "all", location: "all" };
 const storyGrid = document.querySelector("#story-grid");
 const emptyState = document.querySelector("#empty-state");
@@ -219,6 +282,11 @@ const dialogContent = document.querySelector("#dialog-content");
 document.querySelector("#current-date").textContent = new Intl.DateTimeFormat("en-US", {
   month: "short", day: "2-digit", year: "numeric"
 }).format(new Date()).toUpperCase();
+
+if (liveStories.length) {
+  document.querySelector("#data-edition").textContent = "LIVE INDEX + ANALYSIS DEMO";
+  document.querySelector("#data-status").textContent = `GDELT INDEX · ${formatSeenAt(liveIndex.generatedAt)}`;
+}
 
 function renderStories() {
   const visible = stories.filter((story) => {
@@ -232,16 +300,16 @@ function renderStories() {
   });
 
   storyGrid.innerHTML = visible.map((story) => `
-    <article class="story-card" data-story-id="${story.id}" tabindex="0">
+    <article class="story-card ${story.live ? "live-story" : ""}" data-story-id="${escapeHtml(story.id)}" tabindex="0">
       <div class="card-meta">
-        <span>${story.locationLabel} / ${story.status}</span>
-        <span class="agency">${story.agency}</span>
+        <span>${escapeHtml(story.locationLabel)} / ${escapeHtml(story.status)}</span>
+        <span class="agency">${escapeHtml(story.agency)}</span>
       </div>
-      <h3>${story.title}</h3>
-      <p class="story-summary">${story.summary}</p>
+      <h3>${escapeHtml(story.title)}</h3>
+      <p class="story-summary">${escapeHtml(story.summary)}</p>
       <div class="card-footer">
-        <div class="angle-list">${story.angles.map((angle) => `<span>${angle}</span>`).join("")}</div>
-        <span class="card-sources">${story.sources} perspectives examined</span>
+        <div class="angle-list">${story.angles.map((angle) => `<span>${escapeHtml(angle)}</span>`).join("")}</div>
+        <span class="card-sources">${story.live ? "OPEN ORIGINAL REPORTING" : `${story.sources} perspectives examined`}</span>
       </div>
       <span class="card-open" aria-hidden="true">↗</span>
     </article>
@@ -258,32 +326,33 @@ function openStory(id) {
 
   dialogContent.innerHTML = `
     <div class="dialog-body">
-      <p class="kicker">${story.locationLabel} / ${story.status} / ${story.agency}</p>
-      <h2 id="dialog-title">${story.title}</h2>
-      <p class="dialog-summary">${story.summary}</p>
+      <p class="kicker">${escapeHtml(story.locationLabel)} / ${escapeHtml(story.status)} / ${escapeHtml(story.agency)}</p>
+      <h2 id="dialog-title">${escapeHtml(story.title)}</h2>
+      <p class="dialog-summary">${escapeHtml(story.summary)}</p>
       <div class="analysis-grid">
         <section class="analysis-block">
           <h3>WHAT REPORTING AGREES ON</h3>
-          <ul>${story.established.map((point) => `<li>${point}</li>`).join("")}</ul>
+          <ul>${story.established.map((point) => `<li>${escapeHtml(point)}</li>`).join("")}</ul>
         </section>
         <section class="analysis-block">
           <h3>STILL UNCLEAR</h3>
-          <p>${story.unclear}</p>
+          <p>${escapeHtml(story.unclear)}</p>
         </section>
         <section class="analysis-block">
           <h3>HOW THE FRAME CHANGES</h3>
-          <p>${story.emphasis}</p>
+          <p>${escapeHtml(story.emphasis)}</p>
         </section>
         <section class="analysis-block">
           <h3>YOUR RELATIONSHIP</h3>
-          <p><strong>${story.agency}:</strong> ${story.relevance}</p>
+          <p><strong>${escapeHtml(story.agency)}:</strong> ${escapeHtml(story.relevance)}</p>
         </section>
       </div>
       <div class="source-stack">
-        <span>SOURCE ROLES IN THIS DEMONSTRATION</span>
-        ${story.sourceList.map(([name, role]) => `
-          <div class="source-link"><span>${name}</span><small>${role}</small></div>
-        `).join("")}
+        <span>${story.live ? "ORIGINAL REPORTING" : "SOURCE ROLES IN THIS DEMONSTRATION"}</span>
+        ${story.sourceList.map(([name, role, url]) => url
+          ? `<a class="source-link" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer"><span>${escapeHtml(name)}</span><small>${escapeHtml(role)} ↗</small></a>`
+          : `<div class="source-link"><span>${escapeHtml(name)}</span><small>${escapeHtml(role)}</small></div>`
+        ).join("")}
       </div>
     </div>
   `;

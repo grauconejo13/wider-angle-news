@@ -339,6 +339,18 @@ dialog h2 {
   background: var(--ink);
   color: var(--paper-bright);
 }
+.story-card.live-story::before {
+  content: "LIVE INDEX";
+  position: absolute;
+  top: -1px;
+  right: 24px;
+  background: var(--signal);
+  color: white;
+  padding: 6px 9px;
+  font-size: .6rem;
+  font-weight: 800;
+  letter-spacing: .1em;
+}
 .story-card:hover .story-summary,
 .story-card:hover .card-meta,
 .story-card:hover .card-sources,
@@ -481,6 +493,9 @@ dialog::backdrop { background: rgba(13, 15, 19, .72); backdrop-filter: blur(4px)
   color: var(--ink);
   text-decoration: none;
   font-size: .85rem;
+}
+.source-link[href]:hover {
+  color: var(--signal);
 }
 .source-link small { color: var(--muted); }
 .method-content > p:not(.kicker):not(.method-note) { max-width: 680px; font: 400 1.15rem/1.55 var(--serif); }

@@ -1,0 +1,37 @@
+name: Refresh GDELT news index
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Fetch news and build
+        run: npm run refresh
+
+      - name: Commit refreshed index
+        run: |
+          git config user.name "wider-angle-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add src/data/live-news.json dist
+          git diff --cached --quiet || git commit -m "Refresh GDELT news index"
+          git push

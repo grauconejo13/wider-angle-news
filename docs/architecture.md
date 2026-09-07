@@ -14,10 +14,19 @@ dist/             Generated production build
 Run locally with `npm run dev` and generate the production output with
 `npm run build`.
 
-## Planned data flow
+## Live indexing
+
+`scripts/fetch-news.mjs` queries the public GDELT DOC 2.0 API for San Antonio,
+Texas, United States, and wider-world signals. It normalizes URLs, removes exact
+duplicates, applies preliminary subject labels, and writes a cached JSON index.
+
+Run `npm run fetch-news` to update the cache or `npm run refresh` to update and
+build. A GitHub Actions workflow is included for scheduled six-hour refreshes.
+
+## Planned analysis flow
 
 ```text
-GDELT + curated RSS + public records
+Cached GDELT signals + curated RSS + public records
                   |
              normalize URLs
                   |

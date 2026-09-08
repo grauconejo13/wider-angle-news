@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T11:17:39.708Z",
+  "generatedAt": "2026-09-08T16:37:39.101Z",
   "provider": "GDELT DOC 2.0",
   "timespan": "24h",
   "successfulScopes": [
@@ -10,6 +10,102 @@
   ],
   "warnings": [],
   "articles": [
+    {
+      "id": "2688667d02bc5ca784",
+      "title": "National Preparedness Month : what western WA should get ready for this fall , winter",
+      "url": "https://www.kiro7.com/news/local/national-preparedness-month-what-western-wa-should-get-ready-this-fall-winter/NVHYP2ZRSZAAFIDZFZDJPKQSIM/",
+      "domain": "kiro7.com",
+      "scope": "san-antonio",
+      "scopeLabel": "San Antonio",
+      "topic": "civic",
+      "language": "English",
+      "sourceCountry": "United States",
+      "seenAt": "2026-09-08T14:30:00Z"
+    },
+    {
+      "id": "b8e0ecc846ed910e8e",
+      "title": "Dr . Jeremy Justeson Receives 2026 Wiesenberger Award for Excellence in Teaching",
+      "url": "https://www.bctv.org/2026/09/08/dr-jeremy-justeson-receives-2026-wiesenberger-award-for-excellence-in-teaching/",
+      "domain": "bctv.org",
+      "scope": "san-antonio",
+      "scopeLabel": "San Antonio",
+      "topic": "civic",
+      "language": "English",
+      "sourceCountry": "United States",
+      "seenAt": "2026-09-08T14:30:00Z"
+    },
+    {
+      "id": "2974449b4ddb0e4621",
+      "title": "SOUTHERLAND COMMUNITIES ACQUIRES THE RESERVE AT ST . CHARLES BAY",
+      "url": "https://www.prnewswire.com/news-releases/southerland-communities-acquires-the-reserve-at-st-charles-bay-302872407.html",
+      "domain": "prnewswire.com",
+      "scope": "texas",
+      "scopeLabel": "Texas",
+      "topic": "civic",
+      "language": "English",
+      "sourceCountry": "United States",
+      "seenAt": "2026-09-08T14:30:00Z"
+    },
+    {
+      "id": "c3c2cf89c032e2a2aa",
+      "title": "Texas pecan crop forecast to increase despite weather challenges",
+      "url": "https://www.freshplaza.com/north-america/article/9870673/texas-pecan-crop-forecast-to-increase-despite-weather-challenges/",
+      "domain": "freshplaza.com",
+      "scope": "texas",
+      "scopeLabel": "Texas",
+      "topic": "environment",
+      "language": "English",
+      "sourceCountry": "China",
+      "seenAt": "2026-09-08T14:30:00Z"
+    },
+    {
+      "id": "53a411beb1a9a1b488",
+      "title": "Canada begins collecting new tariffs on US goods as trade war escalates",
+      "url": "https://www.kshb.com/world/canada/canada-begins-collecting-new-tariffs-on-us-goods-as-trade-war-escalates",
+      "domain": "kshb.com",
+      "scope": "us",
+      "scopeLabel": "United States",
+      "topic": "economy",
+      "language": "English",
+      "sourceCountry": "United States",
+      "seenAt": "2026-09-08T14:30:00Z"
+    },
+    {
+      "id": "55f8f71230d00226a1",
+      "title": "Technology , AI and climate change drive diplomacy courses at Zetech",
+      "url": "https://www.standardmedia.co.ke/education/article/2001557328/technology-ai-and-climate-change-drive-diplomacy-courses-at-zetech",
+      "domain": "standardmedia.co.ke",
+      "scope": "world",
+      "scopeLabel": "Wider World",
+      "topic": "technology",
+      "language": "English",
+      "sourceCountry": "Kenya",
+      "seenAt": "2026-09-08T14:30:00Z"
+    },
+    {
+      "id": "421073612af2fbe43c",
+      "title": "Trump sparks fury with post of map with Canada , Iceland as part of US",
+      "url": "https://www.channelnewsasia.com/world/trump-map-canada-iceland-us-6369996",
+      "domain": "channelnewsasia.com",
+      "scope": "us",
+      "scopeLabel": "United States",
+      "topic": "civic",
+      "language": "English",
+      "sourceCountry": "United States",
+      "seenAt": "2026-09-08T13:00:00Z"
+    },
+    {
+      "id": "6b3c26f1689375ffa9",
+      "title": "Economic growth must be accompanied by higher productivity : Bappenas",
+      "url": "https://en.antaranews.com/news/430441/economic-growth-must-be-accompanied-by-higher-productivity-bappenas",
+      "domain": "en.antaranews.com",
+      "scope": "world",
+      "scopeLabel": "Wider World",
+      "topic": "economy",
+      "language": "English",
+      "sourceCountry": "Indonesia",
+      "seenAt": "2026-09-08T13:00:00Z"
+    },
     {
       "id": "3b824f4bbb2e7156c8",
       "title": "Malaysia needs 9 GW of new gas power to manage rising electricity demand , minister says",
@@ -159,6 +255,18 @@
       "title": "We Cant Undo Climate Overshoot . We Can Still Limit It",
       "url": "https://countercurrents.org/2026/09/we-cant-undo-climate-overshoot-we-can-still-limit-it/",
       "domain": "countercurrents.org",
+      "scope": "world",
+      "scopeLabel": "Wider World",
+      "topic": "environment",
+      "language": "English",
+      "sourceCountry": "India",
+      "seenAt": "2026-09-08T06:00:00Z"
+    },
+    {
+      "id": "26b2f070e40e54b1a3",
+      "title": "Climate engineering finds its footing as student demand rises",
+      "url": "http://www.educationtimes.com/article/campus-beat-college-life/99742746/climate-engineering-finds-its-footing-as-student-demand-rises",
+      "domain": "educationtimes.com",
       "scope": "world",
       "scopeLabel": "Wider World",
       "topic": "environment",
@@ -356,18 +464,6 @@
       "topic": "civic",
       "language": "English",
       "sourceCountry": "United States",
-      "seenAt": "2026-09-08T02:00:00Z"
-    },
-    {
-      "id": "192671916f60186c48",
-      "title": "Stop treating America like a piggybank : Trump threatens to block Canada Bombardier jets in US",
-      "url": "https://timesofindia.indiatimes.com/world/us/stop-treating-america-like-a-piggybank-trump-threatens-to-block-canadas-bombardier-jets-in-us/articleshow/133901680.cms",
-      "domain": "timesofindia.indiatimes.com",
-      "scope": "us",
-      "scopeLabel": "United States",
-      "topic": "civic",
-      "language": "English",
-      "sourceCountry": "India",
       "seenAt": "2026-09-08T02:00:00Z"
     },
     {
@@ -609,6 +705,18 @@
       "language": "English",
       "sourceCountry": "India",
       "seenAt": "2026-09-07T23:45:00Z"
+    },
+    {
+      "id": "b7bc88b9356553d94c",
+      "title": "America hottest food trend is going bananas in Houston",
+      "url": "https://houston.culturemap.com/news/restaurants-bars/banana-latte-starbucks-trend/",
+      "domain": "houston.culturemap.com",
+      "scope": "san-antonio",
+      "scopeLabel": "San Antonio",
+      "topic": "civic",
+      "language": "English",
+      "sourceCountry": "United States",
+      "seenAt": "2026-09-07T23:30:00Z"
     },
     {
       "id": "9bd36e31d0fbfe7405",
@@ -1055,6 +1163,18 @@
       "seenAt": "2026-09-07T20:15:00Z"
     },
     {
+      "id": "cf4b8c396bb78dae22",
+      "title": "Thousands protest against AfD after Germany vote win",
+      "url": "https://www.standard.net.au/story/9345686/thousands-protest-against-afd-after-germany-vote-win/",
+      "domain": "standard.net.au",
+      "scope": "world",
+      "scopeLabel": "Wider World",
+      "topic": "technology",
+      "language": "English",
+      "sourceCountry": "Australia",
+      "seenAt": "2026-09-07T20:15:00Z"
+    },
+    {
       "id": "6095ae824833bb3def",
       "title": "Trump threatens to block Bombardier sales unless it builds in US",
       "url": "https://www.dailysabah.com/business/trump-threatens-to-block-bombardier-sales-unless-it-builds-in-us/news",
@@ -1329,126 +1449,6 @@
       "language": "English",
       "sourceCountry": "United States",
       "seenAt": "2026-09-07T19:15:00Z"
-    },
-    {
-      "id": "2e52c0b0b10e1ba394",
-      "title": "UAE records AED1 . 9 trillion in non - oil foreign trade during H1 2026 , says Minister of Foreign Trade at AIM Summit",
-      "url": "http://www.iraqsun.com/news/279292485/uae-records-aed19-trillion-in-non-oil-foreign-trade-during-h1-2026-says-minister-of-foreign-trade-at-aim-summit",
-      "domain": "iraqsun.com",
-      "scope": "world",
-      "scopeLabel": "Wider World",
-      "topic": "technology",
-      "language": "English",
-      "sourceCountry": "Iraq",
-      "seenAt": "2026-09-07T19:15:00Z"
-    },
-    {
-      "id": "f4e97b17112f6caa40",
-      "title": "Mexican Smuggler Pleads Guilty to Border Tunnel Plot",
-      "url": "https://www.theepochtimes.com/us/mexican-smuggler-pleads-guilty-to-border-tunnel-plot-6084301",
-      "domain": "theepochtimes.com",
-      "scope": "us",
-      "scopeLabel": "United States",
-      "topic": "civic",
-      "language": "English",
-      "sourceCountry": "United States",
-      "seenAt": "2026-09-07T19:00:00Z"
-    },
-    {
-      "id": "334bdc310c89223cec",
-      "title": "Global Climate Pledges : Action From Yeosu To Baku",
-      "url": "https://www.miragenews.com/global-climate-pledges-action-from-yeosu-to-baku-1739948/",
-      "domain": "miragenews.com",
-      "scope": "world",
-      "scopeLabel": "Wider World",
-      "topic": "environment",
-      "language": "English",
-      "sourceCountry": "United States",
-      "seenAt": "2026-09-07T19:00:00Z"
-    },
-    {
-      "id": "47b4f6fa59b6fc7f73",
-      "title": "Everything Is Bigger in Texas -- Including the Senate Stakes",
-      "url": "https://hotair.com/josh-hammer/2026/09/07/everything-is-bigger-in-texas-including-the-senate-stakes-n3818706",
-      "domain": "hotair.com",
-      "scope": "texas",
-      "scopeLabel": "Texas",
-      "topic": "civic",
-      "language": "English",
-      "sourceCountry": "United States",
-      "seenAt": "2026-09-07T18:45:00Z"
-    },
-    {
-      "id": "453e10c7d465b00822",
-      "title": "James Talarico Just Went Full Hillary 2016 ( and Hopefully With the Same Election Result )",
-      "url": "https://twitchy.com/dougp/2026/09/07/james-talarico-just-went-full-hillary-2016-and-hopefully-with-the-same-election-result-n2432063",
-      "domain": "twitchy.com",
-      "scope": "texas",
-      "scopeLabel": "Texas",
-      "topic": "civic",
-      "language": "English",
-      "sourceCountry": "United States",
-      "seenAt": "2026-09-07T18:45:00Z"
-    },
-    {
-      "id": "ea81af3b91c9cfb9dc",
-      "title": "Defending Champs Lose RB Martin To Injury | News Radio 103 . 1 and 810 WGY",
-      "url": "https://wgy.iheart.com/content/2026-09-07-defending-champs-lose-rb-martin-to-injury/",
-      "domain": "wgy.iheart.com",
-      "scope": "texas",
-      "scopeLabel": "Texas",
-      "topic": "civic",
-      "language": "English",
-      "sourceCountry": "United States",
-      "seenAt": "2026-09-07T18:45:00Z"
-    },
-    {
-      "id": "38eea0ae3e4dd5387d",
-      "title": "Defending Champs Lose RB Martin To Injury",
-      "url": "https://951zzo.iheart.com/content/2026-09-07-defending-champs-lose-rb-martin-to-injury/",
-      "domain": "951zzo.iheart.com",
-      "scope": "texas",
-      "scopeLabel": "Texas",
-      "topic": "civic",
-      "language": "English",
-      "sourceCountry": "United States",
-      "seenAt": "2026-09-07T18:45:00Z"
-    },
-    {
-      "id": "cf0756c7830cab6f7b",
-      "title": "1 dead after crash involving crane truck on South Side , San Antonio police say",
-      "url": "https://www.ksat.com/news/local/2026/09/07/1-dead-after-crash-involving-crane-truck-on-south-side-sapd-says/",
-      "domain": "ksat.com",
-      "scope": "san-antonio",
-      "scopeLabel": "San Antonio",
-      "topic": "civic",
-      "language": "English",
-      "sourceCountry": "United States",
-      "seenAt": "2026-09-07T18:30:00Z"
-    },
-    {
-      "id": "48afc8d2f7bd11ad98",
-      "title": "San Antonio home prices split as the luxury market pulls ahead , creating a K - shaped market",
-      "url": "https://finance.yahoo.com/real-estate/articles/san-antonio-home-prices-split-180000776.html",
-      "domain": "finance.yahoo.com",
-      "scope": "san-antonio",
-      "scopeLabel": "San Antonio",
-      "topic": "economy",
-      "language": "English",
-      "sourceCountry": "United States",
-      "seenAt": "2026-09-07T18:30:00Z"
-    },
-    {
-      "id": "5024e973c5aaf1b6e1",
-      "title": "Man , 21 , arrested in connection with Northwest Side stabbing , SAPD says",
-      "url": "https://www.ksat.com/news/local/2026/09/07/man-21-arrested-in-connection-with-northwest-side-stabbing-sapd-says/",
-      "domain": "ksat.com",
-      "scope": "san-antonio",
-      "scopeLabel": "San Antonio",
-      "topic": "civic",
-      "language": "English",
-      "sourceCountry": "United States",
-      "seenAt": "2026-09-07T18:30:00Z"
     }
   ]
 }

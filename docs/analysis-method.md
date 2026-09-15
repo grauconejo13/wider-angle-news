@@ -58,3 +58,10 @@ AI may organize, classify, compare, and draft structured summaries. It must not:
 
 Uncertain output should be flagged for review or omitted. The interface should
 identify automated analysis and display when a story was last processed.
+
+## Non-AI topic labels
+
+The live index assigns topic labels using inspectable headline phrases and URL
+sections. A displayed rule-confidence percentage measures how strongly those
+signals matched a category. It is not a credibility score, political rating, or
+measure of factual accuracy. Unmatched stories remain General.

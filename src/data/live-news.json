@@ -6,9 +6,6 @@
     "texas"
   ],
   "warnings": [
-    "San Antonio: GDELT returned HTTP 429",
-    "Texas: GDELT returned HTTP 429",
-    "United States: GDELT returned HTTP 429",
     "Wider World: GDELT returned HTTP 429"
   ],
   "articles": [
@@ -19,10 +16,14 @@
       "domain": "hindustantimes.com",
       "scope": "texas",
       "scopeLabel": "Texas",
-      "topic": "civic",
+      "topic": "health",
       "language": "English",
       "sourceCountry": "India",
-      "seenAt": "2026-09-13T08:45:00Z"
+      "seenAt": "2026-09-13T08:45:00Z",
+      "categoryConfidence": 63,
+      "categorySignals": [
+        "medicare"
+      ]
     },
     {
       "id": "0b2dea7fcc5c90e973",
@@ -31,10 +32,14 @@
       "domain": "thegazette.com",
       "scope": "texas",
       "scopeLabel": "Texas",
-      "topic": "civic",
+      "topic": "sports",
       "language": "English",
       "sourceCountry": "United States",
-      "seenAt": "2026-09-13T08:00:00Z"
+      "seenAt": "2026-09-13T08:00:00Z",
+      "categoryConfidence": 67,
+      "categorySignals": [
+        "stuns"
+      ]
     },
     {
       "id": "954eca03cba0fbd2fa",
@@ -43,10 +48,15 @@
       "domain": "thegazette.com",
       "scope": "texas",
       "scopeLabel": "Texas",
-      "topic": "civic",
+      "topic": "sports",
       "language": "English",
       "sourceCountry": "United States",
-      "seenAt": "2026-09-13T08:00:00Z"
+      "seenAt": "2026-09-13T08:00:00Z",
+      "categoryConfidence": 79,
+      "categorySignals": [
+        "rallies",
+        "stuns"
+      ]
     },
     {
       "id": "94d03eddb2d67d9749",
@@ -55,10 +65,14 @@
       "domain": "khqa.com",
       "scope": "texas",
       "scopeLabel": "Texas",
-      "topic": "civic",
+      "topic": "sports",
       "language": "English",
       "sourceCountry": "United States",
-      "seenAt": "2026-09-13T08:00:00Z"
+      "seenAt": "2026-09-13T08:00:00Z",
+      "categoryConfidence": 67,
+      "categorySignals": [
+        "stuns"
+      ]
     },
     {
       "id": "c0fa5402ee77d2373e",
@@ -67,10 +81,16 @@
       "domain": "chicagotribune.com",
       "scope": "texas",
       "scopeLabel": "Texas",
-      "topic": "civic",
+      "topic": "sports",
       "language": "English",
       "sourceCountry": "United States",
-      "seenAt": "2026-09-13T07:15:00Z"
+      "seenAt": "2026-09-13T07:15:00Z",
+      "categoryConfidence": 96,
+      "categorySignals": [
+        "college football",
+        "football",
+        "upsets"
+      ]
     },
     {
       "id": "8c9c0a7db42c1884ec",
@@ -79,10 +99,14 @@
       "domain": "wlwt.com",
       "scope": "texas",
       "scopeLabel": "Texas",
-      "topic": "civic",
+      "topic": "sports",
       "language": "English",
       "sourceCountry": "United States",
-      "seenAt": "2026-09-13T07:15:00Z"
+      "seenAt": "2026-09-13T07:15:00Z",
+      "categoryConfidence": 67,
+      "categorySignals": [
+        "beats"
+      ]
     },
     {
       "id": "6e6316d1ec95bbdfdf",
@@ -91,10 +115,12 @@
       "domain": "portlandtribune.com",
       "scope": "texas",
       "scopeLabel": "Texas",
-      "topic": "civic",
+      "topic": "general",
       "language": "English",
       "sourceCountry": "United States",
-      "seenAt": "2026-09-13T07:15:00Z"
+      "seenAt": "2026-09-13T07:15:00Z",
+      "categoryConfidence": 35,
+      "categorySignals": []
     },
     {
       "id": "a1521e0926d2dc29c2",
@@ -103,10 +129,14 @@
       "domain": "wbaltv.com",
       "scope": "texas",
       "scopeLabel": "Texas",
-      "topic": "civic",
+      "topic": "sports",
       "language": "English",
       "sourceCountry": "United States",
-      "seenAt": "2026-09-13T07:00:00Z"
+      "seenAt": "2026-09-13T07:00:00Z",
+      "categoryConfidence": 67,
+      "categorySignals": [
+        "beats"
+      ]
     },
     {
       "id": "fd4932c8a813ce38c6",
@@ -115,10 +145,14 @@
       "domain": "timesfreepress.com",
       "scope": "texas",
       "scopeLabel": "Texas",
-      "topic": "civic",
+      "topic": "sports",
       "language": "English",
       "sourceCountry": "United States",
-      "seenAt": "2026-09-13T06:45:00Z"
+      "seenAt": "2026-09-13T06:45:00Z",
+      "categoryConfidence": 67,
+      "categorySignals": [
+        "rallies"
+      ]
     },
     {
       "id": "1d6ee0c60b4688075b",
@@ -127,10 +161,12 @@
       "domain": "kwtx.com",
       "scope": "texas",
       "scopeLabel": "Texas",
-      "topic": "civic",
+      "topic": "general",
       "language": "English",
       "sourceCountry": "United States",
-      "seenAt": "2026-09-13T06:45:00Z"
+      "seenAt": "2026-09-13T06:45:00Z",
+      "categoryConfidence": 35,
+      "categorySignals": []
     },
     {
       "id": "59aa4a22b27219f5a1",
@@ -139,10 +175,12 @@
       "domain": "kwtx.com",
       "scope": "texas",
       "scopeLabel": "Texas",
-      "topic": "environment",
+      "topic": "general",
       "language": "English",
       "sourceCountry": "United States",
-      "seenAt": "2026-09-13T06:45:00Z"
+      "seenAt": "2026-09-13T06:45:00Z",
+      "categoryConfidence": 35,
+      "categorySignals": []
     },
     {
       "id": "eb36bf5296174e4ec7",
@@ -151,10 +189,12 @@
       "domain": "winnipegfreepress.com",
       "scope": "texas",
       "scopeLabel": "Texas",
-      "topic": "civic",
+      "topic": "general",
       "language": "English",
       "sourceCountry": "Canada",
-      "seenAt": "2026-09-13T06:15:00Z"
+      "seenAt": "2026-09-13T06:15:00Z",
+      "categoryConfidence": 35,
+      "categorySignals": []
     },
     {
       "id": "6036da29d8636194da",
@@ -163,10 +203,14 @@
       "domain": "fox7austin.com",
       "scope": "texas",
       "scopeLabel": "Texas",
-      "topic": "civic",
+      "topic": "sports",
       "language": "English",
       "sourceCountry": "United States",
-      "seenAt": "2026-09-13T06:15:00Z"
+      "seenAt": "2026-09-13T06:15:00Z",
+      "categoryConfidence": 67,
+      "categorySignals": [
+        "rallies"
+      ]
     },
     {
       "id": "6bb17734014718f791",
@@ -175,10 +219,12 @@
       "domain": "winnipegfreepress.com",
       "scope": "texas",
       "scopeLabel": "Texas",
-      "topic": "civic",
+      "topic": "general",
       "language": "English",
       "sourceCountry": "Canada",
-      "seenAt": "2026-09-13T06:15:00Z"
+      "seenAt": "2026-09-13T06:15:00Z",
+      "categoryConfidence": 35,
+      "categorySignals": []
     },
     {
       "id": "071526b6a4245b5020",
@@ -187,10 +233,14 @@
       "domain": "erienewsnow.com",
       "scope": "texas",
       "scopeLabel": "Texas",
-      "topic": "civic",
+      "topic": "sports",
       "language": "English",
       "sourceCountry": "United States",
-      "seenAt": "2026-09-13T05:30:00Z"
+      "seenAt": "2026-09-13T05:30:00Z",
+      "categoryConfidence": 67,
+      "categorySignals": [
+        "stuns"
+      ]
     },
     {
       "id": "306cb69d6069dd133a",
@@ -199,10 +249,12 @@
       "domain": "thebiglead.com",
       "scope": "texas",
       "scopeLabel": "Texas",
-      "topic": "technology",
+      "topic": "general",
       "language": "English",
       "sourceCountry": "United States",
-      "seenAt": "2026-09-13T04:15:00Z"
+      "seenAt": "2026-09-13T04:15:00Z",
+      "categoryConfidence": 35,
+      "categorySignals": []
     },
     {
       "id": "1c79fc487052e53ce8",
@@ -211,10 +263,12 @@
       "domain": "business-standard.com",
       "scope": "texas",
       "scopeLabel": "Texas",
-      "topic": "civic",
+      "topic": "general",
       "language": "English",
       "sourceCountry": "India",
-      "seenAt": "2026-09-13T04:15:00Z"
+      "seenAt": "2026-09-13T04:15:00Z",
+      "categoryConfidence": 35,
+      "categorySignals": []
     },
     {
       "id": "41680067bee1f1d8e7",
@@ -223,10 +277,14 @@
       "domain": "thesource.com",
       "scope": "texas",
       "scopeLabel": "Texas",
-      "topic": "civic",
+      "topic": "sports",
       "language": "English",
       "sourceCountry": "United States",
-      "seenAt": "2026-09-13T02:45:00Z"
+      "seenAt": "2026-09-13T02:45:00Z",
+      "categoryConfidence": 63,
+      "categorySignals": [
+        "gameday"
+      ]
     },
     {
       "id": "df604f3b460a1507b1",
@@ -235,10 +293,12 @@
       "domain": "aol.co.uk",
       "scope": "texas",
       "scopeLabel": "Texas",
-      "topic": "technology",
+      "topic": "general",
       "language": "English",
       "sourceCountry": "United Kingdom",
-      "seenAt": "2026-09-13T01:15:00Z"
+      "seenAt": "2026-09-13T01:15:00Z",
+      "categoryConfidence": 35,
+      "categorySignals": []
     },
     {
       "id": "41927ca19e7cb25be9",
@@ -247,10 +307,14 @@
       "domain": "tmz.com",
       "scope": "texas",
       "scopeLabel": "Texas",
-      "topic": "civic",
+      "topic": "sports",
       "language": "English",
       "sourceCountry": "United States",
-      "seenAt": "2026-09-13T01:15:00Z"
+      "seenAt": "2026-09-13T01:15:00Z",
+      "categoryConfidence": 63,
+      "categorySignals": [
+        "gameday"
+      ]
     },
     {
       "id": "4f11c0efecba2b98c8",
@@ -259,10 +323,12 @@
       "domain": "rotowire.com",
       "scope": "texas",
       "scopeLabel": "Texas",
-      "topic": "technology",
+      "topic": "general",
       "language": "English",
       "sourceCountry": "United States",
-      "seenAt": "2026-09-12T21:45:00Z"
+      "seenAt": "2026-09-12T21:45:00Z",
+      "categoryConfidence": 35,
+      "categorySignals": []
     },
     {
       "id": "7acfc2be453fee0dbe",
@@ -271,10 +337,12 @@
       "domain": "krgv.com",
       "scope": "texas",
       "scopeLabel": "Texas",
-      "topic": "civic",
+      "topic": "general",
       "language": "English",
       "sourceCountry": "United States",
-      "seenAt": "2026-09-12T20:30:00Z"
+      "seenAt": "2026-09-12T20:30:00Z",
+      "categoryConfidence": 35,
+      "categorySignals": []
     },
     {
       "id": "40f381d3c8e0f38970",
@@ -283,10 +351,12 @@
       "domain": "krgv.com",
       "scope": "texas",
       "scopeLabel": "Texas",
-      "topic": "civic",
+      "topic": "general",
       "language": "English",
       "sourceCountry": "United States",
-      "seenAt": "2026-09-12T20:30:00Z"
+      "seenAt": "2026-09-12T20:30:00Z",
+      "categoryConfidence": 35,
+      "categorySignals": []
     },
     {
       "id": "934d5a39e6a693e6fe",
@@ -295,10 +365,12 @@
       "domain": "kristv.com",
       "scope": "texas",
       "scopeLabel": "Texas",
-      "topic": "civic",
+      "topic": "general",
       "language": "English",
       "sourceCountry": "United States",
-      "seenAt": "2026-09-12T20:30:00Z"
+      "seenAt": "2026-09-12T20:30:00Z",
+      "categoryConfidence": 35,
+      "categorySignals": []
     },
     {
       "id": "2a15d4a8091b4282b0",
@@ -307,10 +379,14 @@
       "domain": "winnipegfreepress.com",
       "scope": "texas",
       "scopeLabel": "Texas",
-      "topic": "civic",
+      "topic": "sports",
       "language": "English",
       "sourceCountry": "Canada",
-      "seenAt": "2026-09-12T20:15:00Z"
+      "seenAt": "2026-09-12T20:15:00Z",
+      "categoryConfidence": 67,
+      "categorySignals": [
+        "beats"
+      ]
     },
     {
       "id": "66a65d99a09630f239",
@@ -319,10 +395,12 @@
       "domain": "click2houston.com",
       "scope": "texas",
       "scopeLabel": "Texas",
-      "topic": "technology",
+      "topic": "general",
       "language": "English",
       "sourceCountry": "United States",
-      "seenAt": "2026-09-12T20:15:00Z"
+      "seenAt": "2026-09-12T20:15:00Z",
+      "categoryConfidence": 35,
+      "categorySignals": []
     },
     {
       "id": "883478a296717af044",
@@ -334,7 +412,11 @@
       "topic": "civic",
       "language": "English",
       "sourceCountry": "United States",
-      "seenAt": "2026-09-12T19:30:00Z"
+      "seenAt": "2026-09-12T19:30:00Z",
+      "categoryConfidence": 67,
+      "categorySignals": [
+        "senate"
+      ]
     },
     {
       "id": "006e47bad5f92cb62e",
@@ -343,10 +425,12 @@
       "domain": "kbtx.com",
       "scope": "texas",
       "scopeLabel": "Texas",
-      "topic": "civic",
+      "topic": "general",
       "language": "English",
       "sourceCountry": "United States",
-      "seenAt": "2026-09-12T19:30:00Z"
+      "seenAt": "2026-09-12T19:30:00Z",
+      "categoryConfidence": 35,
+      "categorySignals": []
     },
     {
       "id": "7a89c9c07161809eb4",
@@ -355,10 +439,14 @@
       "domain": "fox4news.com",
       "scope": "texas",
       "scopeLabel": "Texas",
-      "topic": "civic",
+      "topic": "public-safety",
       "language": "English",
       "sourceCountry": "United States",
-      "seenAt": "2026-09-12T19:30:00Z"
+      "seenAt": "2026-09-12T19:30:00Z",
+      "categoryConfidence": 67,
+      "categorySignals": [
+        "police"
+      ]
     },
     {
       "id": "83fc0564a00168b264",
@@ -367,10 +455,14 @@
       "domain": "thebiglead.com",
       "scope": "texas",
       "scopeLabel": "Texas",
-      "topic": "civic",
+      "topic": "sports",
       "language": "English",
       "sourceCountry": "United States",
-      "seenAt": "2026-09-12T18:45:00Z"
+      "seenAt": "2026-09-12T18:45:00Z",
+      "categoryConfidence": 63,
+      "categorySignals": [
+        "gameday"
+      ]
     },
     {
       "id": "4dd71de2b258b8f68e",
@@ -379,10 +471,14 @@
       "domain": "thebiglead.com",
       "scope": "texas",
       "scopeLabel": "Texas",
-      "topic": "civic",
+      "topic": "sports",
       "language": "English",
       "sourceCountry": "United States",
-      "seenAt": "2026-09-12T18:45:00Z"
+      "seenAt": "2026-09-12T18:45:00Z",
+      "categoryConfidence": 63,
+      "categorySignals": [
+        "gameday"
+      ]
     },
     {
       "id": "71826c2508e1162e18",
@@ -391,10 +487,12 @@
       "domain": "rawstory.com",
       "scope": "texas",
       "scopeLabel": "Texas",
-      "topic": "civic",
+      "topic": "general",
       "language": "English",
       "sourceCountry": "United States",
-      "seenAt": "2026-09-12T18:30:00Z"
+      "seenAt": "2026-09-12T18:30:00Z",
+      "categoryConfidence": 35,
+      "categorySignals": []
     },
     {
       "id": "0f70641181d92f5c93",
@@ -403,10 +501,14 @@
       "domain": "breitbart.com",
       "scope": "texas",
       "scopeLabel": "Texas",
-      "topic": "technology",
+      "topic": "civic",
       "language": "English",
       "sourceCountry": "United States",
-      "seenAt": "2026-09-12T17:15:00Z"
+      "seenAt": "2026-09-12T17:15:00Z",
+      "categoryConfidence": 91,
+      "categorySignals": [
+        "/politics/"
+      ]
     },
     {
       "id": "7241943ea0370cd47f",
@@ -415,10 +517,12 @@
       "domain": "aol.com",
       "scope": "texas",
       "scopeLabel": "Texas",
-      "topic": "civic",
+      "topic": "general",
       "language": "English",
       "sourceCountry": "United States",
-      "seenAt": "2026-09-12T17:00:00Z"
+      "seenAt": "2026-09-12T17:00:00Z",
+      "categoryConfidence": 35,
+      "categorySignals": []
     },
     {
       "id": "a9ab588c2f54875488",
@@ -427,10 +531,14 @@
       "domain": "usmagazine.com",
       "scope": "texas",
       "scopeLabel": "Texas",
-      "topic": "civic",
+      "topic": "culture",
       "language": "English",
       "sourceCountry": "United States",
-      "seenAt": "2026-09-12T17:00:00Z"
+      "seenAt": "2026-09-12T17:00:00Z",
+      "categoryConfidence": 87,
+      "categorySignals": [
+        "/entertainment/"
+      ]
     }
   ],
   "clustering": {
@@ -442,7 +550,8 @@
     {
       "id": "c8b7fc48963826f5aa",
       "title": "No . 4 Texas stuns No . 1 Ohio State 24 - 23 after erasing 20 - point 4th - quarter deficit",
-      "topic": "civic",
+      "topic": "sports",
+      "categoryConfidence": 67,
       "scope": "texas",
       "scopeLabel": "Texas",
       "seenAt": "2026-09-13T08:00:00Z",
@@ -455,10 +564,14 @@
           "domain": "thegazette.com",
           "scope": "texas",
           "scopeLabel": "Texas",
-          "topic": "civic",
+          "topic": "sports",
           "language": "English",
           "sourceCountry": "United States",
-          "seenAt": "2026-09-13T08:00:00Z"
+          "seenAt": "2026-09-13T08:00:00Z",
+          "categoryConfidence": 67,
+          "categorySignals": [
+            "stuns"
+          ]
         },
         {
           "id": "94d03eddb2d67d9749",
@@ -467,10 +580,14 @@
           "domain": "khqa.com",
           "scope": "texas",
           "scopeLabel": "Texas",
-          "topic": "civic",
+          "topic": "sports",
           "language": "English",
           "sourceCountry": "United States",
-          "seenAt": "2026-09-13T08:00:00Z"
+          "seenAt": "2026-09-13T08:00:00Z",
+          "categoryConfidence": 67,
+          "categorySignals": [
+            "stuns"
+          ]
         },
         {
           "id": "8c9c0a7db42c1884ec",
@@ -479,10 +596,14 @@
           "domain": "wlwt.com",
           "scope": "texas",
           "scopeLabel": "Texas",
-          "topic": "civic",
+          "topic": "sports",
           "language": "English",
           "sourceCountry": "United States",
-          "seenAt": "2026-09-13T07:15:00Z"
+          "seenAt": "2026-09-13T07:15:00Z",
+          "categoryConfidence": 67,
+          "categorySignals": [
+            "beats"
+          ]
         },
         {
           "id": "a1521e0926d2dc29c2",
@@ -491,10 +612,14 @@
           "domain": "wbaltv.com",
           "scope": "texas",
           "scopeLabel": "Texas",
-          "topic": "civic",
+          "topic": "sports",
           "language": "English",
           "sourceCountry": "United States",
-          "seenAt": "2026-09-13T07:00:00Z"
+          "seenAt": "2026-09-13T07:00:00Z",
+          "categoryConfidence": 67,
+          "categorySignals": [
+            "beats"
+          ]
         },
         {
           "id": "fd4932c8a813ce38c6",
@@ -503,22 +628,14 @@
           "domain": "timesfreepress.com",
           "scope": "texas",
           "scopeLabel": "Texas",
-          "topic": "civic",
+          "topic": "sports",
           "language": "English",
           "sourceCountry": "United States",
-          "seenAt": "2026-09-13T06:45:00Z"
-        },
-        {
-          "id": "2a15d4a8091b4282b0",
-          "title": "No . 10 Texas A & M beats Arizona State 48 - 20 as defense scores twice in fourth – Winnipeg Free Press",
-          "url": "https://www.winnipegfreepress.com/uncategorized/2026/09/12/no-10-texas-am-beats-arizona-state-48-20-as-defense-scores-twice-in-fourth",
-          "domain": "winnipegfreepress.com",
-          "scope": "texas",
-          "scopeLabel": "Texas",
-          "topic": "civic",
-          "language": "English",
-          "sourceCountry": "Canada",
-          "seenAt": "2026-09-12T20:15:00Z"
+          "seenAt": "2026-09-13T06:45:00Z",
+          "categoryConfidence": 67,
+          "categorySignals": [
+            "rallies"
+          ]
         },
         {
           "id": "6036da29d8636194da",
@@ -527,10 +644,14 @@
           "domain": "fox7austin.com",
           "scope": "texas",
           "scopeLabel": "Texas",
-          "topic": "civic",
+          "topic": "sports",
           "language": "English",
           "sourceCountry": "United States",
-          "seenAt": "2026-09-13T06:15:00Z"
+          "seenAt": "2026-09-13T06:15:00Z",
+          "categoryConfidence": 67,
+          "categorySignals": [
+            "rallies"
+          ]
         },
         {
           "id": "071526b6a4245b5020",
@@ -539,10 +660,30 @@
           "domain": "erienewsnow.com",
           "scope": "texas",
           "scopeLabel": "Texas",
-          "topic": "civic",
+          "topic": "sports",
           "language": "English",
           "sourceCountry": "United States",
-          "seenAt": "2026-09-13T05:30:00Z"
+          "seenAt": "2026-09-13T05:30:00Z",
+          "categoryConfidence": 67,
+          "categorySignals": [
+            "stuns"
+          ]
+        },
+        {
+          "id": "2a15d4a8091b4282b0",
+          "title": "No . 10 Texas A & M beats Arizona State 48 - 20 as defense scores twice in fourth – Winnipeg Free Press",
+          "url": "https://www.winnipegfreepress.com/uncategorized/2026/09/12/no-10-texas-am-beats-arizona-state-48-20-as-defense-scores-twice-in-fourth",
+          "domain": "winnipegfreepress.com",
+          "scope": "texas",
+          "scopeLabel": "Texas",
+          "topic": "sports",
+          "language": "English",
+          "sourceCountry": "Canada",
+          "seenAt": "2026-09-12T20:15:00Z",
+          "categoryConfidence": 67,
+          "categorySignals": [
+            "beats"
+          ]
         },
         {
           "id": "4dd71de2b258b8f68e",
@@ -551,45 +692,14 @@
           "domain": "thebiglead.com",
           "scope": "texas",
           "scopeLabel": "Texas",
-          "topic": "civic",
+          "topic": "sports",
           "language": "English",
           "sourceCountry": "United States",
-          "seenAt": "2026-09-12T18:45:00Z"
-        }
-      ]
-    },
-    {
-      "id": "96a1377de5b8d648b3",
-      "title": "The Source |Ted Cruz Gets Drowned Out by Boos During College GameDay in Austin :  Ted , You Suck !",
-      "topic": "civic",
-      "scope": "texas",
-      "scopeLabel": "Texas",
-      "seenAt": "2026-09-13T02:45:00Z",
-      "sourceCount": 2,
-      "articles": [
-        {
-          "id": "41680067bee1f1d8e7",
-          "title": "The Source |Ted Cruz Gets Drowned Out by Boos During College GameDay in Austin :  Ted , You Suck !",
-          "url": "https://thesource.com/2026/09/12/ted-cruz-gets-drowned-out-by-boos-during-college-gameday-in-austin-ted-you-suck/",
-          "domain": "thesource.com",
-          "scope": "texas",
-          "scopeLabel": "Texas",
-          "topic": "civic",
-          "language": "English",
-          "sourceCountry": "United States",
-          "seenAt": "2026-09-13T02:45:00Z"
-        },
-        {
-          "id": "a9ab588c2f54875488",
-          "title": "Sen . Ted Cruz Booed by Crowd During College GameDay Cameo",
-          "url": "https://www.usmagazine.com/entertainment/news/sen-ted-cruz-booed-by-crowd-during-college-gameday-cameo/",
-          "domain": "usmagazine.com",
-          "scope": "texas",
-          "scopeLabel": "Texas",
-          "topic": "civic",
-          "language": "English",
-          "sourceCountry": "United States",
-          "seenAt": "2026-09-12T17:00:00Z"
+          "seenAt": "2026-09-12T18:45:00Z",
+          "categoryConfidence": 63,
+          "categorySignals": [
+            "gameday"
+          ]
         }
       ]
     }

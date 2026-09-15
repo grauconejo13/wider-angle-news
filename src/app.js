@@ -235,6 +235,28 @@ function sourceCountryAngles(articles) {
   return countries.slice(0, 2);
 }
 
+const topicLabels = {
+  general: "General",
+  civic: "Politics & civic",
+  economy: "Economy",
+  technology: "Technology",
+  environment: "Environment",
+  health: "Health",
+  science: "Science",
+  education: "Education",
+  "public-safety": "Public safety",
+  culture: "Culture",
+  sports: "Sports"
+};
+
+function topicLabel(topic) {
+  return topicLabels[topic] || "General";
+}
+
+function ruleConfidence(value) {
+  return Number.isFinite(value) ? `Rule match ${value}%` : "Rule categorized";
+}
+
 const liveClusters = (Array.isArray(liveIndex.clusters) ? liveIndex.clusters : [])
   .slice(0, 18)
   .map((cluster) => ({
@@ -243,11 +265,12 @@ const liveClusters = (Array.isArray(liveIndex.clusters) ? liveIndex.clusters : [
     location: cluster.scope,
     locationLabel: cluster.scopeLabel,
     topic: cluster.topic,
+    categoryConfidence: cluster.categoryConfidence,
     agency: cluster.scope === "world" ? "Understand" : "Observe",
     status: "Multi-source cluster",
     title: cluster.title,
     summary: `${cluster.sourceCount} publishers appear to be covering the same event. Compare their headlines and original reporting before drawing a conclusion.`,
-    angles: [cluster.topic, ...sourceCountryAngles(cluster.articles), "Compare"].slice(0, 3),
+    angles: [topicLabel(cluster.topic), ruleConfidence(cluster.categoryConfidence), ...sourceCountryAngles(cluster.articles)].slice(0, 3),
     sources: cluster.sourceCount,
     established: [
       `${cluster.sourceCount} distinct publishers were grouped by conservative headline similarity.`,
@@ -276,15 +299,16 @@ const liveSignals = (Array.isArray(liveIndex.articles) ? liveIndex.articles : []
     location: article.scope,
     locationLabel: article.scopeLabel,
     topic: article.topic,
+    categoryConfidence: article.categoryConfidence,
     agency: article.scope === "world" ? "Understand" : "Observe",
     status: "Live source",
     title: article.title,
     summary: `Current reporting indexed by GDELT from ${article.domain}. Open the original publisher for the complete article.`,
     angles: [
-      article.topic,
+      topicLabel(article.topic),
+      ruleConfidence(article.categoryConfidence),
       article.sourceCountry || "Source view",
-      "Unanalyzed"
-    ],
+    ].slice(0, 3),
     sources: 1,
     established: [
       `${article.domain} published this report.`,

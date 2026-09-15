@@ -35,11 +35,47 @@ const scopes = [
   }
 ];
 
-const topicTerms = {
-  technology: ["ai", "artificial intelligence", "software", "technology", "cyber", "robot", "data center", "chip"],
-  economy: ["economy", "economic", "jobs", "trade", "tariff", "inflation", "market", "business", "price", "shipping"],
-  environment: ["climate", "weather", "heat", "storm", "water", "energy", "environment", "flood", "fire"],
-  civic: ["election", "government", "council", "court", "law", "policy", "vote", "public", "transit"]
+const topicRules = {
+  sports: {
+    terms: ["college football", "football", "basketball", "baseball", "soccer", "hockey", "touchdown", "quarterback", "gameday", "tournament", "championship", "playoffs", "coach", "athlete", "defeats", "beats", "upsets", "rallies", "stuns"],
+    paths: ["/sports/", "/sport/"]
+  },
+  health: {
+    terms: ["public health", "mental health", "health", "hospital", "medical", "medicare", "medicaid", "disease", "outbreak", "vaccine", "patient", "doctor", "cancer"],
+    paths: ["/health/", "/medicine/"]
+  },
+  "public-safety": {
+    terms: ["public safety", "law enforcement", "police", "shooting", "crime", "arrest", "arrested", "emergency", "missing person", "investigation", "fraud", "fire department"],
+    paths: ["/crime/", "/public-safety/"]
+  },
+  education: {
+    terms: ["higher education", "school district", "education", "school", "university", "college", "student", "teacher", "campus", "classroom"],
+    paths: ["/education/", "/schools/"]
+  },
+  science: {
+    terms: ["scientific study", "researchers", "research", "scientist", "science", "space", "nasa", "discovery", "laboratory", "telescope"],
+    paths: ["/science/", "/space/"]
+  },
+  technology: {
+    terms: ["artificial intelligence", "data center", "machine learning", "cybersecurity", "software", "technology", "cyber", "robot", "semiconductor", "chip"],
+    paths: ["/technology/", "/tech/"]
+  },
+  economy: {
+    terms: ["cost of living", "interest rate", "consumer prices", "economy", "economic", "jobs", "wages", "trade", "tariff", "inflation", "market", "business", "shipping", "finance"],
+    paths: ["/business/", "/economy/", "/finance/"]
+  },
+  environment: {
+    terms: ["climate change", "extreme weather", "environment", "climate", "weather", "heat", "storm", "water", "energy", "flood", "wildfire", "pollution"],
+    paths: ["/climate/", "/environment/", "/weather/"]
+  },
+  civic: {
+    terms: ["city council", "supreme court", "white house", "election", "government", "congress", "senate", "lawmaker", "governor", "mayor", "court", "law", "policy", "vote", "campaign", "transit"],
+    paths: ["/politics/", "/government/"]
+  },
+  culture: {
+    terms: ["film", "movie", "music", "television", "celebrity", "actor", "artist", "museum", "theater", "festival"],
+    paths: ["/culture/", "/entertainment/", "/arts/"]
+  }
 };
 
 const clusterStopWords = new Set([
@@ -50,12 +86,49 @@ const clusterStopWords = new Set([
   "which", "while", "who", "will", "with", "would", "your"
 ]);
 
-function classifyTopic(title) {
-  const lower = title.toLowerCase();
-  for (const [topic, terms] of Object.entries(topicTerms)) {
-    if (terms.some((term) => lower.includes(term))) return topic;
+function normalizeForRules(value) {
+  return ` ${String(value || "")
+    .toLowerCase()
+    .normalize("NFKD")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim()} `;
+}
+
+function classifyTopic(title, url) {
+  const titleText = normalizeForRules(title);
+  let pathname = "";
+  try {
+    pathname = new URL(url).pathname.toLowerCase();
+  } catch {
+    // A valid URL is enforced elsewhere; classification can still use the title.
   }
-  return "civic";
+
+  const ranked = Object.entries(topicRules).map(([topic, rule]) => {
+    const signals = rule.terms.filter((term) => titleText.includes(normalizeForRules(term)));
+    const pathSignals = rule.paths.filter((path) => pathname.includes(path));
+    const termScore = signals.reduce((score, term) => score + (term.includes(" ") ? 4 : 2), 0);
+    return { topic, score: termScore + pathSignals.length * 6, signals: [...signals, ...pathSignals] };
+  }).sort((left, right) => right.score - left.score);
+
+  const best = ranked[0];
+  const runnerUp = ranked[1];
+  if (!best || best.score === 0) {
+    return { topic: "general", confidence: 35, signals: [] };
+  }
+
+  const margin = best.score - (runnerUp?.score || 0);
+  const confidence = Math.min(96, Math.round(55 + best.score * 4 + margin * 2));
+  return { topic: best.topic, confidence, signals: best.signals.slice(0, 4) };
+}
+
+function applyCategory(article) {
+  const category = classifyTopic(article.title, article.url);
+  return {
+    ...article,
+    topic: category.topic,
+    categoryConfidence: category.confidence,
+    categorySignals: category.signals
+  };
 }
 
 function canonicalize(rawUrl) {
@@ -139,6 +212,7 @@ function clusterArticles(articles) {
           .digest("hex").slice(0, 18),
         title: newest.title,
         topic: cluster.topic,
+        categoryConfidence: Math.round(distinct.reduce((total, article) => total + (article.categoryConfidence || 35), 0) / distinct.length),
         scope: scopes.includes("world") && scopes.length === 1 ? "world" : newest.scope,
         scopeLabel: scopes.length > 1 ? "Across regions" : newest.scopeLabel,
         seenAt: newest.seenAt,
@@ -158,18 +232,17 @@ function normalizeArticle(article, scope) {
   const hostname = new URL(url).hostname.replace(/^www\./, "");
   const domain = String(article.domain || hostname).replace(/^www\./, "");
 
-  return {
+  return applyCategory({
     id: createHash("sha256").update(url).digest("hex").slice(0, 18),
     title,
     url,
     domain,
     scope: scope.id,
     scopeLabel: scope.label,
-    topic: classifyTopic(title),
     language: article.language || null,
     sourceCountry: article.sourcecountry || null,
     seenAt: parseSeenDate(article.seendate)
-  };
+  });
 }
 
 async function fetchScope(scope) {
@@ -229,7 +302,8 @@ const unique = [...new Map(combined.map((article) => [article.url, article])).va
 if (unique.length === 0) {
   const previous = await readPreviousIndex();
   if (previous?.articles?.length) {
-    const preservedClusters = clusterArticles(previous.articles);
+    const preservedArticles = previous.articles.map(applyCategory);
+    const preservedClusters = clusterArticles(preservedArticles);
     const preservedOutput = {
       ...previous,
       warnings,
@@ -238,7 +312,8 @@ if (unique.length === 0) {
         minimumDistinctPublishers: 2,
         similarityThreshold: 0.58
       },
-      clusters: preservedClusters
+      clusters: preservedClusters,
+      articles: preservedArticles
     };
     await writeFile(outputPath, `${JSON.stringify(preservedOutput, null, 2)}\n`, "utf8");
     console.warn("GDELT returned no usable articles; the existing cache was preserved and reclustered.");

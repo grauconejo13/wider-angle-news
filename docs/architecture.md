@@ -23,6 +23,18 @@ duplicates, applies preliminary subject labels, and writes a cached JSON index.
 Run `npm run fetch-news` to update the cache or `npm run refresh` to update and
 build. A GitHub Actions workflow is included for scheduled six-hour refreshes.
 
+## Rule-based categorization
+
+Topics are assigned without an AI service. The index scores whole-word headline
+phrases and publisher URL sections across Politics & Civic, Economy, Technology,
+Environment, Health, Science, Education, Public Safety, Culture, and Sports.
+Unmatched reports go to General rather than being mislabeled as civic news.
+
+Each live record stores the matched signals and a rule-confidence score. The
+score describes the strength of the categorization rule, not the truth or
+reliability of the report. Cached articles are recategorized whenever the refresh
+script runs, even when GDELT temporarily rate-limits new requests.
+
 ## Story clustering
 
 The ingestion script groups likely coverage of the same event using normalized

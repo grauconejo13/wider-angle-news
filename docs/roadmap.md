@@ -12,12 +12,12 @@
 - Add GDELT discovery. ✓
 - Add scheduled keyless GDELT refreshes. ✓
 - Display real publisher links and timestamps. ✓
+- Normalize URLs and remove exact duplicates. ✓
+- Conservatively cluster matching headlines from distinct publishers. ✓
 - Add a small set of San Antonio, Texas, national, and international RSS feeds.
-- Normalize URLs and remove exact duplicates.
 
 ## 0.3 — Structured analysis
 
-- Cluster coverage of the same event.
 - Produce one cached AI-assisted analysis per cluster.
 - Retain source references for every material section.
 - Add confidence and review states.

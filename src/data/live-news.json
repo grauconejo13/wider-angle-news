@@ -7,8 +7,9 @@
   ],
   "warnings": [
     "San Antonio: GDELT returned HTTP 429",
-    "fetch failed",
-    "fetch failed"
+    "Texas: GDELT returned HTTP 429",
+    "United States: GDELT returned HTTP 429",
+    "Wider World: GDELT returned HTTP 429"
   ],
   "articles": [
     {
@@ -430,6 +431,167 @@
       "language": "English",
       "sourceCountry": "United States",
       "seenAt": "2026-09-12T17:00:00Z"
+    }
+  ],
+  "clustering": {
+    "method": "headline-token-similarity",
+    "minimumDistinctPublishers": 2,
+    "similarityThreshold": 0.58
+  },
+  "clusters": [
+    {
+      "id": "c8b7fc48963826f5aa",
+      "title": "No . 4 Texas stuns No . 1 Ohio State 24 - 23 after erasing 20 - point 4th - quarter deficit",
+      "topic": "civic",
+      "scope": "texas",
+      "scopeLabel": "Texas",
+      "seenAt": "2026-09-13T08:00:00Z",
+      "sourceCount": 9,
+      "articles": [
+        {
+          "id": "0b2dea7fcc5c90e973",
+          "title": "No . 4 Texas stuns No . 1 Ohio State 24 - 23 after erasing 20 - point 4th - quarter deficit",
+          "url": "http://www.thegazette.com/news/national/no-4-texas-stuns-no-1-ohio-state-24-23-after-erasing-20-point-4th/article_cb1616fa-f4b0-5650-8bc3-89b96241240e.html",
+          "domain": "thegazette.com",
+          "scope": "texas",
+          "scopeLabel": "Texas",
+          "topic": "civic",
+          "language": "English",
+          "sourceCountry": "United States",
+          "seenAt": "2026-09-13T08:00:00Z"
+        },
+        {
+          "id": "94d03eddb2d67d9749",
+          "title": "No . 4 Texas stuns No . 1 Ohio State 24 - 23 after erasing 20 - point 4th - quarter deficit",
+          "url": "https://www.khqa.com/news/nation-world/no-4-texas-stuns-no-1-ohio-state-24-23-after-erasing-20-point-4th/article_f994a703-8319-52f6-8dae-bd989ee32a89.html",
+          "domain": "khqa.com",
+          "scope": "texas",
+          "scopeLabel": "Texas",
+          "topic": "civic",
+          "language": "English",
+          "sourceCountry": "United States",
+          "seenAt": "2026-09-13T08:00:00Z"
+        },
+        {
+          "id": "8c9c0a7db42c1884ec",
+          "title": "Texas beats No . 1 Ohio State",
+          "url": "https://www.wlwt.com/article/texas-beats-ohio-state/73704466",
+          "domain": "wlwt.com",
+          "scope": "texas",
+          "scopeLabel": "Texas",
+          "topic": "civic",
+          "language": "English",
+          "sourceCountry": "United States",
+          "seenAt": "2026-09-13T07:15:00Z"
+        },
+        {
+          "id": "a1521e0926d2dc29c2",
+          "title": "Texas beats No . 1 Ohio State",
+          "url": "https://www.wbaltv.com/article/texas-beats-ohio-state/73704466",
+          "domain": "wbaltv.com",
+          "scope": "texas",
+          "scopeLabel": "Texas",
+          "topic": "civic",
+          "language": "English",
+          "sourceCountry": "United States",
+          "seenAt": "2026-09-13T07:00:00Z"
+        },
+        {
+          "id": "fd4932c8a813ce38c6",
+          "title": "Texas rallies from 20 down in fourth quarter to beat No . 1 Ohio State",
+          "url": "https://www.timesfreepress.com/news/2026/sep/12/texas-rallies-from-20-down-in-fourth-quarter-to/",
+          "domain": "timesfreepress.com",
+          "scope": "texas",
+          "scopeLabel": "Texas",
+          "topic": "civic",
+          "language": "English",
+          "sourceCountry": "United States",
+          "seenAt": "2026-09-13T06:45:00Z"
+        },
+        {
+          "id": "2a15d4a8091b4282b0",
+          "title": "No . 10 Texas A & M beats Arizona State 48 - 20 as defense scores twice in fourth – Winnipeg Free Press",
+          "url": "https://www.winnipegfreepress.com/uncategorized/2026/09/12/no-10-texas-am-beats-arizona-state-48-20-as-defense-scores-twice-in-fourth",
+          "domain": "winnipegfreepress.com",
+          "scope": "texas",
+          "scopeLabel": "Texas",
+          "topic": "civic",
+          "language": "English",
+          "sourceCountry": "Canada",
+          "seenAt": "2026-09-12T20:15:00Z"
+        },
+        {
+          "id": "6036da29d8636194da",
+          "title": "No . 4 Texas Longhorns rallies from 20 - point deficit to stun No . 1 Ohio State 24 - 23",
+          "url": "https://www.fox7austin.com/news/no-4-texas-longhorns-rallies-from-20-point-deficit-stun-no-1-ohio-state-24-23",
+          "domain": "fox7austin.com",
+          "scope": "texas",
+          "scopeLabel": "Texas",
+          "topic": "civic",
+          "language": "English",
+          "sourceCountry": "United States",
+          "seenAt": "2026-09-13T06:15:00Z"
+        },
+        {
+          "id": "071526b6a4245b5020",
+          "title": "No . 4 Texas stuns No . 1 Ohio State 24 - 23 after erasing 20 - point 4th - quarter deficit",
+          "url": "https://www.erienewsnow.com/news/state/no-4-texas-stuns-no-1-ohio-state-24-23-after-erasing-20-point-4th/article_e8d7ac40-01dd-59aa-90da-5e731e1c43b8.html",
+          "domain": "erienewsnow.com",
+          "scope": "texas",
+          "scopeLabel": "Texas",
+          "topic": "civic",
+          "language": "English",
+          "sourceCountry": "United States",
+          "seenAt": "2026-09-13T05:30:00Z"
+        },
+        {
+          "id": "4dd71de2b258b8f68e",
+          "title": "Best  College GameDay  signs from Week 2 : Ohio State vs Texas",
+          "url": "https://www.thebiglead.com/best-college-gameday-signs-from-week-2-at-texas/",
+          "domain": "thebiglead.com",
+          "scope": "texas",
+          "scopeLabel": "Texas",
+          "topic": "civic",
+          "language": "English",
+          "sourceCountry": "United States",
+          "seenAt": "2026-09-12T18:45:00Z"
+        }
+      ]
+    },
+    {
+      "id": "96a1377de5b8d648b3",
+      "title": "The Source |Ted Cruz Gets Drowned Out by Boos During College GameDay in Austin :  Ted , You Suck !",
+      "topic": "civic",
+      "scope": "texas",
+      "scopeLabel": "Texas",
+      "seenAt": "2026-09-13T02:45:00Z",
+      "sourceCount": 2,
+      "articles": [
+        {
+          "id": "41680067bee1f1d8e7",
+          "title": "The Source |Ted Cruz Gets Drowned Out by Boos During College GameDay in Austin :  Ted , You Suck !",
+          "url": "https://thesource.com/2026/09/12/ted-cruz-gets-drowned-out-by-boos-during-college-gameday-in-austin-ted-you-suck/",
+          "domain": "thesource.com",
+          "scope": "texas",
+          "scopeLabel": "Texas",
+          "topic": "civic",
+          "language": "English",
+          "sourceCountry": "United States",
+          "seenAt": "2026-09-13T02:45:00Z"
+        },
+        {
+          "id": "a9ab588c2f54875488",
+          "title": "Sen . Ted Cruz Booed by Crowd During College GameDay Cameo",
+          "url": "https://www.usmagazine.com/entertainment/news/sen-ted-cruz-booed-by-crowd-during-college-gameday-cameo/",
+          "domain": "usmagazine.com",
+          "scope": "texas",
+          "scopeLabel": "Texas",
+          "topic": "civic",
+          "language": "English",
+          "sourceCountry": "United States",
+          "seenAt": "2026-09-12T17:00:00Z"
+        }
+      ]
     }
   ]
 }

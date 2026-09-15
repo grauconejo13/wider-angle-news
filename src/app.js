@@ -230,8 +230,46 @@ function liveRelevance(scope) {
   return "This report sits outside your immediate orbit and is included to widen the geographic frame.";
 }
 
-const liveStories = (Array.isArray(liveIndex.articles) ? liveIndex.articles : [])
-  .slice(0, 48)
+function sourceCountryAngles(articles) {
+  const countries = [...new Set(articles.map((article) => article.sourceCountry).filter(Boolean))];
+  return countries.slice(0, 2);
+}
+
+const liveClusters = (Array.isArray(liveIndex.clusters) ? liveIndex.clusters : [])
+  .slice(0, 18)
+  .map((cluster) => ({
+    id: `cluster-${cluster.id}`,
+    views: cluster.scope === "world" ? ["world"] : ["orbit"],
+    location: cluster.scope,
+    locationLabel: cluster.scopeLabel,
+    topic: cluster.topic,
+    agency: cluster.scope === "world" ? "Understand" : "Observe",
+    status: "Multi-source cluster",
+    title: cluster.title,
+    summary: `${cluster.sourceCount} publishers appear to be covering the same event. Compare their headlines and original reporting before drawing a conclusion.`,
+    angles: [cluster.topic, ...sourceCountryAngles(cluster.articles), "Compare"].slice(0, 3),
+    sources: cluster.sourceCount,
+    established: [
+      `${cluster.sourceCount} distinct publishers were grouped by conservative headline similarity.`,
+      `The newest matching report was indexed ${formatSeenAt(cluster.seenAt)}.`
+    ],
+    unclear: "Headline similarity can identify likely shared events, but it cannot establish which claims are true or whether publishers agree on the facts.",
+    emphasis: "This cluster is ready for comparison. The planned AI layer will summarize shared facts, disagreements, and framing only after source text is available.",
+    relevance: liveRelevance(cluster.scope),
+    sourceList: cluster.articles.map((article) => [article.domain, article.title, article.url]),
+    live: true,
+    clustered: true
+  }));
+
+const clusteredArticleIds = new Set(
+  (Array.isArray(liveIndex.clusters) ? liveIndex.clusters : [])
+    .flatMap((cluster) => cluster.articles || [])
+    .map((article) => article.id)
+);
+
+const liveSignals = (Array.isArray(liveIndex.articles) ? liveIndex.articles : [])
+  .filter((article) => !clusteredArticleIds.has(article.id))
+  .slice(0, Math.max(0, 48 - liveClusters.length))
   .map((article) => ({
     id: `live-${article.id}`,
     views: article.scope === "world" ? ["world"] : ["orbit"],
@@ -260,6 +298,8 @@ const liveStories = (Array.isArray(liveIndex.articles) ? liveIndex.articles : []
     ],
     live: true
   }));
+
+const liveStories = [...liveClusters, ...liveSignals];
 
 const stories = [...liveStories, ...demoStories];
 
@@ -300,7 +340,7 @@ function renderStories() {
   });
 
   storyGrid.innerHTML = visible.map((story) => `
-    <article class="story-card ${story.live ? "live-story" : ""}" data-story-id="${escapeHtml(story.id)}" tabindex="0">
+    <article class="story-card ${story.live ? "live-story" : ""}" data-live-label="${story.clustered ? "LIVE CLUSTER" : "LIVE INDEX"}" data-story-id="${escapeHtml(story.id)}" tabindex="0">
       <div class="card-meta">
         <span>${escapeHtml(story.locationLabel)} / ${escapeHtml(story.status)}</span>
         <span class="agency">${escapeHtml(story.agency)}</span>
@@ -309,7 +349,7 @@ function renderStories() {
       <p class="story-summary">${escapeHtml(story.summary)}</p>
       <div class="card-footer">
         <div class="angle-list">${story.angles.map((angle) => `<span>${escapeHtml(angle)}</span>`).join("")}</div>
-        <span class="card-sources">${story.live ? "OPEN ORIGINAL REPORTING" : `${story.sources} perspectives examined`}</span>
+        <span class="card-sources">${story.clustered ? `${story.sources} PUBLISHERS — COMPARE REPORTING` : story.live ? "OPEN ORIGINAL REPORTING" : `${story.sources} perspectives examined`}</span>
       </div>
       <span class="card-open" aria-hidden="true">↗</span>
     </article>
@@ -324,6 +364,9 @@ function openStory(id) {
   const story = stories.find((item) => item.id === id);
   if (!story) return;
 
+  const findingTitle = story.live ? "WHAT THE INDEX FOUND" : "WHAT REPORTING AGREES ON";
+  const sourceTitle = story.clustered ? "REPORTS IN THIS CLUSTER" : story.live ? "ORIGINAL REPORTING" : "SOURCE ROLES IN THIS DEMONSTRATION";
+
   dialogContent.innerHTML = `
     <div class="dialog-body">
       <p class="kicker">${escapeHtml(story.locationLabel)} / ${escapeHtml(story.status)} / ${escapeHtml(story.agency)}</p>
@@ -331,7 +374,7 @@ function openStory(id) {
       <p class="dialog-summary">${escapeHtml(story.summary)}</p>
       <div class="analysis-grid">
         <section class="analysis-block">
-          <h3>WHAT REPORTING AGREES ON</h3>
+          <h3>${findingTitle}</h3>
           <ul>${story.established.map((point) => `<li>${escapeHtml(point)}</li>`).join("")}</ul>
         </section>
         <section class="analysis-block">
@@ -348,7 +391,7 @@ function openStory(id) {
         </section>
       </div>
       <div class="source-stack">
-        <span>${story.live ? "ORIGINAL REPORTING" : "SOURCE ROLES IN THIS DEMONSTRATION"}</span>
+        <span>${sourceTitle}</span>
         ${story.sourceList.map(([name, role, url]) => url
           ? `<a class="source-link" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer"><span>${escapeHtml(name)}</span><small>${escapeHtml(role)} ↗</small></a>`
           : `<div class="source-link"><span>${escapeHtml(name)}</span><small>${escapeHtml(role)}</small></div>`

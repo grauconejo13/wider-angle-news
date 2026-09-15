@@ -23,6 +23,17 @@ duplicates, applies preliminary subject labels, and writes a cached JSON index.
 Run `npm run fetch-news` to update the cache or `npm run refresh` to update and
 build. A GitHub Actions workflow is included for scheduled six-hour refreshes.
 
+## Story clustering
+
+The ingestion script groups likely coverage of the same event using normalized
+headline tokens. A live cluster requires at least two distinct publisher domains
+and a similarity score of 0.58 or higher. This intentionally favors missed
+matches over false matches.
+
+Clustering is not analysis and does not imply that sources agree. The UI labels
+grouped items as multi-source clusters and links every original report. The later
+AI layer will operate once per cluster and cache its output.
+
 ## Planned analysis flow
 
 ```text

@@ -42,6 +42,14 @@ const topicTerms = {
   civic: ["election", "government", "council", "court", "law", "policy", "vote", "public", "transit"]
 };
 
+const clusterStopWords = new Set([
+  "about", "after", "again", "against", "amid", "among", "and", "are", "because",
+  "before", "being", "but", "could", "from", "have", "into", "just", "more", "most",
+  "new", "not", "over", "says", "than", "that", "the", "their", "them", "there",
+  "these", "they", "this", "through", "under", "was", "were", "what", "when", "where",
+  "which", "while", "who", "will", "with", "would", "your"
+]);
+
 function classifyTopic(title) {
   const lower = title.toLowerCase();
   for (const [topic, terms] of Object.entries(topicTerms)) {
@@ -72,6 +80,74 @@ function parseSeenDate(value) {
   if (!match) return null;
   const [, year, month, day, hour, minute, second] = match;
   return `${year}-${month}-${day}T${hour}:${minute}:${second}Z`;
+}
+
+function titleTokens(title) {
+  return new Set(
+    title
+      .toLowerCase()
+      .normalize("NFKD")
+      .replace(/[^a-z0-9\s-]/g, " ")
+      .split(/[\s-]+/)
+      .filter((token) => token.length > 2 && !clusterStopWords.has(token))
+      .map((token) => token.replace(/(ing|ed|es|s)$/i, ""))
+      .filter((token) => token.length > 2)
+  );
+}
+
+function titleSimilarity(left, right) {
+  const leftTokens = titleTokens(left);
+  const rightTokens = titleTokens(right);
+  if (!leftTokens.size || !rightTokens.size) return 0;
+  const shared = [...leftTokens].filter((token) => rightTokens.has(token)).length;
+  const union = new Set([...leftTokens, ...rightTokens]).size;
+  const containment = shared / Math.min(leftTokens.size, rightTokens.size);
+  const jaccard = shared / union;
+  return Math.max(jaccard, shared >= 3 ? containment : 0);
+}
+
+function clusterArticles(articles) {
+  const clusters = [];
+
+  for (const article of articles) {
+    let bestCluster = null;
+    let bestScore = 0;
+
+    for (const cluster of clusters) {
+      if (cluster.topic !== article.topic) continue;
+      const score = Math.max(...cluster.articles.map((item) => titleSimilarity(item.title, article.title)));
+      if (score >= 0.58 && score > bestScore) {
+        bestCluster = cluster;
+        bestScore = score;
+      }
+    }
+
+    if (bestCluster) {
+      bestCluster.articles.push(article);
+    } else {
+      clusters.push({ topic: article.topic, articles: [article] });
+    }
+  }
+
+  return clusters
+    .map((cluster) => {
+      const distinct = [...new Map(cluster.articles.map((article) => [article.domain, article])).values()];
+      const newest = distinct[0];
+      const scopes = [...new Set(distinct.map((article) => article.scope))];
+      return {
+        id: createHash("sha256").update(distinct.map((article) => article.id).sort().join(":"))
+          .digest("hex").slice(0, 18),
+        title: newest.title,
+        topic: cluster.topic,
+        scope: scopes.includes("world") && scopes.length === 1 ? "world" : newest.scope,
+        scopeLabel: scopes.length > 1 ? "Across regions" : newest.scopeLabel,
+        seenAt: newest.seenAt,
+        sourceCount: distinct.length,
+        articles: distinct
+      };
+    })
+    .filter((cluster) => cluster.sourceCount >= 2)
+    .sort((a, b) => b.sourceCount - a.sourceCount || String(b.seenAt).localeCompare(String(a.seenAt)));
 }
 
 function normalizeArticle(article, scope) {
@@ -153,12 +229,27 @@ const unique = [...new Map(combined.map((article) => [article.url, article])).va
 if (unique.length === 0) {
   const previous = await readPreviousIndex();
   if (previous?.articles?.length) {
-    console.warn("GDELT returned no usable articles; the existing cache was preserved.");
+    const preservedClusters = clusterArticles(previous.articles);
+    const preservedOutput = {
+      ...previous,
+      warnings,
+      clustering: {
+        method: "headline-token-similarity",
+        minimumDistinctPublishers: 2,
+        similarityThreshold: 0.58
+      },
+      clusters: preservedClusters
+    };
+    await writeFile(outputPath, `${JSON.stringify(preservedOutput, null, 2)}\n`, "utf8");
+    console.warn("GDELT returned no usable articles; the existing cache was preserved and reclustered.");
+    console.log(`Grouped ${preservedClusters.length} multi-source story clusters.`);
     warnings.forEach((warning) => console.warn(`- ${warning}`));
     process.exit(0);
   }
   throw new Error(`No usable GDELT articles were returned. ${warnings.join(" | ")}`);
 }
+
+const clusters = clusterArticles(unique);
 
 const output = {
   generatedAt: new Date().toISOString(),
@@ -166,6 +257,12 @@ const output = {
   timespan,
   successfulScopes,
   warnings,
+  clustering: {
+    method: "headline-token-similarity",
+    minimumDistinctPublishers: 2,
+    similarityThreshold: 0.58
+  },
+  clusters,
   articles: unique
 };
 
@@ -173,4 +270,5 @@ await mkdir(dirname(outputPath), { recursive: true });
 await writeFile(outputPath, `${JSON.stringify(output, null, 2)}\n`, "utf8");
 
 console.log(`Saved ${unique.length} GDELT article signals to src/data/live-news.json.`);
+console.log(`Grouped ${clusters.length} multi-source story clusters.`);
 if (warnings.length) warnings.forEach((warning) => console.warn(`- ${warning}`));

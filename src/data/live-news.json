@@ -6,6 +6,8 @@
     "texas"
   ],
   "warnings": [
+    "San Antonio: GDELT returned HTTP 429",
+    "Texas: GDELT returned HTTP 429",
     "Wider World: GDELT returned HTTP 429"
   ],
   "articles": [

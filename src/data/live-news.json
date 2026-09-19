@@ -5,7 +5,12 @@
   "successfulScopes": [
     "texas"
   ],
-  "warnings": [],
+  "warnings": [
+    "fetch failed",
+    "fetch failed",
+    "fetch failed",
+    "fetch failed"
+  ],
   "articles": [
     {
       "id": "072b361a9243f7a096",

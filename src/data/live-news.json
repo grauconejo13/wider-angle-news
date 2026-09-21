@@ -1,16 +1,14 @@
 {
-  "generatedAt": "2026-09-20T11:21:58.365Z",
+  "generatedAt": "2026-09-21T04:54:18.789Z",
   "provider": "GDELT DOC 2.0",
   "timespan": "24h",
   "successfulScopes": [
-    "us",
+    "san-antonio",
     "world"
   ],
   "warnings": [
-    "San Antonio: GDELT returned HTTP 429",
     "Texas: GDELT returned HTTP 429",
-    "United States: GDELT returned HTTP 429",
-    "Wider World: GDELT returned HTTP 429"
+    "United States: GDELT returned HTTP 429"
   ],
   "clustering": {
     "method": "headline-token-similarity",
@@ -19,48 +17,34 @@
   },
   "clusters": [
     {
-      "id": "d1d3653fbc5050d976",
-      "title": "Largest ever  attack on Moscow as Ukraine fires hundreds of drones at Russia",
+      "id": "51bd90a3976bc27d6c",
+      "title": "Ukraine fires over 1 , 000 drones at Russia , including hundreds launched at Moscow",
       "topic": "general",
       "categoryConfidence": 35,
       "scope": "world",
       "scopeLabel": "Wider World",
-      "seenAt": "2026-09-20T10:45:00Z",
-      "sourceCount": 5,
+      "seenAt": "2026-09-20T14:30:00Z",
+      "sourceCount": 4,
       "articles": [
+        {
+          "id": "654cc04dba26468df3",
+          "title": "Ukraine fires over 1 , 000 drones at Russia , including hundreds launched at Moscow",
+          "url": "https://abc13.com/post/ukraine-fires-1000-drones-russia-including-hundreds-launched-moscow/19852026/",
+          "domain": "abc13.com",
+          "scope": "world",
+          "scopeLabel": "Wider World",
+          "language": "English",
+          "sourceCountry": "United States",
+          "seenAt": "2026-09-20T14:30:00Z",
+          "topic": "general",
+          "categoryConfidence": 35,
+          "categorySignals": []
+        },
         {
           "id": "ff32e19a19b7018300",
           "title": "Largest ever  attack on Moscow as Ukraine fires hundreds of drones at Russia",
           "url": "https://www.theboltonnews.co.uk/news/national/26565368.largest-ever-attack-moscow-ukraine-fires-hundreds-drones-russia/",
           "domain": "theboltonnews.co.uk",
-          "scope": "world",
-          "scopeLabel": "Wider World",
-          "language": "English",
-          "sourceCountry": "United Kingdom",
-          "seenAt": "2026-09-20T10:45:00Z",
-          "topic": "general",
-          "categoryConfidence": 35,
-          "categorySignals": []
-        },
-        {
-          "id": "6eb4d097f40b6b7307",
-          "title": "Ukraine fires over 1 , 000 drones at Russia , including hundreds launched at Moscow",
-          "url": "https://www.ksat.com/news/world/2026/09/20/ukraine-fires-over-1000-drones-at-russia-including-hundreds-launched-at-moscow/",
-          "domain": "ksat.com",
-          "scope": "world",
-          "scopeLabel": "Wider World",
-          "language": "English",
-          "sourceCountry": "United States",
-          "seenAt": "2026-09-20T10:45:00Z",
-          "topic": "general",
-          "categoryConfidence": 35,
-          "categorySignals": []
-        },
-        {
-          "id": "20ddc3a7860e502e9c",
-          "title": "Largest ever  attack on Moscow as Ukraine fires hundreds of drones at Russia",
-          "url": "https://www.yourlocalguardian.co.uk/news/national/26565368.largest-ever-attack-moscow-ukraine-fires-hundreds-drones-russia/",
-          "domain": "yourlocalguardian.co.uk",
           "scope": "world",
           "scopeLabel": "Wider World",
           "language": "English",
@@ -101,64 +85,391 @@
       ]
     },
     {
-      "id": "37c4dd23104c4a5fb8",
-      "title": "Faulty , political and ridiculous decisions : Trump hits out at US Supreme Court over tariffs , birthright citizenship",
-      "topic": "civic",
-      "categoryConfidence": 91,
-      "scope": "us",
-      "scopeLabel": "United States",
-      "seenAt": "2026-09-20T03:15:00Z",
+      "id": "ba6c09d7eae1a6f496",
+      "title": "ICE Agent Shoots Man in Austin Amid Scrutiny of Immigration Enforcement",
+      "topic": "general",
+      "categoryConfidence": 35,
+      "scope": "san-antonio",
+      "scopeLabel": "San Antonio",
+      "seenAt": "2026-09-21T00:30:00Z",
       "sourceCount": 3,
       "articles": [
         {
-          "id": "d6058724ae7a1f59c1",
-          "title": "Faulty , political and ridiculous decisions : Trump hits out at US Supreme Court over tariffs , birthright citizenship",
-          "url": "https://aninews.in/news/world/us/faulty-political-and-ridiculous-decisions-trump-hits-out-at-us-supreme-court-over-tariffs-birthright-citizenship20260920045904/",
-          "domain": "aninews.in",
-          "scope": "us",
-          "scopeLabel": "United States",
+          "id": "eabf827e2299698d91",
+          "title": "ICE Agent Shoots Man in Austin Amid Scrutiny of Immigration Enforcement",
+          "url": "https://www.newsweek.com/man-wounded-in-austin-shooting-involving-ice-agent-12465694",
+          "domain": "newsweek.com",
+          "scope": "san-antonio",
+          "scopeLabel": "San Antonio",
           "language": "English",
-          "sourceCountry": "India",
-          "seenAt": "2026-09-20T03:15:00Z",
-          "topic": "civic",
-          "categoryConfidence": 91,
+          "sourceCountry": "United States",
+          "seenAt": "2026-09-21T00:30:00Z",
+          "topic": "general",
+          "categoryConfidence": 35,
+          "categorySignals": []
+        },
+        {
+          "id": "11747d8affd6f2b2cb",
+          "title": "ICE agent shoots man in North Austin , victim hospitalized",
+          "url": "https://www.fox10phoenix.com/news/ice-investigating-austin-incident-rep-greg-casar-demands-transparency-over-reported-shooting",
+          "domain": "fox10phoenix.com",
+          "scope": "san-antonio",
+          "scopeLabel": "San Antonio",
+          "language": "English",
+          "sourceCountry": "United States",
+          "seenAt": "2026-09-20T22:15:00Z",
+          "topic": "general",
+          "categoryConfidence": 35,
+          "categorySignals": []
+        },
+        {
+          "id": "714039cae40ada4e53",
+          "title": "ICE agent shoots man in North Austin , victim hospitalized",
+          "url": "https://www.fox5ny.com/news/ice-investigating-austin-incident-rep-greg-casar-demands-transparency-over-reported-shooting",
+          "domain": "fox5ny.com",
+          "scope": "san-antonio",
+          "scopeLabel": "San Antonio",
+          "language": "English",
+          "sourceCountry": "United States",
+          "seenAt": "2026-09-20T22:15:00Z",
+          "topic": "general",
+          "categoryConfidence": 35,
+          "categorySignals": []
+        }
+      ]
+    },
+    {
+      "id": "1763db0b1e0874759c",
+      "title": "Keep up or languish : two paths for Australia future",
+      "topic": "general",
+      "categoryConfidence": 35,
+      "scope": "world",
+      "scopeLabel": "Wider World",
+      "seenAt": "2026-09-20T19:00:00Z",
+      "sourceCount": 2,
+      "articles": [
+        {
+          "id": "94536b26bcf95ea45b",
+          "title": "Keep up or languish : two paths for Australia future",
+          "url": "https://www.standard.net.au/story/9353888/keep-up-or-languish-two-paths-for-australias-future/",
+          "domain": "standard.net.au",
+          "scope": "world",
+          "scopeLabel": "Wider World",
+          "language": "English",
+          "sourceCountry": "Australia",
+          "seenAt": "2026-09-20T19:00:00Z",
+          "topic": "general",
+          "categoryConfidence": 35,
+          "categorySignals": []
+        },
+        {
+          "id": "9885670b4cf756afbe",
+          "title": "Keep up or languish : two paths for Australia future",
+          "url": "https://www.illawarramercury.com.au/story/9353888/keep-up-or-languish-two-paths-for-australias-future/",
+          "domain": "illawarramercury.com.au",
+          "scope": "world",
+          "scopeLabel": "Wider World",
+          "language": "English",
+          "sourceCountry": "Australia",
+          "seenAt": "2026-09-20T18:30:00Z",
+          "topic": "general",
+          "categoryConfidence": 35,
+          "categorySignals": []
+        }
+      ]
+    },
+    {
+      "id": "2407234e98a9b86329",
+      "title": "Protect your pets : Bexar County offers drive - thru rabies vaccines",
+      "topic": "general",
+      "categoryConfidence": 35,
+      "scope": "san-antonio",
+      "scopeLabel": "San Antonio",
+      "seenAt": "2026-09-20T17:15:00Z",
+      "sourceCount": 2,
+      "articles": [
+        {
+          "id": "0e746f9d30ada679da",
+          "title": "Protect your pets : Bexar County offers drive - thru rabies vaccines",
+          "url": "https://news4sanantonio.com/news/local/protect-your-pets-bexar-county-offers-drive-thru-rabies-vaccines",
+          "domain": "news4sanantonio.com",
+          "scope": "san-antonio",
+          "scopeLabel": "San Antonio",
+          "language": "English",
+          "sourceCountry": "United States",
+          "seenAt": "2026-09-20T17:15:00Z",
+          "topic": "general",
+          "categoryConfidence": 35,
+          "categorySignals": []
+        },
+        {
+          "id": "b593f492ca2e21a52e",
+          "title": "Protect your pets : Bexar County offers drive - thru rabies vaccines",
+          "url": "https://foxsanantonio.com/newsletter-daily/protect-your-pets-bexar-county-offers-drive-thru-rabies-vaccines",
+          "domain": "foxsanantonio.com",
+          "scope": "san-antonio",
+          "scopeLabel": "San Antonio",
+          "language": "English",
+          "sourceCountry": "United States",
+          "seenAt": "2026-09-20T17:00:00Z",
+          "topic": "general",
+          "categoryConfidence": 35,
+          "categorySignals": []
+        }
+      ]
+    },
+    {
+      "id": "0ca2a1f96c2d06adaf",
+      "title": "Shotgun - wielding duo robs South Side business as it closes ; cops hunting suspects",
+      "topic": "economy",
+      "categoryConfidence": 67,
+      "scope": "san-antonio",
+      "scopeLabel": "San Antonio",
+      "seenAt": "2026-09-20T17:15:00Z",
+      "sourceCount": 2,
+      "articles": [
+        {
+          "id": "9452cc21011dd563fb",
+          "title": "Shotgun - wielding duo robs South Side business as it closes ; cops hunting suspects",
+          "url": "https://news4sanantonio.com/news/local/shotgun-wielding-duo-robs-south-side-business-as-it-closes-cops-hunting-suspects-aggravated-robbery-sw-military-drive-san-antonio-texas",
+          "domain": "news4sanantonio.com",
+          "scope": "san-antonio",
+          "scopeLabel": "San Antonio",
+          "language": "English",
+          "sourceCountry": "United States",
+          "seenAt": "2026-09-20T17:15:00Z",
+          "topic": "economy",
+          "categoryConfidence": 67,
           "categorySignals": [
-            "supreme court",
-            "court"
+            "business"
           ]
         },
         {
-          "id": "cfeaba7cef2f98a4dc",
-          "title": "Faulty , political and ridiculous decision : Trump hits out at US Supreme Court over tariffs , birthright citizenship",
-          "url": "https://economictimes.indiatimes.com/news/international/world-news/faulty-political-and-ridiculous-decisions-trump-hits-out-at-us-supreme-court-over-tariffs-birthright-citizenship/articleshow/134362724.cms",
-          "domain": "economictimes.indiatimes.com",
-          "scope": "us",
-          "scopeLabel": "United States",
+          "id": "3c1472f20d507122fb",
+          "title": "Shotgun - wielding duo robs South Side business as it closes ; cops hunting suspects",
+          "url": "https://foxsanantonio.com/newsletter-daily/shotgun-wielding-duo-robs-south-side-business-as-it-closes-cops-hunting-suspects-aggravated-robbery-sw-military-drive-san-antonio-texas",
+          "domain": "foxsanantonio.com",
+          "scope": "san-antonio",
+          "scopeLabel": "San Antonio",
           "language": "English",
-          "sourceCountry": "India",
-          "seenAt": "2026-09-20T02:30:00Z",
-          "topic": "civic",
-          "categoryConfidence": 91,
+          "sourceCountry": "United States",
+          "seenAt": "2026-09-20T17:00:00Z",
+          "topic": "economy",
+          "categoryConfidence": 67,
           "categorySignals": [
-            "supreme court",
-            "court"
+            "business"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ee7d1c5a8e03cc46e9",
+      "title": "Stabbing victim stable after random attack near Downtown",
+      "topic": "general",
+      "categoryConfidence": 35,
+      "scope": "san-antonio",
+      "scopeLabel": "San Antonio",
+      "seenAt": "2026-09-20T17:15:00Z",
+      "sourceCount": 2,
+      "articles": [
+        {
+          "id": "d150e53dbf3aa01074",
+          "title": "Stabbing victim stable after random attack near Downtown",
+          "url": "https://news4sanantonio.com/news/local/stabbing-victim-stable-after-random-attack-near-downtown-san-antonio-west-commerce-street-richter-aggravated-assault-deadly-weapon",
+          "domain": "news4sanantonio.com",
+          "scope": "san-antonio",
+          "scopeLabel": "San Antonio",
+          "language": "English",
+          "sourceCountry": "United States",
+          "seenAt": "2026-09-20T17:15:00Z",
+          "topic": "general",
+          "categoryConfidence": 35,
+          "categorySignals": []
+        },
+        {
+          "id": "cc6f33a92e74d3b0e2",
+          "title": "Stabbing victim stable after random attack near Downtown",
+          "url": "https://foxsanantonio.com/newsletter-daily/stabbing-victim-stable-after-random-attack-near-downtown-san-antonio-west-commerce-street-richter-aggravated-assault-deadly-weapon",
+          "domain": "foxsanantonio.com",
+          "scope": "san-antonio",
+          "scopeLabel": "San Antonio",
+          "language": "English",
+          "sourceCountry": "United States",
+          "seenAt": "2026-09-20T17:00:00Z",
+          "topic": "general",
+          "categoryConfidence": 35,
+          "categorySignals": []
+        }
+      ]
+    },
+    {
+      "id": "78aaa966c9ae828e7c",
+      "title": "MISSING : Help us find 16 - year - old Caylee Parker",
+      "topic": "general",
+      "categoryConfidence": 35,
+      "scope": "san-antonio",
+      "scopeLabel": "San Antonio",
+      "seenAt": "2026-09-20T17:15:00Z",
+      "sourceCount": 2,
+      "articles": [
+        {
+          "id": "9ed1d9aec0d4ae766d",
+          "title": "MISSING : Help us find 16 - year - old Caylee Parker",
+          "url": "https://news4sanantonio.com/news/local/missing-help-us-find-16-year-old-caylee-parker",
+          "domain": "news4sanantonio.com",
+          "scope": "san-antonio",
+          "scopeLabel": "San Antonio",
+          "language": "English",
+          "sourceCountry": "United States",
+          "seenAt": "2026-09-20T17:15:00Z",
+          "topic": "general",
+          "categoryConfidence": 35,
+          "categorySignals": []
+        },
+        {
+          "id": "83bc37c449d4c87885",
+          "title": "MISSING : Help us find 16 - year - old Caylee Parker",
+          "url": "https://foxsanantonio.com/newsletter-daily/missing-help-us-find-16-year-old-caylee-parker",
+          "domain": "foxsanantonio.com",
+          "scope": "san-antonio",
+          "scopeLabel": "San Antonio",
+          "language": "English",
+          "sourceCountry": "United States",
+          "seenAt": "2026-09-20T17:00:00Z",
+          "topic": "general",
+          "categoryConfidence": 35,
+          "categorySignals": []
+        }
+      ]
+    },
+    {
+      "id": "f8b5cec71c028a3aa9",
+      "title": "Man shot outside his home after confronting dark SUV over loud music",
+      "topic": "culture",
+      "categoryConfidence": 67,
+      "scope": "san-antonio",
+      "scopeLabel": "San Antonio",
+      "seenAt": "2026-09-20T17:15:00Z",
+      "sourceCount": 2,
+      "articles": [
+        {
+          "id": "4e7f3b5c399abb6ace",
+          "title": "Man shot outside his home after confronting dark SUV over loud music",
+          "url": "https://news4sanantonio.com/news/local/man-shot-outside-his-home-after-confronting-dark-suv-over-loud-music-san-antonio-texas-northwest-side-aggravated-assault-deadly-weapon-corian-park",
+          "domain": "news4sanantonio.com",
+          "scope": "san-antonio",
+          "scopeLabel": "San Antonio",
+          "language": "English",
+          "sourceCountry": "United States",
+          "seenAt": "2026-09-20T17:15:00Z",
+          "topic": "culture",
+          "categoryConfidence": 67,
+          "categorySignals": [
+            "music"
           ]
         },
         {
-          "id": "e109782a62770837d0",
-          "title": "Faulty , political and ridiculous decisions : Trump hits out at US Supreme Court over tariffs , birthright citizenship",
-          "url": "https://news.webindia123.com/news/Articles/World/20260920/4500880.html",
+          "id": "c1cf15be98d42e2e5e",
+          "title": "Man shot outside his home after confronting dark SUV over loud music",
+          "url": "https://foxsanantonio.com/newsletter-daily/man-shot-outside-his-home-after-confronting-dark-suv-over-loud-music-san-antonio-texas-northwest-side-aggravated-assault-deadly-weapon-corian-park",
+          "domain": "foxsanantonio.com",
+          "scope": "san-antonio",
+          "scopeLabel": "San Antonio",
+          "language": "English",
+          "sourceCountry": "United States",
+          "seenAt": "2026-09-20T17:00:00Z",
+          "topic": "culture",
+          "categoryConfidence": 67,
+          "categorySignals": [
+            "music"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9b8608509448b2f0a5",
+      "title": "Vice President Radhakrishnan to inaugurate 9th India International Water Week on September 22",
+      "topic": "environment",
+      "categoryConfidence": 67,
+      "scope": "world",
+      "scopeLabel": "Wider World",
+      "seenAt": "2026-09-20T14:30:00Z",
+      "sourceCount": 2,
+      "articles": [
+        {
+          "id": "e0a52d9f44f89f09f6",
+          "title": "Vice President Radhakrishnan to inaugurate 9th India International Water Week on September 22",
+          "url": "https://news.webindia123.com/news/Articles/India/20260920/4501096.html",
           "domain": "news.webindia123.com",
-          "scope": "us",
-          "scopeLabel": "United States",
+          "scope": "world",
+          "scopeLabel": "Wider World",
           "language": "English",
           "sourceCountry": "India",
-          "seenAt": "2026-09-20T02:30:00Z",
-          "topic": "civic",
-          "categoryConfidence": 91,
+          "seenAt": "2026-09-20T14:30:00Z",
+          "topic": "environment",
+          "categoryConfidence": 67,
           "categorySignals": [
-            "supreme court",
-            "court"
+            "water"
+          ]
+        },
+        {
+          "id": "7003e6862ea98aa135",
+          "title": "Vice President to inaugurate India International Water Week on September 22",
+          "url": "https://www.hindustantimes.com/india-news/vice-president-to-inaugurate-india-international-water-week-on-september-22-101789891722676.html",
+          "domain": "hindustantimes.com",
+          "scope": "world",
+          "scopeLabel": "Wider World",
+          "language": "English",
+          "sourceCountry": "India",
+          "seenAt": "2026-09-20T09:00:00Z",
+          "topic": "environment",
+          "categoryConfidence": 67,
+          "categorySignals": [
+            "water"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7fb72513cf087fea5e",
+      "title": "China trade surplus driven by structural factors , not subsidies or undervalued exchange rate , economists say",
+      "topic": "economy",
+      "categoryConfidence": 67,
+      "scope": "world",
+      "scopeLabel": "Wider World",
+      "seenAt": "2026-09-20T11:30:00Z",
+      "sourceCount": 2,
+      "articles": [
+        {
+          "id": "17de9b40b115ca21da",
+          "title": "China trade surplus driven by structural factors , not subsidies or undervalued exchange rate , economists say",
+          "url": "http://global.chinadaily.com.cn/a/202609/20/WS6aaf850ae4b06d4aa055f0b2.html",
+          "domain": "global.chinadaily.com.cn",
+          "scope": "world",
+          "scopeLabel": "Wider World",
+          "language": "English",
+          "sourceCountry": "China",
+          "seenAt": "2026-09-20T11:30:00Z",
+          "topic": "economy",
+          "categoryConfidence": 67,
+          "categorySignals": [
+            "trade"
+          ]
+        },
+        {
+          "id": "5d19668867417b0611",
+          "title": "China trade surplus driven by structural factors , not subsidies or undervalued exchange rate , economists say",
+          "url": "http://usa.chinadaily.com.cn/a/202609/20/WS6aaf850ae4b06d4aa055f0b2.html",
+          "domain": "usa.chinadaily.com.cn",
+          "scope": "world",
+          "scopeLabel": "Wider World",
+          "language": "English",
+          "sourceCountry": "China",
+          "seenAt": "2026-09-20T09:00:00Z",
+          "topic": "economy",
+          "categoryConfidence": 67,
+          "categorySignals": [
+            "trade"
           ]
         }
       ]
@@ -202,220 +513,924 @@
           "categorySignals": []
         }
       ]
-    },
-    {
-      "id": "7fa3d90619a542c92f",
-      "title": "They have cost US trillion : Trump takes aim at Supreme Court over birthright citizenship rulings , tariffs",
-      "topic": "civic",
-      "categoryConfidence": 89,
-      "scope": "us",
-      "scopeLabel": "United States",
-      "seenAt": "2026-09-20T08:45:00Z",
-      "sourceCount": 2,
-      "articles": [
-        {
-          "id": "c9a0705b0d2e97adf9",
-          "title": "They have cost US trillion : Trump takes aim at Supreme Court over birthright citizenship rulings , tariffs",
-          "url": "https://www.hindustantimes.com/world-news/us-news/they-have-cost-us-trillions-trump-takes-aim-at-supreme-court-over-birthright-citizenship-rulings-tariffs-101789872877743.html",
-          "domain": "hindustantimes.com",
-          "scope": "us",
-          "scopeLabel": "United States",
-          "language": "English",
-          "sourceCountry": "India",
-          "seenAt": "2026-09-20T08:45:00Z",
-          "topic": "civic",
-          "categoryConfidence": 91,
-          "categorySignals": [
-            "supreme court",
-            "court"
-          ]
-        },
-        {
-          "id": "f125b4a02e5c302540",
-          "title": "Sad chapter : Trump slams US Supreme Court over tariff , birthright citizenship rulings",
-          "url": "https://timesofindia.indiatimes.com/world/us/sad-chapter-trump-slams-us-supreme-court-over-tariff-birthright-citizenship-rulings/articleshow/134362790.cms",
-          "domain": "timesofindia.indiatimes.com",
-          "scope": "us",
-          "scopeLabel": "United States",
-          "language": "English",
-          "sourceCountry": "India",
-          "seenAt": "2026-09-20T03:00:00Z",
-          "topic": "civic",
-          "categoryConfidence": 87,
-          "categorySignals": [
-            "supreme court",
-            "court"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "74bfd2ebb3af93b251",
-      "title": "Trump Mocked After Landing  Status Quo  Greenland Deal",
-      "topic": "general",
-      "categoryConfidence": 35,
-      "scope": "us",
-      "scopeLabel": "United States",
-      "seenAt": "2026-09-20T08:30:00Z",
-      "sourceCount": 2,
-      "articles": [
-        {
-          "id": "cecfa8551aaaec1305",
-          "title": "Trump Mocked After Landing  Status Quo  Greenland Deal",
-          "url": "https://www.huffingtonpost.co.uk/entry/donald-trump-mocked-status-quo-greenland_uk_6aaf82e6e4b07bc48dde6b99",
-          "domain": "huffingtonpost.co.uk",
-          "scope": "us",
-          "scopeLabel": "United States",
-          "language": "English",
-          "sourceCountry": "United Kingdom",
-          "seenAt": "2026-09-20T08:30:00Z",
-          "topic": "general",
-          "categoryConfidence": 35,
-          "categorySignals": []
-        },
-        {
-          "id": "bd716821c9946f2136",
-          "title": "Danes mock Donald Trump for  status quo  Greenland deal",
-          "url": "https://www.nzherald.co.nz/world/danes-mock-donald-trump-for-status-quo-greenland-deal/4CHEA5KCRZBLNCWAGO5UPYR4BY/",
-          "domain": "nzherald.co.nz",
-          "scope": "us",
-          "scopeLabel": "United States",
-          "language": "English",
-          "sourceCountry": "New Zealand",
-          "seenAt": "2026-09-20T05:00:00Z",
-          "topic": "general",
-          "categoryConfidence": 35,
-          "categorySignals": []
-        }
-      ]
-    },
-    {
-      "id": "95ea3d083cbd57499f",
-      "title": "Macron , Carney hold milestone summit in French archipelago amid shifting alliances",
-      "topic": "general",
-      "categoryConfidence": 35,
-      "scope": "us",
-      "scopeLabel": "United States",
-      "seenAt": "2026-09-20T06:45:00Z",
-      "sourceCount": 2,
-      "articles": [
-        {
-          "id": "047e975b87c3a833be",
-          "title": "Macron , Carney hold milestone summit in French archipelago amid shifting alliances",
-          "url": "https://www.thenews.com.pk/latest/1416906-macron-carney-hold-milestone-summit-in-french-archipelago-amid-shifting-alliances",
-          "domain": "thenews.com.pk",
-          "scope": "us",
-          "scopeLabel": "United States",
-          "language": "English",
-          "sourceCountry": "Pakistan",
-          "seenAt": "2026-09-20T06:45:00Z",
-          "topic": "general",
-          "categoryConfidence": 35,
-          "categorySignals": []
-        },
-        {
-          "id": "65ecadbe7c3afb4778",
-          "title": "Macron , Carney to meet in French Atlantic archipelago",
-          "url": "https://www.illawarramercury.com.au/story/9353758/macron-carney-to-meet-in-french-atlantic-archipelago/",
-          "domain": "illawarramercury.com.au",
-          "scope": "us",
-          "scopeLabel": "United States",
-          "language": "English",
-          "sourceCountry": "Australia",
-          "seenAt": "2026-09-20T06:15:00Z",
-          "topic": "general",
-          "categoryConfidence": 35,
-          "categorySignals": []
-        }
-      ]
-    },
-    {
-      "id": "28b76ddd9b5aefe60e",
-      "title": "Trump says he plans to form  AI Force , appoint AI  Czar",
-      "topic": "general",
-      "categoryConfidence": 35,
-      "scope": "us",
-      "scopeLabel": "United States",
-      "seenAt": "2026-09-20T04:45:00Z",
-      "sourceCount": 2,
-      "articles": [
-        {
-          "id": "0ee266b176b2a418c9",
-          "title": "Trump says he plans to form  AI Force , appoint AI  Czar",
-          "url": "https://www.siasat.com/trump-says-he-plans-to-form-ai-force-appoint-ai-czar-3545026/",
-          "domain": "siasat.com",
-          "scope": "us",
-          "scopeLabel": "United States",
-          "language": "English",
-          "sourceCountry": "India",
-          "seenAt": "2026-09-20T04:45:00Z",
-          "topic": "general",
-          "categoryConfidence": 35,
-          "categorySignals": []
-        },
-        {
-          "id": "094738b1aabf82ffa7",
-          "title": "Trump says he plans to form  AI Force , appoint AI  Czar",
-          "url": "https://www.prokerala.com/news/articles/a1814360.html",
-          "domain": "prokerala.com",
-          "scope": "us",
-          "scopeLabel": "United States",
-          "language": "English",
-          "sourceCountry": "India",
-          "seenAt": "2026-09-20T03:00:00Z",
-          "topic": "general",
-          "categoryConfidence": 35,
-          "categorySignals": []
-        }
-      ]
     }
   ],
   "articles": [
     {
-      "id": "7e6417fe9f6036d9b3",
-      "title": "American Culture Quiz : Test yourself on fast - food frenzy and campaign controversy",
-      "url": "https://www.foxnews.com/lifestyle/american-culture-quiz-test-yourself-fast-food-frenzy-campaign-controversy",
-      "domain": "foxnews.com",
-      "scope": "us",
-      "scopeLabel": "United States",
+      "id": "eec4a61e854f3852d5",
+      "title": "Boys and Girls Clubs of San Antonio to close 2 clubhouses due to financial challenges",
+      "url": "https://www.tpr.org/economy-and-labor/2026-09-20/boys-and-girls-clubs-of-san-antonio-to-close-2-clubhouses-due-to-financial-challenges",
+      "domain": "tpr.org",
+      "scope": "san-antonio",
+      "scopeLabel": "San Antonio",
       "language": "English",
       "sourceCountry": "United States",
-      "seenAt": "2026-09-20T11:00:00Z",
-      "topic": "civic",
-      "categoryConfidence": 67,
-      "categorySignals": [
-        "campaign"
-      ]
-    },
-    {
-      "id": "9f257454984adae74d",
-      "title": "Ukraine fires over 1 , 000 drones at Russia , including hundreds launched at Moscow",
-      "url": "https://www.kpbs.org/news/politics/2026/09/20/ukraine-fires-over-1-000-drones-at-russia-including-hundreds-launched-at-moscow",
-      "domain": "kpbs.org",
-      "scope": "world",
-      "scopeLabel": "Wider World",
-      "language": "English",
-      "sourceCountry": "United States",
-      "seenAt": "2026-09-20T11:00:00Z",
-      "topic": "civic",
-      "categoryConfidence": 91,
-      "categorySignals": [
-        "/politics/"
-      ]
-    },
-    {
-      "id": "ff32e19a19b7018300",
-      "title": "Largest ever  attack on Moscow as Ukraine fires hundreds of drones at Russia",
-      "url": "https://www.theboltonnews.co.uk/news/national/26565368.largest-ever-attack-moscow-ukraine-fires-hundreds-drones-russia/",
-      "domain": "theboltonnews.co.uk",
-      "scope": "world",
-      "scopeLabel": "Wider World",
-      "language": "English",
-      "sourceCountry": "United Kingdom",
-      "seenAt": "2026-09-20T10:45:00Z",
+      "seenAt": "2026-09-21T04:00:00Z",
       "topic": "general",
       "categoryConfidence": 35,
       "categorySignals": []
+    },
+    {
+      "id": "8d91c57d979916245b",
+      "title": "When the Mexican composer , Silvestre Revueltas , lived in San Antonio",
+      "url": "https://www.tpr.org/2026-09-18/when-the-mexican-composer-silvestre-revueltas-lived-in-san-antonio",
+      "domain": "tpr.org",
+      "scope": "san-antonio",
+      "scopeLabel": "San Antonio",
+      "language": "English",
+      "sourceCountry": "United States",
+      "seenAt": "2026-09-21T04:00:00Z",
+      "topic": "general",
+      "categoryConfidence": 35,
+      "categorySignals": []
+    },
+    {
+      "id": "fc2ee2f18b7f1701d1",
+      "title": "Audie Murphy VA hospital report shows privacy violations , failure to meet safety requirements",
+      "url": "https://www.tpr.org/military-veterans-issues/2026-09-20/audie-murphy-va-hospital-report-shows-privacy-violations-failure-to-meet-safety-requirements",
+      "domain": "tpr.org",
+      "scope": "san-antonio",
+      "scopeLabel": "San Antonio",
+      "language": "English",
+      "sourceCountry": "United States",
+      "seenAt": "2026-09-21T04:00:00Z",
+      "topic": "health",
+      "categoryConfidence": 67,
+      "categorySignals": [
+        "hospital"
+      ]
+    },
+    {
+      "id": "0632f79ca427456749",
+      "title": "Feds File 264 Texas Immigration Cases In One Week , Nab Child Sex Offender And Armed Robber",
+      "url": "https://www.klif.com/2026/09/20/feds-file-264-texas-immigration-cases-in-one-week-nab-child-sex-offender-and-armed-robber/",
+      "domain": "klif.com",
+      "scope": "san-antonio",
+      "scopeLabel": "San Antonio",
+      "language": "English",
+      "sourceCountry": "United States",
+      "seenAt": "2026-09-21T02:30:00Z",
+      "topic": "general",
+      "categoryConfidence": 35,
+      "categorySignals": []
+    },
+    {
+      "id": "70f3e690e1f89ef02c",
+      "title": "Thailand data - centre boom raises wider clean - power challenge – Asia News Network",
+      "url": "https://asianews.network/thailands-data-centre-boom-raises-wider-clean-power-challenge/",
+      "domain": "asianews.network",
+      "scope": "world",
+      "scopeLabel": "Wider World",
+      "language": "English",
+      "sourceCountry": "China",
+      "seenAt": "2026-09-21T02:00:00Z",
+      "topic": "general",
+      "categoryConfidence": 35,
+      "categorySignals": []
+    },
+    {
+      "id": "0fadae0732c4d6a453",
+      "title": "Man Injured During Officer Involved - Shooting With ICE Agent in Austin , Officials Say",
+      "url": "https://www.theepochtimes.com/us/man-injured-during-officer-involved-shooting-with-ice-agent-in-austin-officials-say-6092588",
+      "domain": "theepochtimes.com",
+      "scope": "san-antonio",
+      "scopeLabel": "San Antonio",
+      "language": "English",
+      "sourceCountry": "United States",
+      "seenAt": "2026-09-21T00:30:00Z",
+      "topic": "public-safety",
+      "categoryConfidence": 67,
+      "categorySignals": [
+        "shooting"
+      ]
+    },
+    {
+      "id": "eabf827e2299698d91",
+      "title": "ICE Agent Shoots Man in Austin Amid Scrutiny of Immigration Enforcement",
+      "url": "https://www.newsweek.com/man-wounded-in-austin-shooting-involving-ice-agent-12465694",
+      "domain": "newsweek.com",
+      "scope": "san-antonio",
+      "scopeLabel": "San Antonio",
+      "language": "English",
+      "sourceCountry": "United States",
+      "seenAt": "2026-09-21T00:30:00Z",
+      "topic": "general",
+      "categoryConfidence": 35,
+      "categorySignals": []
+    },
+    {
+      "id": "ef490a83ff453f238e",
+      "title": "Jazz lovers ready for JazzSAlive at Civic Park this weekend",
+      "url": "https://www.tpr.org/arts-culture/2026-09-20/jazz-lovers-ready-for-jazzsalive-at-civic-park-this-weekend",
+      "domain": "tpr.org",
+      "scope": "san-antonio",
+      "scopeLabel": "San Antonio",
+      "language": "English",
+      "sourceCountry": "United States",
+      "seenAt": "2026-09-20T23:00:00Z",
+      "topic": "general",
+      "categoryConfidence": 35,
+      "categorySignals": []
+    },
+    {
+      "id": "6692d84a8080a27d0b",
+      "title": "Manuel Tames Municipality in Guantánamo Faces Health Concerns Amid Rising Fever Cases and Waste Accumulation",
+      "url": "https://www.cubaheadlines.com/articles/340774",
+      "domain": "cubaheadlines.com",
+      "scope": "san-antonio",
+      "scopeLabel": "San Antonio",
+      "language": "English",
+      "sourceCountry": "Cuba",
+      "seenAt": "2026-09-20T23:00:00Z",
+      "topic": "health",
+      "categoryConfidence": 67,
+      "categorySignals": [
+        "health"
+      ]
+    },
+    {
+      "id": "038e743b9bda46c377",
+      "title": "Elon Musk Boring Company pitch for a Hyperloop between Austin and San Antonio · Digg",
+      "url": "https://digg.com/tech/dhf4qma8",
+      "domain": "digg.com",
+      "scope": "san-antonio",
+      "scopeLabel": "San Antonio",
+      "language": "English",
+      "sourceCountry": "United States",
+      "seenAt": "2026-09-20T22:30:00Z",
+      "topic": "technology",
+      "categoryConfidence": 91,
+      "categorySignals": [
+        "/tech/"
+      ]
+    },
+    {
+      "id": "349cc653e868d628c5",
+      "title": "Is The ULTIMATE EXPRESS LANE Coming To These Two Texas Cities ?",
+      "url": "https://www.autospies.com/news/index.aspx?submissionid=132054",
+      "domain": "autospies.com",
+      "scope": "san-antonio",
+      "scopeLabel": "San Antonio",
+      "language": "English",
+      "sourceCountry": "United States",
+      "seenAt": "2026-09-20T22:30:00Z",
+      "topic": "general",
+      "categoryConfidence": 35,
+      "categorySignals": []
+    },
+    {
+      "id": "11747d8affd6f2b2cb",
+      "title": "ICE agent shoots man in North Austin , victim hospitalized",
+      "url": "https://www.fox10phoenix.com/news/ice-investigating-austin-incident-rep-greg-casar-demands-transparency-over-reported-shooting",
+      "domain": "fox10phoenix.com",
+      "scope": "san-antonio",
+      "scopeLabel": "San Antonio",
+      "language": "English",
+      "sourceCountry": "United States",
+      "seenAt": "2026-09-20T22:15:00Z",
+      "topic": "general",
+      "categoryConfidence": 35,
+      "categorySignals": []
+    },
+    {
+      "id": "714039cae40ada4e53",
+      "title": "ICE agent shoots man in North Austin , victim hospitalized",
+      "url": "https://www.fox5ny.com/news/ice-investigating-austin-incident-rep-greg-casar-demands-transparency-over-reported-shooting",
+      "domain": "fox5ny.com",
+      "scope": "san-antonio",
+      "scopeLabel": "San Antonio",
+      "language": "English",
+      "sourceCountry": "United States",
+      "seenAt": "2026-09-20T22:15:00Z",
+      "topic": "general",
+      "categoryConfidence": 35,
+      "categorySignals": []
+    },
+    {
+      "id": "159cf6d8d664dd4d4f",
+      "title": "Türkiye , France to develop nearly $690M project to combat sea snot",
+      "url": "https://www.dailysabah.com/business/economy/turkiye-france-to-develop-nearly-690m-project-to-combat-sea-snot",
+      "domain": "dailysabah.com",
+      "scope": "world",
+      "scopeLabel": "Wider World",
+      "language": "English",
+      "sourceCountry": "Turkey",
+      "seenAt": "2026-09-20T22:15:00Z",
+      "topic": "economy",
+      "categoryConfidence": 96,
+      "categorySignals": [
+        "/business/",
+        "/economy/"
+      ]
+    },
+    {
+      "id": "015178a4cd5ef575d1",
+      "title": "Comparing iHeartMedia ( NASDAQ : IHRT ) and Charter Communications ( NASDAQ : CHTR )",
+      "url": "https://www.themarketsdaily.com/2026/09/20/comparing-iheartmedia-nasdaqihrt-and-charter-communications-nasdaqchtr.html",
+      "domain": "themarketsdaily.com",
+      "scope": "san-antonio",
+      "scopeLabel": "San Antonio",
+      "language": "English",
+      "sourceCountry": "United States",
+      "seenAt": "2026-09-20T21:00:00Z",
+      "topic": "general",
+      "categoryConfidence": 35,
+      "categorySignals": []
+    },
+    {
+      "id": "0ba623100484d3b087",
+      "title": "Elon Musk latest Boring Company pitch involves a Hyperloop between Austin and San Antonio",
+      "url": "https://techcrunch.com/2026/09/20/elon-musks-latest-boring-company-pitch-involves-a-hyperloop-between-austin-and-san-antonio/",
+      "domain": "techcrunch.com",
+      "scope": "san-antonio",
+      "scopeLabel": "San Antonio",
+      "language": "English",
+      "sourceCountry": "United States",
+      "seenAt": "2026-09-20T20:45:00Z",
+      "topic": "general",
+      "categoryConfidence": 35,
+      "categorySignals": []
+    },
+    {
+      "id": "20fc0b66cbc4dcaf5f",
+      "title": "Merz Refuses To Relinguish Power In Germany ? | Armstrong Economics",
+      "url": "https://www.armstrongeconomics.com/international-news/germany/merz-refuses-to-relinguish-power-in-germany/",
+      "domain": "armstrongeconomics.com",
+      "scope": "world",
+      "scopeLabel": "Wider World",
+      "language": "English",
+      "sourceCountry": "United States",
+      "seenAt": "2026-09-20T20:45:00Z",
+      "topic": "general",
+      "categoryConfidence": 35,
+      "categorySignals": []
+    },
+    {
+      "id": "742f349b1b8ab04dbf",
+      "title": "Letters to The Editor September 21 , 2026",
+      "url": "https://www.thehindu.com/opinion/letters/letters-to-the-editor-september-21-2026/article71488743.ece",
+      "domain": "thehindu.com",
+      "scope": "world",
+      "scopeLabel": "Wider World",
+      "language": "English",
+      "sourceCountry": "India",
+      "seenAt": "2026-09-20T19:30:00Z",
+      "topic": "general",
+      "categoryConfidence": 35,
+      "categorySignals": []
+    },
+    {
+      "id": "f2e8a789a162c070d0",
+      "title": "$1 . 5b local investment plans stalled over past four years",
+      "url": "https://www.thedailystar.net/business/economy/news/15b-local-investment-plans-stalled-over-past-four-years-4278151",
+      "domain": "thedailystar.net",
+      "scope": "world",
+      "scopeLabel": "Wider World",
+      "language": "English",
+      "sourceCountry": "Bangladesh",
+      "seenAt": "2026-09-20T19:30:00Z",
+      "topic": "economy",
+      "categoryConfidence": 96,
+      "categorySignals": [
+        "/business/",
+        "/economy/"
+      ]
+    },
+    {
+      "id": "bdcca5cafd6a205f74",
+      "title": "The Top Cities Gen Z and Millennial Professionals Are Moving To",
+      "url": "https://www.cpapracticeadvisor.com/2026/09/20/the-top-cities-gen-z-and-millennial-professionals-are-moving-to/190346/",
+      "domain": "cpapracticeadvisor.com",
+      "scope": "san-antonio",
+      "scopeLabel": "San Antonio",
+      "language": "English",
+      "sourceCountry": "United States",
+      "seenAt": "2026-09-20T19:15:00Z",
+      "topic": "general",
+      "categoryConfidence": 35,
+      "categorySignals": []
+    },
+    {
+      "id": "095ef9b43030147157",
+      "title": "SUICIDE SILENCE RETURN WITH NEW ALBUM  GRACELESS",
+      "url": "https://www.knac.com/news/news/suicidesilence-newalbum-graceless/",
+      "domain": "knac.com",
+      "scope": "san-antonio",
+      "scopeLabel": "San Antonio",
+      "language": "English",
+      "sourceCountry": "United States",
+      "seenAt": "2026-09-20T19:15:00Z",
+      "topic": "general",
+      "categoryConfidence": 35,
+      "categorySignals": []
+    },
+    {
+      "id": "f39904058cea362e9c",
+      "title": "What Does the Science of Climate Change Really Look Like ?",
+      "url": "https://hotair.com/headlines/2026/09/20/what-does-the-science-of-climate-change-really-look-like-n3819126",
+      "domain": "hotair.com",
+      "scope": "world",
+      "scopeLabel": "Wider World",
+      "language": "English",
+      "sourceCountry": "United States",
+      "seenAt": "2026-09-20T19:15:00Z",
+      "topic": "environment",
+      "categoryConfidence": 87,
+      "categorySignals": [
+        "climate change",
+        "climate"
+      ]
+    },
+    {
+      "id": "94536b26bcf95ea45b",
+      "title": "Keep up or languish : two paths for Australia future",
+      "url": "https://www.standard.net.au/story/9353888/keep-up-or-languish-two-paths-for-australias-future/",
+      "domain": "standard.net.au",
+      "scope": "world",
+      "scopeLabel": "Wider World",
+      "language": "English",
+      "sourceCountry": "Australia",
+      "seenAt": "2026-09-20T19:00:00Z",
+      "topic": "general",
+      "categoryConfidence": 35,
+      "categorySignals": []
+    },
+    {
+      "id": "9885670b4cf756afbe",
+      "title": "Keep up or languish : two paths for Australia future",
+      "url": "https://www.illawarramercury.com.au/story/9353888/keep-up-or-languish-two-paths-for-australias-future/",
+      "domain": "illawarramercury.com.au",
+      "scope": "world",
+      "scopeLabel": "Wider World",
+      "language": "English",
+      "sourceCountry": "Australia",
+      "seenAt": "2026-09-20T18:30:00Z",
+      "topic": "general",
+      "categoryConfidence": 35,
+      "categorySignals": []
+    },
+    {
+      "id": "3c2a97224daab5bee3",
+      "title": "Governor urges sustainable living to address environment , health challenges",
+      "url": "https://timesofindia.indiatimes.com/city/ranchi/governor-urges-sustainable-living-to-address-environment-health-challenges/articleshow/134371891.cms",
+      "domain": "timesofindia.indiatimes.com",
+      "scope": "world",
+      "scopeLabel": "Wider World",
+      "language": "English",
+      "sourceCountry": "India",
+      "seenAt": "2026-09-20T18:30:00Z",
+      "topic": "health",
+      "categoryConfidence": 63,
+      "categorySignals": [
+        "health"
+      ]
+    },
+    {
+      "id": "51a970286ee368bcbb",
+      "title": "Delta Expands LAX Hub With 200 Daily Flights and New Premium Terminals",
+      "url": "https://english.pravda.ru/news/society/169050-delta-lax-hub-expansion/",
+      "domain": "english.pravda.ru",
+      "scope": "san-antonio",
+      "scopeLabel": "San Antonio",
+      "language": "English",
+      "sourceCountry": "Russia",
+      "seenAt": "2026-09-20T18:00:00Z",
+      "topic": "general",
+      "categoryConfidence": 35,
+      "categorySignals": []
+    },
+    {
+      "id": "d6fc512c6b05c8bf20",
+      "title": "AP CM Bats For Green , Regenerative Urban Growth",
+      "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-cm-bats-for-green-regenerative-urban-growth-1989101",
+      "domain": "deccanchronicle.com",
+      "scope": "world",
+      "scopeLabel": "Wider World",
+      "language": "English",
+      "sourceCountry": "India",
+      "seenAt": "2026-09-20T17:30:00Z",
+      "topic": "general",
+      "categoryConfidence": 35,
+      "categorySignals": []
+    },
+    {
+      "id": "0e746f9d30ada679da",
+      "title": "Protect your pets : Bexar County offers drive - thru rabies vaccines",
+      "url": "https://news4sanantonio.com/news/local/protect-your-pets-bexar-county-offers-drive-thru-rabies-vaccines",
+      "domain": "news4sanantonio.com",
+      "scope": "san-antonio",
+      "scopeLabel": "San Antonio",
+      "language": "English",
+      "sourceCountry": "United States",
+      "seenAt": "2026-09-20T17:15:00Z",
+      "topic": "general",
+      "categoryConfidence": 35,
+      "categorySignals": []
+    },
+    {
+      "id": "9452cc21011dd563fb",
+      "title": "Shotgun - wielding duo robs South Side business as it closes ; cops hunting suspects",
+      "url": "https://news4sanantonio.com/news/local/shotgun-wielding-duo-robs-south-side-business-as-it-closes-cops-hunting-suspects-aggravated-robbery-sw-military-drive-san-antonio-texas",
+      "domain": "news4sanantonio.com",
+      "scope": "san-antonio",
+      "scopeLabel": "San Antonio",
+      "language": "English",
+      "sourceCountry": "United States",
+      "seenAt": "2026-09-20T17:15:00Z",
+      "topic": "economy",
+      "categoryConfidence": 67,
+      "categorySignals": [
+        "business"
+      ]
+    },
+    {
+      "id": "d150e53dbf3aa01074",
+      "title": "Stabbing victim stable after random attack near Downtown",
+      "url": "https://news4sanantonio.com/news/local/stabbing-victim-stable-after-random-attack-near-downtown-san-antonio-west-commerce-street-richter-aggravated-assault-deadly-weapon",
+      "domain": "news4sanantonio.com",
+      "scope": "san-antonio",
+      "scopeLabel": "San Antonio",
+      "language": "English",
+      "sourceCountry": "United States",
+      "seenAt": "2026-09-20T17:15:00Z",
+      "topic": "general",
+      "categoryConfidence": 35,
+      "categorySignals": []
+    },
+    {
+      "id": "9ed1d9aec0d4ae766d",
+      "title": "MISSING : Help us find 16 - year - old Caylee Parker",
+      "url": "https://news4sanantonio.com/news/local/missing-help-us-find-16-year-old-caylee-parker",
+      "domain": "news4sanantonio.com",
+      "scope": "san-antonio",
+      "scopeLabel": "San Antonio",
+      "language": "English",
+      "sourceCountry": "United States",
+      "seenAt": "2026-09-20T17:15:00Z",
+      "topic": "general",
+      "categoryConfidence": 35,
+      "categorySignals": []
+    },
+    {
+      "id": "4e7f3b5c399abb6ace",
+      "title": "Man shot outside his home after confronting dark SUV over loud music",
+      "url": "https://news4sanantonio.com/news/local/man-shot-outside-his-home-after-confronting-dark-suv-over-loud-music-san-antonio-texas-northwest-side-aggravated-assault-deadly-weapon-corian-park",
+      "domain": "news4sanantonio.com",
+      "scope": "san-antonio",
+      "scopeLabel": "San Antonio",
+      "language": "English",
+      "sourceCountry": "United States",
+      "seenAt": "2026-09-20T17:15:00Z",
+      "topic": "culture",
+      "categoryConfidence": 67,
+      "categorySignals": [
+        "music"
+      ]
+    },
+    {
+      "id": "aa99c498f19043cd01",
+      "title": "UTSA set for Canadian Collegiate Invitational this week in Ontario",
+      "url": "https://goutsa.com/news/2026/09/20/utsa-set-for-canadian-collegiate-invitational-this-week-in-ontario",
+      "domain": "goutsa.com",
+      "scope": "san-antonio",
+      "scopeLabel": "San Antonio",
+      "language": "English",
+      "sourceCountry": "United States",
+      "seenAt": "2026-09-20T17:15:00Z",
+      "topic": "general",
+      "categoryConfidence": 35,
+      "categorySignals": []
+    },
+    {
+      "id": "cc88ee8aeea0403040",
+      "title": "TechCrunch Mobility : How do we know when an AV is safe enough ?",
+      "url": "https://techcrunch.com/2026/09/20/techcrunch-mobility-how-do-we-know-when-an-av-is-safe-enough/",
+      "domain": "techcrunch.com",
+      "scope": "san-antonio",
+      "scopeLabel": "San Antonio",
+      "language": "English",
+      "sourceCountry": "United States",
+      "seenAt": "2026-09-20T17:15:00Z",
+      "topic": "general",
+      "categoryConfidence": 35,
+      "categorySignals": []
+    },
+    {
+      "id": "b593f492ca2e21a52e",
+      "title": "Protect your pets : Bexar County offers drive - thru rabies vaccines",
+      "url": "https://foxsanantonio.com/newsletter-daily/protect-your-pets-bexar-county-offers-drive-thru-rabies-vaccines",
+      "domain": "foxsanantonio.com",
+      "scope": "san-antonio",
+      "scopeLabel": "San Antonio",
+      "language": "English",
+      "sourceCountry": "United States",
+      "seenAt": "2026-09-20T17:00:00Z",
+      "topic": "general",
+      "categoryConfidence": 35,
+      "categorySignals": []
+    },
+    {
+      "id": "3c1472f20d507122fb",
+      "title": "Shotgun - wielding duo robs South Side business as it closes ; cops hunting suspects",
+      "url": "https://foxsanantonio.com/newsletter-daily/shotgun-wielding-duo-robs-south-side-business-as-it-closes-cops-hunting-suspects-aggravated-robbery-sw-military-drive-san-antonio-texas",
+      "domain": "foxsanantonio.com",
+      "scope": "san-antonio",
+      "scopeLabel": "San Antonio",
+      "language": "English",
+      "sourceCountry": "United States",
+      "seenAt": "2026-09-20T17:00:00Z",
+      "topic": "economy",
+      "categoryConfidence": 67,
+      "categorySignals": [
+        "business"
+      ]
+    },
+    {
+      "id": "cc6f33a92e74d3b0e2",
+      "title": "Stabbing victim stable after random attack near Downtown",
+      "url": "https://foxsanantonio.com/newsletter-daily/stabbing-victim-stable-after-random-attack-near-downtown-san-antonio-west-commerce-street-richter-aggravated-assault-deadly-weapon",
+      "domain": "foxsanantonio.com",
+      "scope": "san-antonio",
+      "scopeLabel": "San Antonio",
+      "language": "English",
+      "sourceCountry": "United States",
+      "seenAt": "2026-09-20T17:00:00Z",
+      "topic": "general",
+      "categoryConfidence": 35,
+      "categorySignals": []
+    },
+    {
+      "id": "c1cf15be98d42e2e5e",
+      "title": "Man shot outside his home after confronting dark SUV over loud music",
+      "url": "https://foxsanantonio.com/newsletter-daily/man-shot-outside-his-home-after-confronting-dark-suv-over-loud-music-san-antonio-texas-northwest-side-aggravated-assault-deadly-weapon-corian-park",
+      "domain": "foxsanantonio.com",
+      "scope": "san-antonio",
+      "scopeLabel": "San Antonio",
+      "language": "English",
+      "sourceCountry": "United States",
+      "seenAt": "2026-09-20T17:00:00Z",
+      "topic": "culture",
+      "categoryConfidence": 67,
+      "categorySignals": [
+        "music"
+      ]
+    },
+    {
+      "id": "83bc37c449d4c87885",
+      "title": "MISSING : Help us find 16 - year - old Caylee Parker",
+      "url": "https://foxsanantonio.com/newsletter-daily/missing-help-us-find-16-year-old-caylee-parker",
+      "domain": "foxsanantonio.com",
+      "scope": "san-antonio",
+      "scopeLabel": "San Antonio",
+      "language": "English",
+      "sourceCountry": "United States",
+      "seenAt": "2026-09-20T17:00:00Z",
+      "topic": "general",
+      "categoryConfidence": 35,
+      "categorySignals": []
+    },
+    {
+      "id": "2c5a59ae128527dacf",
+      "title": "GT on the spot : Ningxia smart greenhouse technology takes root in Arab markets",
+      "url": "https://www.globaltimes.cn/page/202609/1370990.shtml",
+      "domain": "globaltimes.cn",
+      "scope": "world",
+      "scopeLabel": "Wider World",
+      "language": "English",
+      "sourceCountry": "China",
+      "seenAt": "2026-09-20T17:00:00Z",
+      "topic": "technology",
+      "categoryConfidence": 67,
+      "categorySignals": [
+        "technology"
+      ]
+    },
+    {
+      "id": "4123ba918ef04935ed",
+      "title": "Caste discrimination a stigma on Hindu society : RS Hosabale says  our conduct  can free us from it",
+      "url": "https://www.hindustantimes.com/india-news/caste-discrimination-a-stigma-on-hindu-society-rss-hosabale-says-our-conduct-can-free-us-from-it-101789913679320.html",
+      "domain": "hindustantimes.com",
+      "scope": "world",
+      "scopeLabel": "Wider World",
+      "language": "English",
+      "sourceCountry": "India",
+      "seenAt": "2026-09-20T16:15:00Z",
+      "topic": "general",
+      "categoryConfidence": 35,
+      "categorySignals": []
+    },
+    {
+      "id": "0236bb50f840a0d2ca",
+      "title": "UN highlights Türkiye role in delivering climate action at COP31",
+      "url": "https://www.dailysabah.com/turkiye/un-highlights-turkiyes-role-in-delivering-climate-action-at-cop31/news",
+      "domain": "dailysabah.com",
+      "scope": "world",
+      "scopeLabel": "Wider World",
+      "language": "English",
+      "sourceCountry": "Turkey",
+      "seenAt": "2026-09-20T16:00:00Z",
+      "topic": "environment",
+      "categoryConfidence": 67,
+      "categorySignals": [
+        "climate"
+      ]
+    },
+    {
+      "id": "3a1b7a4510de12e9af",
+      "title": "The Hindu Sustainability Summit to explore pathways to a sustainable future",
+      "url": "https://www.thehindu.com/news/cities/chennai/the-hindu-sustainability-summit-to-explore-pathways-to-a-sustainable-future/article71487695.ece",
+      "domain": "thehindu.com",
+      "scope": "world",
+      "scopeLabel": "Wider World",
+      "language": "English",
+      "sourceCountry": "India",
+      "seenAt": "2026-09-20T16:00:00Z",
+      "topic": "general",
+      "categoryConfidence": 35,
+      "categorySignals": []
+    },
+    {
+      "id": "f2a28b7f20c95042c7",
+      "title": "Climate Week warns of challenges in delivering the energy transition",
+      "url": "https://www.euronews.com/2026/09/20/climate-week-warns-of-challenges-in-delivering-the-energy-transition",
+      "domain": "euronews.com",
+      "scope": "world",
+      "scopeLabel": "Wider World",
+      "language": "English",
+      "sourceCountry": "United States",
+      "seenAt": "2026-09-20T16:00:00Z",
+      "topic": "environment",
+      "categoryConfidence": 79,
+      "categorySignals": [
+        "climate",
+        "energy"
+      ]
+    },
+    {
+      "id": "dd0c4c9d45680f7ce4",
+      "title": "Man hospitalized after shooting outside Northwest Side home , police say",
+      "url": "https://www.ksat.com/news/local/2026/09/20/man-hospitalized-after-shooting-outside-northwest-side-home-police-say/",
+      "domain": "ksat.com",
+      "scope": "san-antonio",
+      "scopeLabel": "San Antonio",
+      "language": "English",
+      "sourceCountry": "United States",
+      "seenAt": "2026-09-20T15:45:00Z",
+      "topic": "public-safety",
+      "categoryConfidence": 79,
+      "categorySignals": [
+        "police",
+        "shooting"
+      ]
+    },
+    {
+      "id": "c53eec8a06251e7c7d",
+      "title": "[ PHOTOS ] Ruto arrives in New York for UNGA summit",
+      "url": "https://www.the-star.co.ke/news/2026-09-20-photos-ruto-arrives-in-new-york-for-unga-summit",
+      "domain": "the-star.co.ke",
+      "scope": "world",
+      "scopeLabel": "Wider World",
+      "language": "English",
+      "sourceCountry": "Kenya",
+      "seenAt": "2026-09-20T15:30:00Z",
+      "topic": "general",
+      "categoryConfidence": 35,
+      "categorySignals": []
+    },
+    {
+      "id": "cc19876871d2490cb6",
+      "title": "Ken Paxton Sued by Family of Pregnant Texas Woman Who Died After Allegedly Being Denied Life - Saving Abortion",
+      "url": "https://www.ibtimes.co.uk/texas-family-sues-over-pregnant-womans-death-abortion-care-1820751",
+      "domain": "ibtimes.co.uk",
+      "scope": "san-antonio",
+      "scopeLabel": "San Antonio",
+      "language": "English",
+      "sourceCountry": "United Kingdom",
+      "seenAt": "2026-09-20T14:30:00Z",
+      "topic": "general",
+      "categoryConfidence": 35,
+      "categorySignals": []
+    },
+    {
+      "id": "93ad583bd1e23d1ff4",
+      "title": "Texas freezes installation of Flock cameras along state roads",
+      "url": "https://victoriaadvocate.com/2026/09/20/texas-freezes-installation-of-flock-cameras-along-state-roads/",
+      "domain": "victoriaadvocate.com",
+      "scope": "san-antonio",
+      "scopeLabel": "San Antonio",
+      "language": "English",
+      "sourceCountry": "United States",
+      "seenAt": "2026-09-20T14:30:00Z",
+      "topic": "general",
+      "categoryConfidence": 35,
+      "categorySignals": []
+    },
+    {
+      "id": "e0a52d9f44f89f09f6",
+      "title": "Vice President Radhakrishnan to inaugurate 9th India International Water Week on September 22",
+      "url": "https://news.webindia123.com/news/Articles/India/20260920/4501096.html",
+      "domain": "news.webindia123.com",
+      "scope": "world",
+      "scopeLabel": "Wider World",
+      "language": "English",
+      "sourceCountry": "India",
+      "seenAt": "2026-09-20T14:30:00Z",
+      "topic": "environment",
+      "categoryConfidence": 67,
+      "categorySignals": [
+        "water"
+      ]
+    },
+    {
+      "id": "654cc04dba26468df3",
+      "title": "Ukraine fires over 1 , 000 drones at Russia , including hundreds launched at Moscow",
+      "url": "https://abc13.com/post/ukraine-fires-1000-drones-russia-including-hundreds-launched-moscow/19852026/",
+      "domain": "abc13.com",
+      "scope": "world",
+      "scopeLabel": "Wider World",
+      "language": "English",
+      "sourceCountry": "United States",
+      "seenAt": "2026-09-20T14:30:00Z",
+      "topic": "general",
+      "categoryConfidence": 35,
+      "categorySignals": []
+    },
+    {
+      "id": "827af8753548d00b9c",
+      "title": "Summit adapts to Trump  drill , baby , drill  | Environmental News , Nature News",
+      "url": "http://www.thegazette.com/news/environment/summit-adapts-to-trump-s-drill-baby-drill/article_8d9df21d-6843-4fd2-8fef-e65bb5f0df09.html",
+      "domain": "thegazette.com",
+      "scope": "world",
+      "scopeLabel": "Wider World",
+      "language": "English",
+      "sourceCountry": "United States",
+      "seenAt": "2026-09-20T13:45:00Z",
+      "topic": "environment",
+      "categoryConfidence": 91,
+      "categorySignals": [
+        "/environment/"
+      ]
+    },
+    {
+      "id": "1fe994234ced647434",
+      "title": "NGT Chairman Justice Prakash Shrivastava calls for stronger laws , institutions , global partnerships to tackle climate crisis",
+      "url": "https://news.webindia123.com/news/Articles/India/20260920/4501081.html",
+      "domain": "news.webindia123.com",
+      "scope": "world",
+      "scopeLabel": "Wider World",
+      "language": "English",
+      "sourceCountry": "India",
+      "seenAt": "2026-09-20T13:00:00Z",
+      "topic": "environment",
+      "categoryConfidence": 67,
+      "categorySignals": [
+        "climate"
+      ]
+    },
+    {
+      "id": "838e79ae8bd6efc379",
+      "title": "Six Indian American students named 2026 Davidson Fellows , win $25K - $100K scholarships",
+      "url": "https://economictimes.indiatimes.com/nri/latest-updates/six-indian-american-students-named-2026-davidson-fellows-win-25k-100k-scholarships/articleshow/134367584.cms",
+      "domain": "economictimes.indiatimes.com",
+      "scope": "world",
+      "scopeLabel": "Wider World",
+      "language": "English",
+      "sourceCountry": "India",
+      "seenAt": "2026-09-20T12:45:00Z",
+      "topic": "general",
+      "categoryConfidence": 35,
+      "categorySignals": []
+    },
+    {
+      "id": "e63d20437b70eed4a1",
+      "title": "Climate Change Expert Tapio Schneider On Early Warnings And AI In Science",
+      "url": "https://www.rediff.com/news/report/early-warning-systems-need-non-rainfall-triggers-tapio-schneider/20260920.htm",
+      "domain": "rediff.com",
+      "scope": "world",
+      "scopeLabel": "Wider World",
+      "language": "English",
+      "sourceCountry": "India",
+      "seenAt": "2026-09-20T12:45:00Z",
+      "topic": "environment",
+      "categoryConfidence": 87,
+      "categorySignals": [
+        "climate change",
+        "climate"
+      ]
+    },
+    {
+      "id": "40c15bf582e7158b4e",
+      "title": "Mother accused of giving away baby to stranger at bus stop",
+      "url": "https://www.ky3.com/2026/09/20/mother-18-arrested-after-giving-away-baby-stranger-bus-stop-police-say/",
+      "domain": "ky3.com",
+      "scope": "san-antonio",
+      "scopeLabel": "San Antonio",
+      "language": "English",
+      "sourceCountry": "United States",
+      "seenAt": "2026-09-20T12:15:00Z",
+      "topic": "general",
+      "categoryConfidence": 35,
+      "categorySignals": []
+    },
+    {
+      "id": "1a1126250bb7f87a8a",
+      "title": "Mysterious accident leaves car destroyed by fire , power pole split in half",
+      "url": "https://foxsanantonio.com/newsletter-daily/mysterious-accident-leaves-car-destroyed-by-fire-power-pole-split-in-half-san-antonio-texas-west-avenue-jackson-keller-road-fire-dpartment-medical-help-police",
+      "domain": "foxsanantonio.com",
+      "scope": "san-antonio",
+      "scopeLabel": "San Antonio",
+      "language": "English",
+      "sourceCountry": "United States",
+      "seenAt": "2026-09-20T12:15:00Z",
+      "topic": "general",
+      "categoryConfidence": 35,
+      "categorySignals": []
+    },
+    {
+      "id": "54cbecaea34614bf62",
+      "title": "Why Id never repeat my Club 18 - 30 holiday adventures",
+      "url": "https://www.watfordobserver.co.uk/leisure/26544267.never-repeat-club-18-30-holiday-adventures/",
+      "domain": "watfordobserver.co.uk",
+      "scope": "san-antonio",
+      "scopeLabel": "San Antonio",
+      "language": "English",
+      "sourceCountry": "United Kingdom",
+      "seenAt": "2026-09-20T12:15:00Z",
+      "topic": "general",
+      "categoryConfidence": 35,
+      "categorySignals": []
+    },
+    {
+      "id": "56955477ace815fc29",
+      "title": "Open Thread - Watts Up With That ?",
+      "url": "https://wattsupwiththat.com/2026/09/20/open-thread-208/",
+      "domain": "wattsupwiththat.com",
+      "scope": "world",
+      "scopeLabel": "Wider World",
+      "language": "English",
+      "sourceCountry": "United States",
+      "seenAt": "2026-09-20T12:15:00Z",
+      "topic": "general",
+      "categoryConfidence": 35,
+      "categorySignals": []
+    },
+    {
+      "id": "4ec36f2cc9719f8bc0",
+      "title": "Bank holiday tomorrow , September 21 : Are banks closed in Kerala and Assam ? Check details",
+      "url": "https://www.hindustantimes.com/india-news/bank-holiday-tomorrow-september-21-in-kerala-and-assam-heres-what-we-know-101789899648387.html",
+      "domain": "hindustantimes.com",
+      "scope": "world",
+      "scopeLabel": "Wider World",
+      "language": "English",
+      "sourceCountry": "India",
+      "seenAt": "2026-09-20T11:45:00Z",
+      "topic": "general",
+      "categoryConfidence": 35,
+      "categorySignals": []
+    },
+    {
+      "id": "414c14f7f4626ab349",
+      "title": "IndiGo crew member , a single mother to 5 - year - old , dies after car rams into her vehicle in Mumbai",
+      "url": "https://www.hindustantimes.com/india-news/indigo-crew-member-kainoor-mistry-single-mother-to-5-year-old-dies-after-car-rams-into-her-vehicle-in-mumbai-101789901240344.html",
+      "domain": "hindustantimes.com",
+      "scope": "world",
+      "scopeLabel": "Wider World",
+      "language": "English",
+      "sourceCountry": "India",
+      "seenAt": "2026-09-20T11:45:00Z",
+      "topic": "general",
+      "categoryConfidence": 35,
+      "categorySignals": []
+    },
+    {
+      "id": "fca9da4c77b50faa14",
+      "title": "North Korea fires 2 ballistic missiles into East Sea ; Japan , South Korea monitor situation : Reports",
+      "url": "https://www.hindustantimes.com/world-news/north-korea-fires-2-ballistic-missiles-into-east-sea-japan-south-korea-monitor-situation-reports-101789895280813.html",
+      "domain": "hindustantimes.com",
+      "scope": "world",
+      "scopeLabel": "Wider World",
+      "language": "English",
+      "sourceCountry": "India",
+      "seenAt": "2026-09-20T11:45:00Z",
+      "topic": "general",
+      "categoryConfidence": 35,
+      "categorySignals": []
+    },
+    {
+      "id": "17de9b40b115ca21da",
+      "title": "China trade surplus driven by structural factors , not subsidies or undervalued exchange rate , economists say",
+      "url": "http://global.chinadaily.com.cn/a/202609/20/WS6aaf850ae4b06d4aa055f0b2.html",
+      "domain": "global.chinadaily.com.cn",
+      "scope": "world",
+      "scopeLabel": "Wider World",
+      "language": "English",
+      "sourceCountry": "China",
+      "seenAt": "2026-09-20T11:30:00Z",
+      "topic": "economy",
+      "categoryConfidence": 67,
+      "categorySignals": [
+        "trade"
+      ]
     },
     {
       "id": "732e3d62eabcd72487",
@@ -432,43 +1447,15 @@
       "categorySignals": []
     },
     {
-      "id": "6eb4d097f40b6b7307",
-      "title": "Ukraine fires over 1 , 000 drones at Russia , including hundreds launched at Moscow",
-      "url": "https://www.ksat.com/news/world/2026/09/20/ukraine-fires-over-1000-drones-at-russia-including-hundreds-launched-at-moscow/",
-      "domain": "ksat.com",
-      "scope": "world",
-      "scopeLabel": "Wider World",
-      "language": "English",
-      "sourceCountry": "United States",
-      "seenAt": "2026-09-20T10:45:00Z",
-      "topic": "general",
-      "categoryConfidence": 35,
-      "categorySignals": []
-    },
-    {
-      "id": "20ddc3a7860e502e9c",
+      "id": "ff32e19a19b7018300",
       "title": "Largest ever  attack on Moscow as Ukraine fires hundreds of drones at Russia",
-      "url": "https://www.yourlocalguardian.co.uk/news/national/26565368.largest-ever-attack-moscow-ukraine-fires-hundreds-drones-russia/",
-      "domain": "yourlocalguardian.co.uk",
+      "url": "https://www.theboltonnews.co.uk/news/national/26565368.largest-ever-attack-moscow-ukraine-fires-hundreds-drones-russia/",
+      "domain": "theboltonnews.co.uk",
       "scope": "world",
       "scopeLabel": "Wider World",
       "language": "English",
       "sourceCountry": "United Kingdom",
       "seenAt": "2026-09-20T10:45:00Z",
-      "topic": "general",
-      "categoryConfidence": 35,
-      "categorySignals": []
-    },
-    {
-      "id": "06b1a337e21f61f737",
-      "title": "Trump announces Greenland deal for  permanent US control  over security , Denmark says sovereignty remains intact",
-      "url": "https://www.ibtimes.co.in/trump-announces-greenland-deal-permanent-us-control-over-security-denmark-says-sovereignty-906181",
-      "domain": "ibtimes.co.in",
-      "scope": "us",
-      "scopeLabel": "United States",
-      "language": "English",
-      "sourceCountry": "India",
-      "seenAt": "2026-09-20T10:15:00Z",
       "topic": "general",
       "categoryConfidence": 35,
       "categorySignals": []
@@ -504,20 +1491,6 @@
       "categorySignals": []
     },
     {
-      "id": "ab9028c264b7558091",
-      "title": "Czechs conquer united states to reach Davis Cup finals",
-      "url": "https://tribune.com.pk/story/2630352/czechs-conquer-usa-to-reach-davis-cup-finals",
-      "domain": "tribune.com.pk",
-      "scope": "us",
-      "scopeLabel": "United States",
-      "language": "English",
-      "sourceCountry": "Pakistan",
-      "seenAt": "2026-09-20T09:30:00Z",
-      "topic": "general",
-      "categoryConfidence": 35,
-      "categorySignals": []
-    },
-    {
       "id": "50ed631959950d9789",
       "title": "Largest ever  attack on Moscow as Ukraine fires hundreds of drones at Russia",
       "url": "https://www.thetelegraphandargus.co.uk/news/national/26565368.largest-ever-attack-moscow-ukraine-fires-hundreds-drones-russia/",
@@ -527,48 +1500,6 @@
       "language": "English",
       "sourceCountry": "United Kingdom",
       "seenAt": "2026-09-20T09:30:00Z",
-      "topic": "general",
-      "categoryConfidence": 35,
-      "categorySignals": []
-    },
-    {
-      "id": "39d484db6498c3dbd7",
-      "title": "Soldiers - come - teachers just another culture war fail by Coalition",
-      "url": "https://www.smh.com.au/national/nsw/leeser-s-education-tilt-just-desperate-floundering-in-yet-another-culture-war-20260920-p60yvj.html",
-      "domain": "smh.com.au",
-      "scope": "world",
-      "scopeLabel": "Wider World",
-      "language": "English",
-      "sourceCountry": "Australia",
-      "seenAt": "2026-09-20T09:30:00Z",
-      "topic": "general",
-      "categoryConfidence": 35,
-      "categorySignals": []
-    },
-    {
-      "id": "a9bf5851072afa5cb3",
-      "title": "In 2020 , a three - turbine frame was lowered into New York City East River ; six months later , it had sent 210MWh of tide - made power to the U . S . grid",
-      "url": "https://economictimes.indiatimes.com/news/international/us/in-2020-a-three-turbine-frame-was-lowered-into-new-york-citys-east-river-six-months-later-it-had-sent-210mwh-of-tide-made-power-to-the-u-s-grid/articleshow/134351609.cms",
-      "domain": "economictimes.indiatimes.com",
-      "scope": "world",
-      "scopeLabel": "Wider World",
-      "language": "English",
-      "sourceCountry": "India",
-      "seenAt": "2026-09-20T09:30:00Z",
-      "topic": "general",
-      "categoryConfidence": 35,
-      "categorySignals": []
-    },
-    {
-      "id": "1c7a81e8c10204fd86",
-      "title": "Ghalibaf : Iran must  fight and negotiate  as war with US drags on",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/ghalibaf-iran-must-fight-and-negotiate-war-us-drags",
-      "domain": "middleeasteye.net",
-      "scope": "us",
-      "scopeLabel": "United States",
-      "language": "English",
-      "sourceCountry": "Israel",
-      "seenAt": "2026-09-20T09:15:00Z",
       "topic": "general",
       "categoryConfidence": 35,
       "categorySignals": []
@@ -602,19 +1533,19 @@
       "categorySignals": []
     },
     {
-      "id": "bf6999dc9749d15167",
-      "title": "China leads , US ranks 27th : Top 15 countries with highest math scores",
-      "url": "https://timesofindia.indiatimes.com/education/news/china-leads-us-ranks-27th-top-15-countries-with-highest-math-scores/articleshow/134364505.cms",
-      "domain": "timesofindia.indiatimes.com",
-      "scope": "us",
-      "scopeLabel": "United States",
+      "id": "7003e6862ea98aa135",
+      "title": "Vice President to inaugurate India International Water Week on September 22",
+      "url": "https://www.hindustantimes.com/india-news/vice-president-to-inaugurate-india-international-water-week-on-september-22-101789891722676.html",
+      "domain": "hindustantimes.com",
+      "scope": "world",
+      "scopeLabel": "Wider World",
       "language": "English",
       "sourceCountry": "India",
       "seenAt": "2026-09-20T09:00:00Z",
-      "topic": "education",
-      "categoryConfidence": 91,
+      "topic": "environment",
+      "categoryConfidence": 67,
       "categorySignals": [
-        "/education/"
+        "water"
       ]
     },
     {
@@ -630,22 +1561,6 @@
       "topic": "general",
       "categoryConfidence": 35,
       "categorySignals": []
-    },
-    {
-      "id": "7003e6862ea98aa135",
-      "title": "Vice President to inaugurate India International Water Week on September 22",
-      "url": "https://www.hindustantimes.com/india-news/vice-president-to-inaugurate-india-international-water-week-on-september-22-101789891722676.html",
-      "domain": "hindustantimes.com",
-      "scope": "world",
-      "scopeLabel": "Wider World",
-      "language": "English",
-      "sourceCountry": "India",
-      "seenAt": "2026-09-20T09:00:00Z",
-      "topic": "environment",
-      "categoryConfidence": 67,
-      "categorySignals": [
-        "water"
-      ]
     },
     {
       "id": "1c19bc4b1821726ca4",
@@ -680,109 +1595,6 @@
       ]
     },
     {
-      "id": "45734af2dd4940a8d3",
-      "title": "Gong Jinfeng : Four Recommendations for Building a Strong Automotive Nation | 2026 TEDA Forum",
-      "url": "https://autonews.gasgoo.com/articles/market-industry/gong-jinfeng-four-recommendations-for-building-a-strong-automotive-nation-2026-teda-forum-2101564135971426305",
-      "domain": "autonews.gasgoo.com",
-      "scope": "world",
-      "scopeLabel": "Wider World",
-      "language": "English",
-      "sourceCountry": "China",
-      "seenAt": "2026-09-20T09:00:00Z",
-      "topic": "general",
-      "categoryConfidence": 35,
-      "categorySignals": []
-    },
-    {
-      "id": "50c00183611019d453",
-      "title": "Southern California CRE Trends 2026 : Expert Forecast",
-      "url": "https://www.latimes.com/b2b/commercial-real-estate/story/2026-09-20/socal-cre-market-forecast-2026",
-      "domain": "latimes.com",
-      "scope": "world",
-      "scopeLabel": "Wider World",
-      "language": "English",
-      "sourceCountry": "United States",
-      "seenAt": "2026-09-20T09:00:00Z",
-      "topic": "general",
-      "categoryConfidence": 35,
-      "categorySignals": []
-    },
-    {
-      "id": "b6e3684978ea254458",
-      "title": "President Trump Identifies H1B Visa Abuse as a  National Security Threat",
-      "url": "https://theconservativetreehouse.com/blog/2026/09/19/president-trump-identifies-h1b-visa-abuse-as-a-national-security-threat/comment-page-2/",
-      "domain": "theconservativetreehouse.com",
-      "scope": "us",
-      "scopeLabel": "United States",
-      "language": "English",
-      "sourceCountry": "United States",
-      "seenAt": "2026-09-20T08:45:00Z",
-      "topic": "general",
-      "categoryConfidence": 35,
-      "categorySignals": []
-    },
-    {
-      "id": "c9a0705b0d2e97adf9",
-      "title": "They have cost US trillion : Trump takes aim at Supreme Court over birthright citizenship rulings , tariffs",
-      "url": "https://www.hindustantimes.com/world-news/us-news/they-have-cost-us-trillions-trump-takes-aim-at-supreme-court-over-birthright-citizenship-rulings-tariffs-101789872877743.html",
-      "domain": "hindustantimes.com",
-      "scope": "us",
-      "scopeLabel": "United States",
-      "language": "English",
-      "sourceCountry": "India",
-      "seenAt": "2026-09-20T08:45:00Z",
-      "topic": "civic",
-      "categoryConfidence": 91,
-      "categorySignals": [
-        "supreme court",
-        "court"
-      ]
-    },
-    {
-      "id": "860f6fab1274120923",
-      "title": "Trump lists 25  top achievement as midterms loom",
-      "url": "https://dunyanews.tv/en/World/973724-trump-lists-25-top-achievements-as-midterms-loom",
-      "domain": "dunyanews.tv",
-      "scope": "us",
-      "scopeLabel": "United States",
-      "language": "English",
-      "sourceCountry": "Pakistan",
-      "seenAt": "2026-09-20T08:30:00Z",
-      "topic": "general",
-      "categoryConfidence": 35,
-      "categorySignals": []
-    },
-    {
-      "id": "836335704dfa218f53",
-      "title": "China warns US space weapons could fuel arms race",
-      "url": "https://www.airforcetimes.com/news/your-air-force/2026/09/16/china-warns-us-space-weapons-could-fuel-arms-race/",
-      "domain": "airforcetimes.com",
-      "scope": "us",
-      "scopeLabel": "United States",
-      "language": "English",
-      "sourceCountry": "United States",
-      "seenAt": "2026-09-20T08:30:00Z",
-      "topic": "science",
-      "categoryConfidence": 67,
-      "categorySignals": [
-        "space"
-      ]
-    },
-    {
-      "id": "cecfa8551aaaec1305",
-      "title": "Trump Mocked After Landing  Status Quo  Greenland Deal",
-      "url": "https://www.huffingtonpost.co.uk/entry/donald-trump-mocked-status-quo-greenland_uk_6aaf82e6e4b07bc48dde6b99",
-      "domain": "huffingtonpost.co.uk",
-      "scope": "us",
-      "scopeLabel": "United States",
-      "language": "English",
-      "sourceCountry": "United Kingdom",
-      "seenAt": "2026-09-20T08:30:00Z",
-      "topic": "general",
-      "categoryConfidence": 35,
-      "categorySignals": []
-    },
-    {
       "id": "6be3f034d3c0ad6f96",
       "title": "As a Former Head of MI6 it Clear That Britain Climate Policy is Leaving Us Dangerously Exposed to Our Enemies",
       "url": "https://wattsupwiththat.com/2026/09/19/as-a-former-head-of-mi6-its-clear-that-britains-climate-policy-is-leaving-us-dangerously-exposed-to-our-enemies/",
@@ -799,22 +1611,6 @@
       ]
     },
     {
-      "id": "edbe177a99eabd9b4a",
-      "title": "Startup eyes space - based solar power | The Arkansas Democrat - Gazette",
-      "url": "https://www.arkansasonline.com/news/2026/sep/20/startup-eyes-space-based-solar-power/",
-      "domain": "arkansasonline.com",
-      "scope": "world",
-      "scopeLabel": "Wider World",
-      "language": "English",
-      "sourceCountry": "United States",
-      "seenAt": "2026-09-20T08:00:00Z",
-      "topic": "science",
-      "categoryConfidence": 67,
-      "categorySignals": [
-        "space"
-      ]
-    },
-    {
       "id": "e5247d963d40b3bc8d",
       "title": "From Ahmednagar To Stockholm : Nila Vikhe Patil Elected To Sweden Parliament , Who Is She And What Her India Connection ?",
       "url": "https://www.newsx.com/world/from-ahmednagar-to-stockholm-nila-vikhe-patil-elected-to-sweden-parliament-who-is-she-and-whats-her-india-connection-273805/",
@@ -824,66 +1620,6 @@
       "language": "English",
       "sourceCountry": "India",
       "seenAt": "2026-09-20T07:30:00Z",
-      "topic": "general",
-      "categoryConfidence": 35,
-      "categorySignals": []
-    },
-    {
-      "id": "6a38357b7e4958a0fd",
-      "title": "California governor signs 13 bills to protect elections from federal interference",
-      "url": "https://www.prokerala.com/news/articles/a1814402.html",
-      "domain": "prokerala.com",
-      "scope": "world",
-      "scopeLabel": "Wider World",
-      "language": "English",
-      "sourceCountry": "India",
-      "seenAt": "2026-09-20T07:30:00Z",
-      "topic": "civic",
-      "categoryConfidence": 67,
-      "categorySignals": [
-        "governor"
-      ]
-    },
-    {
-      "id": "64c274c581f12b0af5",
-      "title": "Germany cuts energy tax",
-      "url": "https://bdnews24.com/economy/li9xn43zk9",
-      "domain": "bdnews24.com",
-      "scope": "world",
-      "scopeLabel": "Wider World",
-      "language": "English",
-      "sourceCountry": "Bangladesh",
-      "seenAt": "2026-09-20T07:30:00Z",
-      "topic": "economy",
-      "categoryConfidence": 87,
-      "categorySignals": [
-        "/economy/"
-      ]
-    },
-    {
-      "id": "7abd8be8fe3cf92eb7",
-      "title": "Editor Pick | Developing nations wrongly blamed for emissions : Modi",
-      "url": "https://www.thehindu.com/newsletter/editors-pick-developing-nations-wrongly-blamed-for-emissions-modi/article71485817.ece",
-      "domain": "thehindu.com",
-      "scope": "world",
-      "scopeLabel": "Wider World",
-      "language": "English",
-      "sourceCountry": "India",
-      "seenAt": "2026-09-20T07:30:00Z",
-      "topic": "general",
-      "categoryConfidence": 35,
-      "categorySignals": []
-    },
-    {
-      "id": "722e36029cb88bcf91",
-      "title": "Six French Nationals Face Trial in Iraq Over Alleged Islamic State Links Amid Human Rights Concerns",
-      "url": "https://gulfnews.com/world/europe/six-french-nationals-to-face-trial-in-iraq-over-alleged-is-links-1.500681023",
-      "domain": "gulfnews.com",
-      "scope": "us",
-      "scopeLabel": "United States",
-      "language": "English",
-      "sourceCountry": "United Arab Emirates",
-      "seenAt": "2026-09-20T07:15:00Z",
       "topic": "general",
       "categoryConfidence": 35,
       "categorySignals": []
@@ -904,152 +1640,6 @@
         "/economy/",
         "/finance/"
       ]
-    },
-    {
-      "id": "aceb21d62b14bd5b34",
-      "title": "The fantasy house of Mark Carney | VICTOR DAVIS HANSON | Victor Davis Hanson | Opinion",
-      "url": "https://www.reviewjournal.com/opinion/opinion-columns/victor-davis-hanson/victor-davis-hanson-the-fantasy-house-of-mark-carney-3888637/",
-      "domain": "reviewjournal.com",
-      "scope": "us",
-      "scopeLabel": "United States",
-      "language": "English",
-      "sourceCountry": "United States",
-      "seenAt": "2026-09-20T06:45:00Z",
-      "topic": "general",
-      "categoryConfidence": 35,
-      "categorySignals": []
-    },
-    {
-      "id": "211f23cff15483b303",
-      "title": "Macron says US – Greenland agreement reinforces Denmark sovereignty over the island - Jowhar News Leader",
-      "url": "https://jowhar.com/macron-says-us-greenland-agreement-reinforces-denmarks-sovereignty-over-the-island/",
-      "domain": "jowhar.com",
-      "scope": "us",
-      "scopeLabel": "United States",
-      "language": "English",
-      "sourceCountry": "Somalia",
-      "seenAt": "2026-09-20T06:45:00Z",
-      "topic": "general",
-      "categoryConfidence": 35,
-      "categorySignals": []
-    },
-    {
-      "id": "047e975b87c3a833be",
-      "title": "Macron , Carney hold milestone summit in French archipelago amid shifting alliances",
-      "url": "https://www.thenews.com.pk/latest/1416906-macron-carney-hold-milestone-summit-in-french-archipelago-amid-shifting-alliances",
-      "domain": "thenews.com.pk",
-      "scope": "us",
-      "scopeLabel": "United States",
-      "language": "English",
-      "sourceCountry": "Pakistan",
-      "seenAt": "2026-09-20T06:45:00Z",
-      "topic": "general",
-      "categoryConfidence": 35,
-      "categorySignals": []
-    },
-    {
-      "id": "780eab432f60e38939",
-      "title": "Trump - Xi showdown casts a shadow over the global economy",
-      "url": "https://www.moneycontrol.com/world/trump-xi-showdown-casts-a-shadow-over-the-global-economy-article-14033662.html",
-      "domain": "moneycontrol.com",
-      "scope": "world",
-      "scopeLabel": "Wider World",
-      "language": "English",
-      "sourceCountry": "India",
-      "seenAt": "2026-09-20T06:45:00Z",
-      "topic": "economy",
-      "categoryConfidence": 67,
-      "categorySignals": [
-        "economy"
-      ]
-    },
-    {
-      "id": "1460e5276163af72e1",
-      "title": "Why Australia wants a seat at the UN most powerful table",
-      "url": "https://www.sbs.com.au/news/article/why-australia-wants-a-seat-at-un-security-council/zm0hde02b",
-      "domain": "sbs.com.au",
-      "scope": "world",
-      "scopeLabel": "Wider World",
-      "language": "English",
-      "sourceCountry": "Australia",
-      "seenAt": "2026-09-20T06:45:00Z",
-      "topic": "general",
-      "categoryConfidence": 35,
-      "categorySignals": []
-    },
-    {
-      "id": "c8d2c498fa5df64b39",
-      "title": "Germany votes in 2 state elections : Why Chancellor Friedrich Merz faces fresh pressure",
-      "url": "https://www.moneycontrol.com/world/germany-votes-in-2-state-elections-why-chancellor-friedrich-merz-faces-fresh-pressure-article-14033748.html",
-      "domain": "moneycontrol.com",
-      "scope": "world",
-      "scopeLabel": "Wider World",
-      "language": "English",
-      "sourceCountry": "India",
-      "seenAt": "2026-09-20T06:45:00Z",
-      "topic": "general",
-      "categoryConfidence": 35,
-      "categorySignals": []
-    },
-    {
-      "id": "599b8f0a4ece6738c3",
-      "title": "Zambanini Tops the Charts as First Flight Comes to a Close",
-      "url": "https://www.pokernews.com/tours/borgata-poker/2026-borgata-big-big-series/5300-betmgm-poker-big-big-championship/chips.862928.htm",
-      "domain": "pokernews.com",
-      "scope": "us",
-      "scopeLabel": "United States",
-      "language": "English",
-      "sourceCountry": "United States",
-      "seenAt": "2026-09-20T06:30:00Z",
-      "topic": "general",
-      "categoryConfidence": 35,
-      "categorySignals": []
-    },
-    {
-      "id": "25267613a25c66d20d",
-      "title": "Environment paradox",
-      "url": "https://tribune.com.pk/story/2630233/environment-paradox",
-      "domain": "tribune.com.pk",
-      "scope": "world",
-      "scopeLabel": "Wider World",
-      "language": "English",
-      "sourceCountry": "Pakistan",
-      "seenAt": "2026-09-20T06:30:00Z",
-      "topic": "environment",
-      "categoryConfidence": 67,
-      "categorySignals": [
-        "environment"
-      ]
-    },
-    {
-      "id": "cc7082ff5476aa6d0d",
-      "title": "Plug Power vs . Bloom Energy : Which Hydrogen - Adjacent Stock Actually Has a Real Business Model ?",
-      "url": "https://www.fool.com/investing/2026/09/20/plug-power-vs-bloom-energy-which-hydrogen-adjacent/",
-      "domain": "fool.com",
-      "scope": "world",
-      "scopeLabel": "Wider World",
-      "language": "English",
-      "sourceCountry": "United States",
-      "seenAt": "2026-09-20T06:30:00Z",
-      "topic": "economy",
-      "categoryConfidence": 63,
-      "categorySignals": [
-        "business"
-      ]
-    },
-    {
-      "id": "65ecadbe7c3afb4778",
-      "title": "Macron , Carney to meet in French Atlantic archipelago",
-      "url": "https://www.illawarramercury.com.au/story/9353758/macron-carney-to-meet-in-french-atlantic-archipelago/",
-      "domain": "illawarramercury.com.au",
-      "scope": "us",
-      "scopeLabel": "United States",
-      "language": "English",
-      "sourceCountry": "Australia",
-      "seenAt": "2026-09-20T06:15:00Z",
-      "topic": "general",
-      "categoryConfidence": 35,
-      "categorySignals": []
     },
     {
       "id": "3a7d8fb8b43b23ebd6",
@@ -1099,64 +1689,6 @@
       ]
     },
     {
-      "id": "c564690bd3b816fdd5",
-      "title": "President Trump announces Greenland deal giving U . S .  permanent  strategic control – World Tribune : U . S . Politics and Culture , Geostrategy , China , North Korea , Corporate Watch , Media Watch",
-      "url": "https://worldtribune.com/president-trump-announces-greenland-deal-giving-u-s-permanent-strategic-control/",
-      "domain": "worldtribune.com",
-      "scope": "us",
-      "scopeLabel": "United States",
-      "language": "English",
-      "sourceCountry": "United States",
-      "seenAt": "2026-09-20T05:00:00Z",
-      "topic": "general",
-      "categoryConfidence": 35,
-      "categorySignals": []
-    },
-    {
-      "id": "7e7017d7ca2badf265",
-      "title": "Former united states Swimming CFO Cory Hilliard Admitted to Embezzlement Four Months Before Starting At united states Swimming",
-      "url": "https://swimswam.com/former-usa-swimming-cfo-cory-hilliard-admitted-to-embezzlement-four-months-before-starting-at-usa-swimming/",
-      "domain": "swimswam.com",
-      "scope": "us",
-      "scopeLabel": "United States",
-      "language": "English",
-      "sourceCountry": "United States",
-      "seenAt": "2026-09-20T05:00:00Z",
-      "topic": "general",
-      "categoryConfidence": 35,
-      "categorySignals": []
-    },
-    {
-      "id": "04ddd059d0fc4d01a5",
-      "title": "Macron , Carney to meet in French Atlantic archipelago",
-      "url": "https://www.perthnow.com.au/news/politics/macron-carney-to-meet-in-french-atlantic-archipelago-c-22897754",
-      "domain": "perthnow.com.au",
-      "scope": "us",
-      "scopeLabel": "United States",
-      "language": "English",
-      "sourceCountry": "Australia",
-      "seenAt": "2026-09-20T05:00:00Z",
-      "topic": "civic",
-      "categoryConfidence": 91,
-      "categorySignals": [
-        "/politics/"
-      ]
-    },
-    {
-      "id": "bd716821c9946f2136",
-      "title": "Danes mock Donald Trump for  status quo  Greenland deal",
-      "url": "https://www.nzherald.co.nz/world/danes-mock-donald-trump-for-status-quo-greenland-deal/4CHEA5KCRZBLNCWAGO5UPYR4BY/",
-      "domain": "nzherald.co.nz",
-      "scope": "us",
-      "scopeLabel": "United States",
-      "language": "English",
-      "sourceCountry": "New Zealand",
-      "seenAt": "2026-09-20T05:00:00Z",
-      "topic": "general",
-      "categoryConfidence": 35,
-      "categorySignals": []
-    },
-    {
       "id": "4ff960dfaa8e797e2b",
       "title": "DUO POWER BOOST : Clivet Debuts Next - Gen Magnetic Levitation Technology and AI Cooling Portfolio at AI Infra Summit 2026",
       "url": "http://www.prnewswire.com/news-releases/duo-power-boost-clivet-debuts-next-gen-magnetic-levitation-technology-and-ai-cooling-portfolio-at-ai-infra-summit-2026-302883902.html",
@@ -1171,391 +1703,6 @@
       "categorySignals": [
         "technology"
       ]
-    },
-    {
-      "id": "37cf47769691f064a6",
-      "title": "Govt targets teaching transformation – DailyNews",
-      "url": "https://dailynews.co.zw/govt-targets-teaching-transformation/",
-      "domain": "dailynews.co.zw",
-      "scope": "world",
-      "scopeLabel": "Wider World",
-      "language": "English",
-      "sourceCountry": "Zimbabwe",
-      "seenAt": "2026-09-20T05:00:00Z",
-      "topic": "general",
-      "categoryConfidence": 35,
-      "categorySignals": []
-    },
-    {
-      "id": "0ee266b176b2a418c9",
-      "title": "Trump says he plans to form  AI Force , appoint AI  Czar",
-      "url": "https://www.siasat.com/trump-says-he-plans-to-form-ai-force-appoint-ai-czar-3545026/",
-      "domain": "siasat.com",
-      "scope": "us",
-      "scopeLabel": "United States",
-      "language": "English",
-      "sourceCountry": "India",
-      "seenAt": "2026-09-20T04:45:00Z",
-      "topic": "general",
-      "categoryConfidence": 35,
-      "categorySignals": []
-    },
-    {
-      "id": "186453f5a3453ef527",
-      "title": "The Apocalyptic Game : Panic And Opportunity",
-      "url": "https://www.zerohedge.com/ai/apocalyptic-game-panic-and-opportunity",
-      "domain": "zerohedge.com",
-      "scope": "world",
-      "scopeLabel": "Wider World",
-      "language": "English",
-      "sourceCountry": "United States",
-      "seenAt": "2026-09-20T04:45:00Z",
-      "topic": "general",
-      "categoryConfidence": 35,
-      "categorySignals": []
-    },
-    {
-      "id": "aed157cc7a1dd88cbc",
-      "title": "What Does The Yellow Gear Symbol On Your Google Nest Thermostat Mean ?",
-      "url": "https://www.bgr.com/2257965/what-is-yellow-gear-symbol-google-nest-thermostat-explained/",
-      "domain": "bgr.com",
-      "scope": "world",
-      "scopeLabel": "Wider World",
-      "language": "English",
-      "sourceCountry": "United States",
-      "seenAt": "2026-09-20T04:45:00Z",
-      "topic": "general",
-      "categoryConfidence": 35,
-      "categorySignals": []
-    },
-    {
-      "id": "c05a838f9344cf3bf9",
-      "title": "From Long Beach to Santa Monica , volunteers showed up for 42nd annual California Coastal Cleanup Day",
-      "url": "https://www.presstelegram.com/2026/09/19/from-long-beach-to-santa-monica-volunteers-showed-up-for-42nd-annual-california-coastal-cleanup-day/",
-      "domain": "presstelegram.com",
-      "scope": "us",
-      "scopeLabel": "United States",
-      "language": "English",
-      "sourceCountry": "United States",
-      "seenAt": "2026-09-20T04:30:00Z",
-      "topic": "general",
-      "categoryConfidence": 35,
-      "categorySignals": []
-    },
-    {
-      "id": "24f490c2819caf7520",
-      "title": "DUO POWER BOOST : Clivet Debuts Next - Gen Magnetic Levitation Technology and AI Cooling Portfolio at AI Infra Summit 2026",
-      "url": "https://www.prnewswire.com/news-releases/duo-power-boost-clivet-debuts-next-gen-magnetic-levitation-technology-and-ai-cooling-portfolio-at-ai-infra-summit-2026-302883902.html",
-      "domain": "prnewswire.com",
-      "scope": "world",
-      "scopeLabel": "Wider World",
-      "language": "English",
-      "sourceCountry": "United States",
-      "seenAt": "2026-09-20T04:30:00Z",
-      "topic": "technology",
-      "categoryConfidence": 67,
-      "categorySignals": [
-        "technology"
-      ]
-    },
-    {
-      "id": "023743aed92bf09c1c",
-      "title": "World is still grappling with how to better prepare for next pandemic six years after COVID - 19 - Shafaqna English",
-      "url": "https://en.shafaqna.com/477804/world-is-still-grappling-with-how-to-better-prepare-for-next-pandemic-six-years-after-covid-19/",
-      "domain": "en.shafaqna.com",
-      "scope": "world",
-      "scopeLabel": "Wider World",
-      "language": "English",
-      "sourceCountry": "Saudi Arabia",
-      "seenAt": "2026-09-20T04:30:00Z",
-      "topic": "general",
-      "categoryConfidence": 35,
-      "categorySignals": []
-    },
-    {
-      "id": "d6058724ae7a1f59c1",
-      "title": "Faulty , political and ridiculous decisions : Trump hits out at US Supreme Court over tariffs , birthright citizenship",
-      "url": "https://aninews.in/news/world/us/faulty-political-and-ridiculous-decisions-trump-hits-out-at-us-supreme-court-over-tariffs-birthright-citizenship20260920045904/",
-      "domain": "aninews.in",
-      "scope": "us",
-      "scopeLabel": "United States",
-      "language": "English",
-      "sourceCountry": "India",
-      "seenAt": "2026-09-20T03:15:00Z",
-      "topic": "civic",
-      "categoryConfidence": 91,
-      "categorySignals": [
-        "supreme court",
-        "court"
-      ]
-    },
-    {
-      "id": "a4ca03e63d619d7e90",
-      "title": "House China Committee Chairman Urges Trump to Take Tough Line With Xi",
-      "url": "https://www.theepochtimes.com/us/house-china-committee-chairman-urges-trump-to-take-tough-line-with-xi-6091043",
-      "domain": "theepochtimes.com",
-      "scope": "us",
-      "scopeLabel": "United States",
-      "language": "English",
-      "sourceCountry": "United States",
-      "seenAt": "2026-09-20T03:15:00Z",
-      "topic": "general",
-      "categoryConfidence": 35,
-      "categorySignals": []
-    },
-    {
-      "id": "db11922f0f1fe580ea",
-      "title": "Sad chapter : Trump slams US Supreme Court over tariff , birthright citizenship rulings",
-      "url": "https://timesofindia.indiatimes.com/weather/us/sad-chapter-trump-slams-us-supreme-court-over-tariff-birthright-citizenship-rulings/articleshow/134362790.cms",
-      "domain": "timesofindia.indiatimes.com",
-      "scope": "us",
-      "scopeLabel": "United States",
-      "language": "English",
-      "sourceCountry": "India",
-      "seenAt": "2026-09-20T03:00:00Z",
-      "topic": "environment",
-      "categoryConfidence": 79,
-      "categorySignals": [
-        "/weather/"
-      ]
-    },
-    {
-      "id": "f125b4a02e5c302540",
-      "title": "Sad chapter : Trump slams US Supreme Court over tariff , birthright citizenship rulings",
-      "url": "https://timesofindia.indiatimes.com/world/us/sad-chapter-trump-slams-us-supreme-court-over-tariff-birthright-citizenship-rulings/articleshow/134362790.cms",
-      "domain": "timesofindia.indiatimes.com",
-      "scope": "us",
-      "scopeLabel": "United States",
-      "language": "English",
-      "sourceCountry": "India",
-      "seenAt": "2026-09-20T03:00:00Z",
-      "topic": "civic",
-      "categoryConfidence": 87,
-      "categorySignals": [
-        "supreme court",
-        "court"
-      ]
-    },
-    {
-      "id": "094738b1aabf82ffa7",
-      "title": "Trump says he plans to form  AI Force , appoint AI  Czar",
-      "url": "https://www.prokerala.com/news/articles/a1814360.html",
-      "domain": "prokerala.com",
-      "scope": "us",
-      "scopeLabel": "United States",
-      "language": "English",
-      "sourceCountry": "India",
-      "seenAt": "2026-09-20T03:00:00Z",
-      "topic": "general",
-      "categoryConfidence": 35,
-      "categorySignals": []
-    },
-    {
-      "id": "dc4d876eb6833129cf",
-      "title": "Iran decision on NPT withdrawal depends on US behavior , top security official says",
-      "url": "https://www.prokerala.com/news/articles/a1814357.html",
-      "domain": "prokerala.com",
-      "scope": "us",
-      "scopeLabel": "United States",
-      "language": "English",
-      "sourceCountry": "India",
-      "seenAt": "2026-09-20T03:00:00Z",
-      "topic": "general",
-      "categoryConfidence": 35,
-      "categorySignals": []
-    },
-    {
-      "id": "9e36bc267816ede26d",
-      "title": "Quebec party leaders turn attention to fracking on Day 24 of election campaign",
-      "url": "https://www.cbc.ca/news/canada/montreal/quebec-election-fracking-shale-gas-9.7351159",
-      "domain": "cbc.ca",
-      "scope": "world",
-      "scopeLabel": "Wider World",
-      "language": "English",
-      "sourceCountry": "Canada",
-      "seenAt": "2026-09-20T03:00:00Z",
-      "topic": "civic",
-      "categoryConfidence": 79,
-      "categorySignals": [
-        "election",
-        "campaign"
-      ]
-    },
-    {
-      "id": "5828a06b72ee001506",
-      "title": "Economist warns Fed , Warsh on track for big surprise",
-      "url": "https://www.aol.com/articles/economist-warns-fed-warsh-track-223700000.html",
-      "domain": "aol.com",
-      "scope": "world",
-      "scopeLabel": "Wider World",
-      "language": "English",
-      "sourceCountry": "United States",
-      "seenAt": "2026-09-20T03:00:00Z",
-      "topic": "general",
-      "categoryConfidence": 35,
-      "categorySignals": []
-    },
-    {
-      "id": "a8a60ae4e450ba9c18",
-      "title": "What Does Trump Want With Greenland ?",
-      "url": "https://www.courant.com/2026/09/19/what-does-trump-want-with-greenland/",
-      "domain": "courant.com",
-      "scope": "us",
-      "scopeLabel": "United States",
-      "language": "English",
-      "sourceCountry": "United States",
-      "seenAt": "2026-09-20T02:30:00Z",
-      "topic": "general",
-      "categoryConfidence": 35,
-      "categorySignals": []
-    },
-    {
-      "id": "abf86b2988a90bf7f3",
-      "title": "World News : US deal wont compromise sovereignty say Greenland and Denmark",
-      "url": "https://www.gdnonline.com/Details/1407045",
-      "domain": "gdnonline.com",
-      "scope": "us",
-      "scopeLabel": "United States",
-      "language": "English",
-      "sourceCountry": "United States",
-      "seenAt": "2026-09-20T02:30:00Z",
-      "topic": "general",
-      "categoryConfidence": 35,
-      "categorySignals": []
-    },
-    {
-      "id": "cfeaba7cef2f98a4dc",
-      "title": "Faulty , political and ridiculous decision : Trump hits out at US Supreme Court over tariffs , birthright citizenship",
-      "url": "https://economictimes.indiatimes.com/news/international/world-news/faulty-political-and-ridiculous-decisions-trump-hits-out-at-us-supreme-court-over-tariffs-birthright-citizenship/articleshow/134362724.cms",
-      "domain": "economictimes.indiatimes.com",
-      "scope": "us",
-      "scopeLabel": "United States",
-      "language": "English",
-      "sourceCountry": "India",
-      "seenAt": "2026-09-20T02:30:00Z",
-      "topic": "civic",
-      "categoryConfidence": 91,
-      "categorySignals": [
-        "supreme court",
-        "court"
-      ]
-    },
-    {
-      "id": "e109782a62770837d0",
-      "title": "Faulty , political and ridiculous decisions : Trump hits out at US Supreme Court over tariffs , birthright citizenship",
-      "url": "https://news.webindia123.com/news/Articles/World/20260920/4500880.html",
-      "domain": "news.webindia123.com",
-      "scope": "us",
-      "scopeLabel": "United States",
-      "language": "English",
-      "sourceCountry": "India",
-      "seenAt": "2026-09-20T02:30:00Z",
-      "topic": "civic",
-      "categoryConfidence": 91,
-      "categorySignals": [
-        "supreme court",
-        "court"
-      ]
-    },
-    {
-      "id": "3a916b52ea313d8cb3",
-      "title": "Trump Denmark , Greenland pact blocks China and Russia bases",
-      "url": "https://nypost.com/2026/09/19/world-news/trumps-denmark-greenland-pact-blocks-china-and-russias-bases/",
-      "domain": "nypost.com",
-      "scope": "us",
-      "scopeLabel": "United States",
-      "language": "English",
-      "sourceCountry": "United States",
-      "seenAt": "2026-09-20T00:15:00Z",
-      "topic": "general",
-      "categoryConfidence": 35,
-      "categorySignals": []
-    },
-    {
-      "id": "0b5530ac0adbcd3511",
-      "title": "World News : US deal wont compromise sovereignty say Greenland and Denmark",
-      "url": "https://www.gdnonline.com/Details/1407045/US-deal-won%E2%80%99t-compromise-sovereignty-say-Greenland-and-Denmark",
-      "domain": "gdnonline.com",
-      "scope": "us",
-      "scopeLabel": "United States",
-      "language": "English",
-      "sourceCountry": "United States",
-      "seenAt": "2026-09-20T00:15:00Z",
-      "topic": "general",
-      "categoryConfidence": 35,
-      "categorySignals": []
-    },
-    {
-      "id": "81dd2ac77c7a40d1a8",
-      "title": "Diplomatic support sought to boost B2B connectivity",
-      "url": "https://tribune.com.pk/story/2630251/diplomatic-support-sought-to-boost-b2b-connectivity",
-      "domain": "tribune.com.pk",
-      "scope": "world",
-      "scopeLabel": "Wider World",
-      "language": "English",
-      "sourceCountry": "Pakistan",
-      "seenAt": "2026-09-20T00:15:00Z",
-      "topic": "general",
-      "categoryConfidence": 35,
-      "categorySignals": []
-    },
-    {
-      "id": "904010d04a3d8435df",
-      "title": "No make life unbearable and distribute bags of rice  – Atiku tell Tinubu – Information Nigeria Pidgin",
-      "url": "https://pidgin.informationng.com/?p=35963",
-      "domain": "pidgin.informationng.com",
-      "scope": "world",
-      "scopeLabel": "Wider World",
-      "language": "English",
-      "sourceCountry": "Nigeria",
-      "seenAt": "2026-09-20T00:15:00Z",
-      "topic": "general",
-      "categoryConfidence": 35,
-      "categorySignals": []
-    },
-    {
-      "id": "99246205bd2433a0ce",
-      "title": "Hurricanes Are A Thing Of The Past",
-      "url": "https://hotair.com/headlines/2026/09/19/hurricanes-are-a-thing-of-the-past-n3819122",
-      "domain": "hotair.com",
-      "scope": "world",
-      "scopeLabel": "Wider World",
-      "language": "English",
-      "sourceCountry": "United States",
-      "seenAt": "2026-09-20T00:15:00Z",
-      "topic": "general",
-      "categoryConfidence": 35,
-      "categorySignals": []
-    },
-    {
-      "id": "16921bcbadb9b28553",
-      "title": "Auto Industry Urges Trump to Block Chinese Automakers From US Market",
-      "url": "https://www.theepochtimes.com/us/auto-industry-urges-trump-to-block-chinese-automakers-from-us-market-6090999",
-      "domain": "theepochtimes.com",
-      "scope": "us",
-      "scopeLabel": "United States",
-      "language": "English",
-      "sourceCountry": "United States",
-      "seenAt": "2026-09-20T00:00:00Z",
-      "topic": "economy",
-      "categoryConfidence": 67,
-      "categorySignals": [
-        "market"
-      ]
-    },
-    {
-      "id": "1bcf61503d491ca1dc",
-      "title": "Ed Miliband  reliance on Beijing will come at huge cost to our national security : IAN WILLIAMS",
-      "url": "https://www.dailymail.com/debate/article-16145189/Miliband-reliance-Beijing-huge-cost-national-security-IAN-WILLIAMS.html",
-      "domain": "dailymail.com",
-      "scope": "world",
-      "scopeLabel": "Wider World",
-      "language": "English",
-      "sourceCountry": "United States",
-      "seenAt": "2026-09-20T00:00:00Z",
-      "topic": "general",
-      "categoryConfidence": 35,
-      "categorySignals": []
     }
   ]
 }

@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "description": "Public source metadata used by Wider Angle Scout. Quality tiers describe editorial/source handling, not political viewpoint.",
+  "defaults": {
+    "tier": "standard",
+    "enabled": true,
+    "weight": 1
+  },
+  "sources": {
+    "apnews.com": { "name": "Associated Press", "tier": "primary-news", "weight": 1.2 },
+    "reuters.com": { "name": "Reuters", "tier": "primary-news", "weight": 1.2 },
+    "bbc.com": { "name": "BBC", "tier": "established", "weight": 1.1 },
+    "bbc.co.uk": { "name": "BBC", "tier": "established", "weight": 1.1 },
+    "npr.org": { "name": "NPR", "tier": "established", "weight": 1.1 },
+    "texastribune.org": { "name": "The Texas Tribune", "tier": "established", "weight": 1.1 },
+    "ksat.com": { "name": "KSAT", "tier": "local", "weight": 1.05 },
+    "expressnews.com": { "name": "San Antonio Express-News", "tier": "local", "weight": 1.05 }
+  },
+  "blockedDomains": [],
+  "junkTitlePatterns": [
+    "sponsored content",
+    "press release",
+    "coupon code",
+    "best deals",
+    "buy now",
+    "shopping guide"
+  ]
+}

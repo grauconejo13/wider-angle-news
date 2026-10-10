@@ -7,8 +7,10 @@
     "world"
   ],
   "warnings": [
-    "The operation was aborted due to timeout",
-    "Texas: GDELT returned HTTP 429"
+    "San Antonio: GDELT returned HTTP 429",
+    "Texas: GDELT returned HTTP 429",
+    "United States: GDELT returned HTTP 429",
+    "Wider World: GDELT returned HTTP 429"
   ],
   "clustering": {
     "method": "headline-token-similarity",

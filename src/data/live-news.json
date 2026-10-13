@@ -7,10 +7,10 @@
     "world"
   ],
   "warnings": [
-    "fetch failed",
-    "fetch failed",
-    "fetch failed",
-    "fetch failed"
+    "San Antonio: GDELT returned HTTP 429",
+    "Texas: GDELT returned HTTP 429",
+    "United States: GDELT returned HTTP 429",
+    "Wider World: GDELT returned HTTP 429"
   ],
   "clustering": {
     "method": "headline-token-similarity",
@@ -40,7 +40,13 @@
           "seenAt": "2026-10-10T06:45:00Z",
           "topic": "general",
           "categoryConfidence": 35,
-          "categorySignals": []
+          "categorySignals": [],
+          "sourceName": "wsfcam.iheart.com",
+          "sourceTier": "standard",
+          "sourceWeight": 1,
+          "qualityScore": 60,
+          "qualityStatus": "accepted",
+          "qualityReasons": []
         },
         {
           "id": "2d00a84d14579417ef",
@@ -54,7 +60,13 @@
           "seenAt": "2026-10-10T06:45:00Z",
           "topic": "general",
           "categoryConfidence": 35,
-          "categorySignals": []
+          "categorySignals": [],
+          "sourceName": "woc1420.iheart.com",
+          "sourceTier": "standard",
+          "sourceWeight": 1,
+          "qualityScore": 60,
+          "qualityStatus": "accepted",
+          "qualityReasons": []
         },
         {
           "id": "d9ac34703ee3487424",
@@ -68,7 +80,13 @@
           "seenAt": "2026-10-10T06:45:00Z",
           "topic": "general",
           "categoryConfidence": 35,
-          "categorySignals": []
+          "categorySignals": [],
+          "sourceName": "kogo.iheart.com",
+          "sourceTier": "standard",
+          "sourceWeight": 1,
+          "qualityScore": 60,
+          "qualityStatus": "accepted",
+          "qualityReasons": []
         },
         {
           "id": "083e502af4d87f4b42",
@@ -82,9 +100,16 @@
           "seenAt": "2026-10-10T06:45:00Z",
           "topic": "general",
           "categoryConfidence": 35,
-          "categorySignals": []
+          "categorySignals": [],
+          "sourceName": "kfbk.iheart.com",
+          "sourceTier": "standard",
+          "sourceWeight": 1,
+          "qualityScore": 60,
+          "qualityStatus": "accepted",
+          "qualityReasons": []
         }
-      ]
+      ],
+      "sourceQualityAverage": 60
     },
     {
       "id": "2a36e68e95c10ce35f",
@@ -110,7 +135,13 @@
           "categoryConfidence": 67,
           "categorySignals": [
             "election"
-          ]
+          ],
+          "sourceName": "newsday.com",
+          "sourceTier": "standard",
+          "sourceWeight": 1,
+          "qualityScore": 60,
+          "qualityStatus": "accepted",
+          "qualityReasons": []
         },
         {
           "id": "01108bf5ad66ad205b",
@@ -126,7 +157,13 @@
           "categoryConfidence": 67,
           "categorySignals": [
             "election"
-          ]
+          ],
+          "sourceName": "isp.netscape.com",
+          "sourceTier": "standard",
+          "sourceWeight": 1,
+          "qualityScore": 60,
+          "qualityStatus": "accepted",
+          "qualityReasons": []
         },
         {
           "id": "fcf97de504e35b6099",
@@ -142,9 +179,16 @@
           "categoryConfidence": 67,
           "categorySignals": [
             "election"
-          ]
+          ],
+          "sourceName": "wboc.com",
+          "sourceTier": "standard",
+          "sourceWeight": 1,
+          "qualityScore": 60,
+          "qualityStatus": "accepted",
+          "qualityReasons": []
         }
-      ]
+      ],
+      "sourceQualityAverage": 60
     },
     {
       "id": "f9d407d878c3992c7e",
@@ -168,7 +212,13 @@
           "seenAt": "2026-10-10T06:45:00Z",
           "topic": "general",
           "categoryConfidence": 35,
-          "categorySignals": []
+          "categorySignals": [],
+          "sourceName": "rediff.com",
+          "sourceTier": "standard",
+          "sourceWeight": 1,
+          "qualityScore": 60,
+          "qualityStatus": "accepted",
+          "qualityReasons": []
         },
         {
           "id": "ef50821f6e4417efde",
@@ -182,7 +232,13 @@
           "seenAt": "2026-10-10T06:45:00Z",
           "topic": "general",
           "categoryConfidence": 35,
-          "categorySignals": []
+          "categorySignals": [],
+          "sourceName": "economictimes.indiatimes.com",
+          "sourceTier": "standard",
+          "sourceWeight": 1,
+          "qualityScore": 60,
+          "qualityStatus": "accepted",
+          "qualityReasons": []
         },
         {
           "id": "2d435ecb5be9e5e2de",
@@ -196,9 +252,16 @@
           "seenAt": "2026-10-10T06:45:00Z",
           "topic": "general",
           "categoryConfidence": 35,
-          "categorySignals": []
+          "categorySignals": [],
+          "sourceName": "oneindia.com",
+          "sourceTier": "standard",
+          "sourceWeight": 1,
+          "qualityScore": 60,
+          "qualityStatus": "accepted",
+          "qualityReasons": []
         }
-      ]
+      ],
+      "sourceQualityAverage": 60
     },
     {
       "id": "8b6e2eb8456b0ea95b",
@@ -222,7 +285,13 @@
           "seenAt": "2026-10-10T06:45:00Z",
           "topic": "general",
           "categoryConfidence": 35,
-          "categorySignals": []
+          "categorySignals": [],
+          "sourceName": "jpost.com",
+          "sourceTier": "standard",
+          "sourceWeight": 1,
+          "qualityScore": 60,
+          "qualityStatus": "accepted",
+          "qualityReasons": []
         },
         {
           "id": "db80340c8f404256fb",
@@ -236,9 +305,16 @@
           "seenAt": "2026-10-10T06:45:00Z",
           "topic": "general",
           "categoryConfidence": 35,
-          "categorySignals": []
+          "categorySignals": [],
+          "sourceName": "pakistantelegraph.com",
+          "sourceTier": "standard",
+          "sourceWeight": 1,
+          "qualityScore": 60,
+          "qualityStatus": "accepted",
+          "qualityReasons": []
         }
-      ]
+      ],
+      "sourceQualityAverage": 60
     },
     {
       "id": "adac71b014458cab56",
@@ -262,7 +338,13 @@
           "seenAt": "2026-10-10T06:45:00Z",
           "topic": "general",
           "categoryConfidence": 35,
-          "categorySignals": []
+          "categorySignals": [],
+          "sourceName": "95ksj.iheart.com",
+          "sourceTier": "standard",
+          "sourceWeight": 1,
+          "qualityScore": 60,
+          "qualityStatus": "accepted",
+          "qualityReasons": []
         },
         {
           "id": "1b2079f801a9cc6eac",
@@ -276,9 +358,16 @@
           "seenAt": "2026-10-10T06:45:00Z",
           "topic": "general",
           "categoryConfidence": 35,
-          "categorySignals": []
+          "categorySignals": [],
+          "sourceName": "1043hallelujahfm.iheart.com",
+          "sourceTier": "standard",
+          "sourceWeight": 1,
+          "qualityScore": 60,
+          "qualityStatus": "accepted",
+          "qualityReasons": []
         }
-      ]
+      ],
+      "sourceQualityAverage": 60
     },
     {
       "id": "ff490f513640a2fcdf",
@@ -304,7 +393,13 @@
           "categoryConfidence": 67,
           "categorySignals": [
             "finance"
-          ]
+          ],
+          "sourceName": "argentinastar.com",
+          "sourceTier": "standard",
+          "sourceWeight": 1,
+          "qualityScore": 60,
+          "qualityStatus": "accepted",
+          "qualityReasons": []
         },
         {
           "id": "a2c6c59eaa592ba9fb",
@@ -320,9 +415,16 @@
           "categoryConfidence": 67,
           "categorySignals": [
             "finance"
-          ]
+          ],
+          "sourceName": "pakistantelegraph.com",
+          "sourceTier": "standard",
+          "sourceWeight": 1,
+          "qualityScore": 60,
+          "qualityStatus": "accepted",
+          "qualityReasons": []
         }
-      ]
+      ],
+      "sourceQualityAverage": 60
     },
     {
       "id": "b42ec6a9e7a2baa762",
@@ -348,7 +450,13 @@
           "categoryConfidence": 67,
           "categorySignals": [
             "police"
-          ]
+          ],
+          "sourceName": "oneindia.com",
+          "sourceTier": "standard",
+          "sourceWeight": 1,
+          "qualityScore": 60,
+          "qualityStatus": "accepted",
+          "qualityReasons": []
         },
         {
           "id": "11462e19e376af1692",
@@ -364,9 +472,16 @@
           "categoryConfidence": 67,
           "categorySignals": [
             "police"
-          ]
+          ],
+          "sourceName": "thehindubusinessline.com",
+          "sourceTier": "standard",
+          "sourceWeight": 1,
+          "qualityScore": 60,
+          "qualityStatus": "accepted",
+          "qualityReasons": []
         }
-      ]
+      ],
+      "sourceQualityAverage": 60
     }
   ],
   "articles": [
@@ -382,7 +497,13 @@
       "seenAt": "2026-10-10T06:45:00Z",
       "topic": "general",
       "categoryConfidence": 35,
-      "categorySignals": []
+      "categorySignals": [],
+      "sourceName": "asiaone.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "47067c38c870113b0d",
@@ -396,7 +517,13 @@
       "seenAt": "2026-10-10T06:45:00Z",
       "topic": "general",
       "categoryConfidence": 35,
-      "categorySignals": []
+      "categorySignals": [],
+      "sourceName": "timesofoman.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "5867c218187d9eae7c",
@@ -410,7 +537,13 @@
       "seenAt": "2026-10-10T06:45:00Z",
       "topic": "general",
       "categoryConfidence": 35,
-      "categorySignals": []
+      "categorySignals": [],
+      "sourceName": "en.shafaqna.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "1e9c875ba6c6a71a58",
@@ -424,7 +557,13 @@
       "seenAt": "2026-10-10T06:45:00Z",
       "topic": "general",
       "categoryConfidence": 35,
-      "categorySignals": []
+      "categorySignals": [],
+      "sourceName": "jpost.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "9663d566e1cef33d8a",
@@ -438,7 +577,13 @@
       "seenAt": "2026-10-10T06:45:00Z",
       "topic": "general",
       "categoryConfidence": 35,
-      "categorySignals": []
+      "categorySignals": [],
+      "sourceName": "asiaone.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "0957471dd6895638ea",
@@ -452,7 +597,13 @@
       "seenAt": "2026-10-10T06:45:00Z",
       "topic": "general",
       "categoryConfidence": 35,
-      "categorySignals": []
+      "categorySignals": [],
+      "sourceName": "jowhar.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "b764ae234bbdad08d3",
@@ -466,7 +617,13 @@
       "seenAt": "2026-10-10T06:45:00Z",
       "topic": "general",
       "categoryConfidence": 35,
-      "categorySignals": []
+      "categorySignals": [],
+      "sourceName": "asiaone.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "5e4840c29d929ea907",
@@ -480,7 +637,13 @@
       "seenAt": "2026-10-10T06:45:00Z",
       "topic": "general",
       "categoryConfidence": 35,
-      "categorySignals": []
+      "categorySignals": [],
+      "sourceName": "radio.gov.pk",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "fda6927a4307606635",
@@ -494,7 +657,13 @@
       "seenAt": "2026-10-10T06:45:00Z",
       "topic": "general",
       "categoryConfidence": 35,
-      "categorySignals": []
+      "categorySignals": [],
+      "sourceName": "middleeasteye.net",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "b7ea92bca650d09011",
@@ -510,7 +679,13 @@
       "categoryConfidence": 67,
       "categorySignals": [
         "economic"
-      ]
+      ],
+      "sourceName": "economictimes.indiatimes.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "17bebaa46804e6cacf",
@@ -524,7 +699,13 @@
       "seenAt": "2026-10-10T06:45:00Z",
       "topic": "general",
       "categoryConfidence": 35,
-      "categorySignals": []
+      "categorySignals": [],
+      "sourceName": "asiaone.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "c27a668828483769cf",
@@ -540,7 +721,13 @@
       "categoryConfidence": 67,
       "categorySignals": [
         "flood"
-      ]
+      ],
+      "sourceName": "fox13news.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "adff913ca53e022992",
@@ -554,7 +741,13 @@
       "seenAt": "2026-10-10T06:45:00Z",
       "topic": "general",
       "categoryConfidence": 35,
-      "categorySignals": []
+      "categorySignals": [],
+      "sourceName": "95ksj.iheart.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "1b2079f801a9cc6eac",
@@ -568,7 +761,13 @@
       "seenAt": "2026-10-10T06:45:00Z",
       "topic": "general",
       "categoryConfidence": 35,
-      "categorySignals": []
+      "categorySignals": [],
+      "sourceName": "1043hallelujahfm.iheart.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "6f31f0552efb1633c8",
@@ -582,7 +781,13 @@
       "seenAt": "2026-10-10T06:45:00Z",
       "topic": "general",
       "categoryConfidence": 35,
-      "categorySignals": []
+      "categorySignals": [],
+      "sourceName": "philstar.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "67bd1a406f79501f96",
@@ -596,7 +801,13 @@
       "seenAt": "2026-10-10T06:45:00Z",
       "topic": "general",
       "categoryConfidence": 35,
-      "categorySignals": []
+      "categorySignals": [],
+      "sourceName": "woodlandsonline.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "e25b054dc175711f84",
@@ -610,7 +821,13 @@
       "seenAt": "2026-10-10T06:45:00Z",
       "topic": "general",
       "categoryConfidence": 35,
-      "categorySignals": []
+      "categorySignals": [],
+      "sourceName": "isp.netscape.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "ca190ec39442337559",
@@ -624,7 +841,13 @@
       "seenAt": "2026-10-10T06:45:00Z",
       "topic": "general",
       "categoryConfidence": 35,
-      "categorySignals": []
+      "categorySignals": [],
+      "sourceName": "yakimaherald.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "41b5ef0e09fcf89479",
@@ -638,7 +861,13 @@
       "seenAt": "2026-10-10T06:45:00Z",
       "topic": "general",
       "categoryConfidence": 35,
-      "categorySignals": []
+      "categorySignals": [],
+      "sourceName": "the-star.co.ke",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "8e997c814d5ccae6b6",
@@ -654,7 +883,13 @@
       "categoryConfidence": 79,
       "categorySignals": [
         "white house"
-      ]
+      ],
+      "sourceName": "townhall.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "8923f3e459329bff61",
@@ -670,7 +905,13 @@
       "categoryConfidence": 67,
       "categorySignals": [
         "election"
-      ]
+      ],
+      "sourceName": "economictimes.indiatimes.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "2f36c71451770502bd",
@@ -684,7 +925,13 @@
       "seenAt": "2026-10-10T06:45:00Z",
       "topic": "general",
       "categoryConfidence": 35,
-      "categorySignals": []
+      "categorySignals": [],
+      "sourceName": "japanherald.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "cb2edb286705d27f51",
@@ -698,7 +945,13 @@
       "seenAt": "2026-10-10T06:45:00Z",
       "topic": "general",
       "categoryConfidence": 35,
-      "categorySignals": []
+      "categorySignals": [],
+      "sourceName": "townhall.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "3f8eb3cf1c8797ed35",
@@ -714,7 +967,13 @@
       "categoryConfidence": 67,
       "categorySignals": [
         "court"
-      ]
+      ],
+      "sourceName": "minnpost.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "c4482b685d91dead3f",
@@ -728,7 +987,13 @@
       "seenAt": "2026-10-10T06:45:00Z",
       "topic": "general",
       "categoryConfidence": 35,
-      "categorySignals": []
+      "categorySignals": [],
+      "sourceName": "readingeagle.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "4032b1a43de882ec07",
@@ -742,7 +1007,13 @@
       "seenAt": "2026-10-10T06:45:00Z",
       "topic": "general",
       "categoryConfidence": 35,
-      "categorySignals": []
+      "categorySignals": [],
+      "sourceName": "thecollegefix.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "69f6e32dfd11701651",
@@ -756,7 +1027,13 @@
       "seenAt": "2026-10-10T06:45:00Z",
       "topic": "general",
       "categoryConfidence": 35,
-      "categorySignals": []
+      "categorySignals": [],
+      "sourceName": "oneindia.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "f26ded8278868a4f68",
@@ -772,7 +1049,13 @@
       "categoryConfidence": 67,
       "categorySignals": [
         "vote"
-      ]
+      ],
+      "sourceName": "jpost.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "8cac794a4d356a70a7",
@@ -786,7 +1069,13 @@
       "seenAt": "2026-10-10T06:45:00Z",
       "topic": "general",
       "categoryConfidence": 35,
-      "categorySignals": []
+      "categorySignals": [],
+      "sourceName": "orissapost.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "db80340c8f404256fb",
@@ -800,7 +1089,13 @@
       "seenAt": "2026-10-10T06:45:00Z",
       "topic": "general",
       "categoryConfidence": 35,
-      "categorySignals": []
+      "categorySignals": [],
+      "sourceName": "pakistantelegraph.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "2d93fdbe3c6034ec1e",
@@ -814,7 +1109,13 @@
       "seenAt": "2026-10-10T06:45:00Z",
       "topic": "general",
       "categoryConfidence": 35,
-      "categorySignals": []
+      "categorySignals": [],
+      "sourceName": "salemnews.net",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "ca5cbfca3405b5dbbc",
@@ -828,7 +1129,13 @@
       "seenAt": "2026-10-10T06:45:00Z",
       "topic": "general",
       "categoryConfidence": 35,
-      "categorySignals": []
+      "categorySignals": [],
+      "sourceName": "strategypage.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "e68405fef9f106911f",
@@ -842,7 +1149,13 @@
       "seenAt": "2026-10-10T06:45:00Z",
       "topic": "general",
       "categoryConfidence": 35,
-      "categorySignals": []
+      "categorySignals": [],
+      "sourceName": "argentinastar.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "b1e446e06a73a7e260",
@@ -856,7 +1169,13 @@
       "seenAt": "2026-10-10T06:45:00Z",
       "topic": "general",
       "categoryConfidence": 35,
-      "categorySignals": []
+      "categorySignals": [],
+      "sourceName": "reviewonline.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "e2fc864e5227063e13",
@@ -870,7 +1189,13 @@
       "seenAt": "2026-10-10T06:45:00Z",
       "topic": "general",
       "categoryConfidence": 35,
-      "categorySignals": []
+      "categorySignals": [],
+      "sourceName": "thevermilion.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "feb39c82030635d667",
@@ -886,7 +1211,13 @@
       "categoryConfidence": 67,
       "categorySignals": [
         "heat"
-      ]
+      ],
+      "sourceName": "dailystar.co.uk",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "75ce152b685c65068b",
@@ -900,7 +1231,13 @@
       "seenAt": "2026-10-10T06:45:00Z",
       "topic": "general",
       "categoryConfidence": 35,
-      "categorySignals": []
+      "categorySignals": [],
+      "sourceName": "wsfcam.iheart.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "2d00a84d14579417ef",
@@ -914,7 +1251,13 @@
       "seenAt": "2026-10-10T06:45:00Z",
       "topic": "general",
       "categoryConfidence": 35,
-      "categorySignals": []
+      "categorySignals": [],
+      "sourceName": "woc1420.iheart.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "d9ac34703ee3487424",
@@ -928,7 +1271,13 @@
       "seenAt": "2026-10-10T06:45:00Z",
       "topic": "general",
       "categoryConfidence": 35,
-      "categorySignals": []
+      "categorySignals": [],
+      "sourceName": "kogo.iheart.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "083e502af4d87f4b42",
@@ -942,7 +1291,13 @@
       "seenAt": "2026-10-10T06:45:00Z",
       "topic": "general",
       "categoryConfidence": 35,
-      "categorySignals": []
+      "categorySignals": [],
+      "sourceName": "kfbk.iheart.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "75dfd1350886cda6c4",
@@ -958,7 +1313,13 @@
       "categoryConfidence": 63,
       "categorySignals": [
         "climate"
-      ]
+      ],
+      "sourceName": "newsandsentinel.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "12b185c1cd1f3b0a17",
@@ -972,7 +1333,13 @@
       "seenAt": "2026-10-10T06:45:00Z",
       "topic": "general",
       "categoryConfidence": 35,
-      "categorySignals": []
+      "categorySignals": [],
+      "sourceName": "economictimes.indiatimes.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "d3312b0f1b2900882f",
@@ -988,7 +1355,13 @@
       "categoryConfidence": 87,
       "categorySignals": [
         "/business/"
-      ]
+      ],
+      "sourceName": "the-star.co.ke",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "698f931fb2406a7cfb",
@@ -1004,7 +1377,13 @@
       "categoryConfidence": 67,
       "categorySignals": [
         "finance"
-      ]
+      ],
+      "sourceName": "argentinastar.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "a2c6c59eaa592ba9fb",
@@ -1020,7 +1399,13 @@
       "categoryConfidence": 67,
       "categorySignals": [
         "finance"
-      ]
+      ],
+      "sourceName": "pakistantelegraph.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "9956b402bfe83800ab",
@@ -1037,7 +1422,13 @@
       "categorySignals": [
         "market",
         "/economy/"
-      ]
+      ],
+      "sourceName": "vietnamnews.vn",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "2ccf65cc7786482b24",
@@ -1051,7 +1442,13 @@
       "seenAt": "2026-10-10T06:45:00Z",
       "topic": "general",
       "categoryConfidence": 35,
-      "categorySignals": []
+      "categorySignals": [],
+      "sourceName": "canberratimes.com.au",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "4b29be74350f776e64",
@@ -1067,7 +1464,13 @@
       "categoryConfidence": 87,
       "categorySignals": [
         "/business/"
-      ]
+      ],
+      "sourceName": "perthnow.com.au",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "959d765b1f3a3cc18d",
@@ -1083,7 +1486,13 @@
       "categoryConfidence": 87,
       "categorySignals": [
         "/economy/"
-      ]
+      ],
+      "sourceName": "thehindubusinessline.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "9f75b34bf9e4178b2a",
@@ -1100,7 +1509,13 @@
       "categorySignals": [
         "weather",
         "storm"
-      ]
+      ],
+      "sourceName": "euronews.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "63fffe8b759cf1c12f",
@@ -1116,7 +1531,13 @@
       "categoryConfidence": 67,
       "categorySignals": [
         "government"
-      ]
+      ],
+      "sourceName": "the-star.co.ke",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "2893bc22fd3d691985",
@@ -1132,7 +1553,13 @@
       "categoryConfidence": 67,
       "categorySignals": [
         "climate"
-      ]
+      ],
+      "sourceName": "canberratimes.com.au",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "f140d051dadfaa0ea6",
@@ -1146,7 +1573,13 @@
       "seenAt": "2026-10-10T06:45:00Z",
       "topic": "general",
       "categoryConfidence": 35,
-      "categorySignals": []
+      "categorySignals": [],
+      "sourceName": "standardmedia.co.ke",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "eca04ffd4d0ce2b132",
@@ -1160,7 +1593,13 @@
       "seenAt": "2026-10-10T06:45:00Z",
       "topic": "general",
       "categoryConfidence": 35,
-      "categorySignals": []
+      "categorySignals": [],
+      "sourceName": "jpost.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "a6f6b410c7837212df",
@@ -1176,7 +1615,13 @@
       "categoryConfidence": 67,
       "categorySignals": [
         "business"
-      ]
+      ],
+      "sourceName": "isp.netscape.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "9edd463f825acc9748",
@@ -1190,7 +1635,13 @@
       "seenAt": "2026-10-10T06:45:00Z",
       "topic": "general",
       "categoryConfidence": 35,
-      "categorySignals": []
+      "categorySignals": [],
+      "sourceName": "standardmedia.co.ke",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "58983cddfb17391125",
@@ -1204,7 +1655,13 @@
       "seenAt": "2026-10-10T06:45:00Z",
       "topic": "general",
       "categoryConfidence": 35,
-      "categorySignals": []
+      "categorySignals": [],
+      "sourceName": "timesofindia.indiatimes.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "b5f002ebc0152c45e5",
@@ -1220,7 +1677,13 @@
       "categoryConfidence": 67,
       "categorySignals": [
         "election"
-      ]
+      ],
+      "sourceName": "indiatimes.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "1227f46651aaf32215",
@@ -1236,7 +1699,13 @@
       "categoryConfidence": 67,
       "categorySignals": [
         "election"
-      ]
+      ],
+      "sourceName": "newsday.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "39755ff1910bf187ed",
@@ -1252,7 +1721,13 @@
       "categoryConfidence": 67,
       "categorySignals": [
         "election"
-      ]
+      ],
+      "sourceName": "thecollegefix.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "b976a2630854ae6ed2",
@@ -1269,7 +1744,13 @@
       "categorySignals": [
         "/technology/",
         "/tech/"
-      ]
+      ],
+      "sourceName": "economictimes.indiatimes.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "98bae56bb4aa8e7476",
@@ -1283,7 +1764,13 @@
       "seenAt": "2026-10-10T06:45:00Z",
       "topic": "general",
       "categoryConfidence": 35,
-      "categorySignals": []
+      "categorySignals": [],
+      "sourceName": "rediff.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "b95cd236bc17f2fb41",
@@ -1299,7 +1786,13 @@
       "categoryConfidence": 67,
       "categorySignals": [
         "technology"
-      ]
+      ],
+      "sourceName": "salemnews.net",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "b918fd8bf97bec7dd9",
@@ -1313,7 +1806,13 @@
       "seenAt": "2026-10-10T06:45:00Z",
       "topic": "general",
       "categoryConfidence": 35,
-      "categorySignals": []
+      "categorySignals": [],
+      "sourceName": "oneindia.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "19de23e330afba988c",
@@ -1329,7 +1828,13 @@
       "categoryConfidence": 67,
       "categorySignals": [
         "election"
-      ]
+      ],
+      "sourceName": "asiaone.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "ef50821f6e4417efde",
@@ -1343,7 +1848,13 @@
       "seenAt": "2026-10-10T06:45:00Z",
       "topic": "general",
       "categoryConfidence": 35,
-      "categorySignals": []
+      "categorySignals": [],
+      "sourceName": "economictimes.indiatimes.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "a1b7127f229449aad2",
@@ -1359,7 +1870,13 @@
       "categoryConfidence": 67,
       "categorySignals": [
         "police"
-      ]
+      ],
+      "sourceName": "oneindia.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "2d435ecb5be9e5e2de",
@@ -1373,7 +1890,13 @@
       "seenAt": "2026-10-10T06:45:00Z",
       "topic": "general",
       "categoryConfidence": 35,
-      "categorySignals": []
+      "categorySignals": [],
+      "sourceName": "oneindia.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "01108bf5ad66ad205b",
@@ -1389,7 +1912,13 @@
       "categoryConfidence": 67,
       "categorySignals": [
         "election"
-      ]
+      ],
+      "sourceName": "isp.netscape.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "323674d33593ebedc3",
@@ -1405,7 +1934,13 @@
       "categoryConfidence": 67,
       "categorySignals": [
         "police"
-      ]
+      ],
+      "sourceName": "oneindia.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "219354b06efc50edb4",
@@ -1419,7 +1954,13 @@
       "seenAt": "2026-10-10T06:45:00Z",
       "topic": "general",
       "categoryConfidence": 35,
-      "categorySignals": []
+      "categorySignals": [],
+      "sourceName": "rediff.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "8c4a01584bdaccbc17",
@@ -1433,7 +1974,13 @@
       "seenAt": "2026-10-10T06:45:00Z",
       "topic": "general",
       "categoryConfidence": 35,
-      "categorySignals": []
+      "categorySignals": [],
+      "sourceName": "oneindia.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "fcf97de504e35b6099",
@@ -1449,7 +1996,13 @@
       "categoryConfidence": 67,
       "categorySignals": [
         "election"
-      ]
+      ],
+      "sourceName": "wboc.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "a6419a4457e7d9cd11",
@@ -1465,7 +2018,13 @@
       "categoryConfidence": 67,
       "categorySignals": [
         "police"
-      ]
+      ],
+      "sourceName": "oneindia.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     },
     {
       "id": "11462e19e376af1692",
@@ -1481,7 +2040,22 @@
       "categoryConfidence": 67,
       "categorySignals": [
         "police"
-      ]
+      ],
+      "sourceName": "thehindubusinessline.com",
+      "sourceTier": "standard",
+      "sourceWeight": 1,
+      "qualityScore": 60,
+      "qualityStatus": "accepted",
+      "qualityReasons": []
     }
-  ]
+  ],
+  "scout": {
+    "version": "1.0",
+    "stage": "source-quality",
+    "registryVersion": 1,
+    "assessed": 75,
+    "accepted": 75,
+    "rejected": 0,
+    "rejectionSummary": {}
+  }
 }

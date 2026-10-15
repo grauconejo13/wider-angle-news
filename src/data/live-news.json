@@ -7,7 +7,7 @@
     "world"
   ],
   "warnings": [
-    "Wider World: GDELT returned HTTP 429"
+    "San Antonio: GDELT returned HTTP 429"
   ],
   "clustering": {
     "method": "headline-token-similarity",

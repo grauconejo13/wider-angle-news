@@ -8,7 +8,12 @@
     "us",
     "world"
   ],
-  "warnings": [],
+  "warnings": [
+    "San Antonio: GDELT returned HTTP 429",
+    "Texas: GDELT returned HTTP 429",
+    "United States: GDELT returned HTTP 429",
+    "Wider World: GDELT returned HTTP 429"
+  ],
   "clustering": {
     "method": "headline-token-similarity",
     "minimumDistinctPublishers": 2,
@@ -2997,12 +3002,9 @@
     "version": "1.0",
     "stage": "source-quality",
     "registryVersion": 1,
-    "assessed": 108,
+    "assessed": 106,
     "accepted": 106,
-    "rejected": 2,
-    "rejectionSummary": {
-      "title-too-short": 2,
-      "promotional-title-pattern": 2
-    }
+    "rejected": 0,
+    "rejectionSummary": {}
   }
 }

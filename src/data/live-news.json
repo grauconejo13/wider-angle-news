@@ -8,7 +8,12 @@
     "us",
     "world"
   ],
-  "warnings": [],
+  "warnings": [
+    "fetch failed",
+    "fetch failed",
+    "fetch failed",
+    "fetch failed"
+  ],
   "clustering": {
     "method": "headline-token-similarity",
     "minimumDistinctPublishers": 2,

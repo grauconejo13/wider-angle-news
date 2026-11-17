@@ -9,10 +9,7 @@
     "world"
   ],
   "warnings": [
-    "fetch failed",
-    "fetch failed",
-    "fetch failed",
-    "fetch failed"
+    "The operation was aborted due to timeout"
   ],
   "clustering": {
     "method": "headline-token-similarity",
